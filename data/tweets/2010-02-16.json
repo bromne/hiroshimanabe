@@ -1,0 +1,41 @@
+{
+    "date": "2010-02-16",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u77e5\u3089\u306a\u3044\u3046\u3061\u306b\u3001Java\u306f\u3044\u308d\u3044\u308d\u5909\u308f\u3063\u3066\u305f\u3093\u3060\u306a\u30021.5\u304b\u3089\u3002\u4ee5\u524d\u306e\u601d\u60f3\u304c\u5acc\u3044\u3067\u4f7f\u308f\u306a\u3044\u3067\u3044\u305f\u3051\u3069\u3001\u4eca\u306eJava\u306a\u3089\u5927\u4e08\u592b\u304b\u3082\u3002",
+            "timestamp": "2010-02-16 00:00:00 +0000",
+            "tweet_id": "9179306879"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "(String[])stringVector.toArray(new String[0]) \u307f\u305f\u3044\u306a\u66f8\u304d\u65b9\u306f\u9055\u548c\u611f\u304c\u3042\u308b\u306a\u3041\u3002",
+            "timestamp": "2010-02-16 00:00:00 +0000",
+            "tweet_id": "9179685337"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u5b9f\u614b(\u30b5\u30a4\u30ba)\u306fint\u306e\u307e\u307e\u3067\u3001\u30af\u30e9\u30b9\u306e\u3088\u3046\u306b\u30e1\u30bd\u30c3\u30c9\u3092\u3064\u3051\u308b\u65b9\u6cd5\u306a\u3044\u304b\u306a\u3041",
+            "timestamp": "2010-02-16 00:00:00 +0000",
+            "tweet_id": "9180874181"
+        }
+    ]
+}

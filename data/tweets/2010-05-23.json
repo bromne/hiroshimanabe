@@ -1,0 +1,29 @@
+{
+    "date": "2010-05-23",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u300a\u81ea\u52d5\u66f8\u304d\u8fbc\u307f\u300b\u3082\u3046\u3059\u3050\u5bdd\u307e\u3059\u3002",
+            "timestamp": "2010-05-23 00:00:00 +0000",
+            "tweet_id": "14565605269"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u4eca\u65e5\u306f\u5927\u962a\u307e\u3067\u884c\u3063\u305f\u3051\u3069\u3001\u66b4\u98a8\u96e8\u3067\u6563\u9aea\u5c4b\u306b\u884c\u3051\u306a\u304b\u3063\u305f\u3002\u30d6\u30c3\u30af\u30aa\u30d5\u3067\u6f2b\u753b\u3044\u3063\u3071\u3044\u8cb7\u3063\u305f\u3002\u5bdd\u308b\u3002",
+            "timestamp": "2010-05-23 00:00:00 +0000",
+            "tweet_id": "14565693672"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "date": "2010-01-19",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "#googleime \u300c\u7acb\u9805\u300d\u304c\u306a\u3044\u3002\u3053\u3046\u3044\u3046\u666e\u901a\u306e\u8a9e\u5f59\u304c\u629c\u3051\u3066\u3044\u308b\u3053\u3068\u304c\u3042\u308b\u3068\u3044\u3046\u306e\u306f\u4ed6\u306eIME\u3067\u306f\u3042\u307e\u308a\u306a\u3044\u3053\u3068\u3067\u3001\u3061\u3087\u3063\u3068\u4e0d\u6e80\u3092\u611f\u3058\u308b\u3002",
+            "timestamp": "2010-01-19 00:00:00 +0000",
+            "tweet_id": "7936204672"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "7936889565",
+            "in_reply_to_user_id": "34173398",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@murawaki \u3042\u3063\u3001\u300c\u308a\u3063\u3053\u3046\u300d\u3060\u3051\u3060\u3068\u51fa\u3066\u304d\u307e\u3059\u306d\u3002\u300c\u308a\u3063\u3053\u3046\u3059\u308b\u300d\u3060\u3068\u51fa\u3066\u3053\u306a\u3044\u3002",
+            "timestamp": "2010-01-19 00:00:00 +0000",
+            "tweet_id": "7939070190"
+        }
+    ]
+}

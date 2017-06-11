@@ -1,0 +1,29 @@
+{
+    "date": "2010-02-21",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "9421791512",
+            "in_reply_to_user_id": "35763370",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@caesar_wanya \u78ba\u304b\u306b\u3002\u3063\u3066\u3044\u3046\u304bGoogle\uff1f\u81ea\u5206\u306f\u305d\u308c\u3067\u3001\u6210\u7e3e\u8a3c\u660e\u66f8\u3092\u898b\u3066\u5c65\u4fee\u79d1\u76ee\u3092\u66f8\u304f\u3064\u3082\u308a\u3002",
+            "timestamp": "2010-02-21 00:00:00 +0000",
+            "tweet_id": "9421828358"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "9421398249",
+            "in_reply_to_user_id": "35763370",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "@caesar_wanya \u6210\u7e3e\u8a3c\u660e\u66f8\u306f\uff1f\u81ea\u5206\u306f\u4eca\u305d\u308c\u3067\u8acb\u6c42\u4e2d\u3002\uff1c\u5c65\u4fee\u79d1\u76ee",
+            "timestamp": "2010-02-21 00:00:00 +0000",
+            "tweet_id": "9421723901"
+        }
+    ]
+}

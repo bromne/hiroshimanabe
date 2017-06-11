@@ -1,0 +1,41 @@
+{
+    "date": "2010-03-23",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u7814\u7a76\u5ba4\u306a\u3046\u3002\u6628\u65e5\u306e\u75b2\u308c\u3067\u6b7b\u3093\u3067\u305f\u3002",
+            "timestamp": "2010-03-23 00:00:00 +0000",
+            "tweet_id": "10914245894"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "PHP\uff08\u30e2\u30b8\u30e5\u30fc\u30eb\u3068\u3057\u3066\u52d5\u304f\u6642\uff09\u306fCGI\u3067\u306f\u306a\u3044\u3001\u3068\u3044\u3046\u306e\u306f\u3042\u307e\u308a\u4e00\u822c\u7684\u306a\u8a8d\u8b58\u3067\u306f\u306a\u3044\u306e\u3060\u308d\u3046\u304b\u3002PHP/mod_perl \u3092\u542b\u3080\u300c\u5e83\u7fa9\u306eCGI\u300d\u306e\u3088\u3046\u306a\u4f7f\u3044\u65b9\u304c\u3055\u308c\u3066\u3044\u305f\u308a\u3059\u308b\u3002\u305d\u3046\u3044\u3046\u6982\u5ff5\u3082\u5fc5\u8981\u306a\u3093\u3060\u308d\u3046\u3051\u3069\u3001\u3069\u3046\u3057\u3066\u3082\u300c\u305d\u308c\u306fCGI\u3067\u306f\u306a\u3044\u300d\u3068\u8a00\u3044\u305f\u304f\u306a\u308b\u3002",
+            "timestamp": "2010-03-23 00:00:00 +0000",
+            "tweet_id": "10915521595"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "CGI\u30fbPHP\u30fbmod_perl\u30fbJSP/Java Servlet \u3092\u4f7f\u7528\u76ee\u7684\u3068\u3044\u3046\u89b3\u70b9\u304b\u3089\u7dcf\u79f0\u3059\u308b\u5358\u8a9e\u306f\u306a\u3044\u306e\u3060\u308d\u3046\u304b",
+            "timestamp": "2010-03-23 00:00:00 +0000",
+            "tweet_id": "10928037344"
+        }
+    ]
+}

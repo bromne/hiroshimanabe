@@ -1,0 +1,53 @@
+{
+    "date": "2011-07-13",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u5de8\u5927\u306a\u866b\u306b\u906d\u9047\u3002\u6050\u6016",
+            "timestamp": "2011-07-13 23:24:55 +0000",
+            "tweet_id": "91287015928233985"
+        },
+        {
+            "expanded_urls": "http://itpro.nikkeibp.co.jp/article/Interview/20100526/348493/,http://itpro.nikkeibp.co.jp/article/Interview/20100526/348493/",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "91185530351525888",
+            "retweeted_status_timestamp": "2011-07-13 16:41:39 +0000",
+            "retweeted_status_user_id": "8989802",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "RT @combinational: http://t.co/OgyJK7R \u300cC++\u306f\u4f55\u3067\u3082\u3067\u304d\u308b\u306e\u3067\u3059\u304c\u3001\u30ad\u30c1\u30f3\u3068\u66f8\u304b\u306a\u3044\u3068\u5371\u967a\u306a\u3053\u3068\u304c\u8d77\u304d\u307e\u3059\u3002\u300d C++\u306e\u6027\u8cea\u306b\u3064\u3044\u3066\u306e\uff0c\u500b\u4eba\u7684\u306b\u4e00\u756a\u597d\u304d\u306a\u7b54\u3048",
+            "timestamp": "2011-07-13 16:50:34 +0000",
+            "tweet_id": "91187777395363840"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "90976070546894849",
+            "in_reply_to_user_id": "35763370",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "@caesar_wanya \u8a9e\u5c3e\u3092\u96c6\u3081\u3066\u305f\u3089\u305d\u308c\u306a\u308a\u306e\u983b\u5ea6\u3067\u51fa\u3066\u304d\u305f\u3002\u8a71\u3057\u8a00\u8449\u3067\u306f\u4f7f\u308f\u306a\u3044\u3088\u306d\uff1f",
+            "timestamp": "2011-07-13 02:50:55 +0000",
+            "tweet_id": "90976468892524544"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u3046\u3043\u308b\u3063\u3066\u307b\u3093\u3068\u306b\u4f7f\u308f\u308c\u3066\u308b\u3093\u3060\u306a\u2026",
+            "timestamp": "2011-07-13 02:45:34 +0000",
+            "tweet_id": "90975125863804928"
+        }
+    ]
+}

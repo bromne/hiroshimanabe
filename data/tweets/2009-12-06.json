@@ -1,0 +1,29 @@
+{
+    "date": "2009-12-06",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u672c\u6765\u3001\u524d\u65e5\u306b\u3059\u308b\u3082\u306e\u3058\u3083\u306a\u3044\u306a\u3041",
+            "timestamp": "2009-12-06 00:00:00 +0000",
+            "tweet_id": "6401974502"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u3075\u3045 \u30d7\u30ec\u30bc\u30f3\u306e\u6e96\u5099\u4e00\u5fdc\u5b8c\u4e86",
+            "timestamp": "2009-12-06 00:00:00 +0000",
+            "tweet_id": "6401968084"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "date": "2010-11-24",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u5bdd\u308b\u3002\u660e\u65e5\u306f\u4e88\u5099\u5be9\u306e\u30b9\u30e9\u30a4\u30c9\u3092\u3082\u3046\u5c11\u3057\u9811\u5f35\u308b\u3002",
+            "timestamp": "2010-11-24 16:25:15 +0000",
+            "tweet_id": "7469807892959235"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://d.hatena.ne.jp/takeda25/\" rel=\"nofollow\">\u5b9a\u671ftweet</a>",
+            "text": "\u300a\u81ea\u52d5\u66f8\u304d\u8fbc\u307f\u300b\u3053\u306e\u76f4\u5f8c\u306b\u672c\u4eba\u304c\u5c31\u5bdd\u3078\u5411\u3051\u3066\u306e\u53d6\u308a\u7d44\u307f\u72b6\u6cc1\u3092\u66f8\u304d\u8fbc\u307f\u307e\u3059\u3002",
+            "timestamp": "2010-11-24 16:20:16 +0000",
+            "tweet_id": "7468551162044416"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u92ad\u6e6f\u3002",
+            "timestamp": "2010-11-24 15:11:04 +0000",
+            "tweet_id": "7451140241227777"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "7274624198901760",
+            "in_reply_to_user_id": "111334670",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "@ysks \u3053\u308c\u304b\u306a\uff1f http://graphics.stanford.edu/~seander/bithacks.html#IntegerMinOrMax",
+            "timestamp": "2010-11-24 03:39:28 +0000",
+            "tweet_id": "7277093503111168"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "date": "2011-10-10",
+    "items": [
+        {
+            "expanded_urls": "http://code.google.com/p/japanese-usage-dictionary/source/diff?spec=svn7&r=7&format=side&path=/trunk/usage_dict.txt&old_path=/trunk/usage_dict.txt&old=6",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "usage_dict.txt \u66f4\u65b0\u3002 http://t.co/RxIzCW6c",
+            "timestamp": "2011-10-10 15:14:02 +0000",
+            "tweet_id": "123416001097375745"
+        },
+        {
+            "expanded_urls": "http://d.hatena.ne.jp/takeda25/20111010/1318253233",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.hatena.ne.jp/guide/twitter\" rel=\"nofollow\">Hatena</a>",
+            "text": "\u30a2\u30eb\u30b4\u30ea\u30ba\u30e0\u30af\u30a4\u30c3\u30af\u30ea\u30d5\u30a1\u30ec\u30f3\u30b9 7.4 A*\u63a2\u7d22\u306e\u5b9f\u88c5 http://t.co/3SPs5mvV",
+            "timestamp": "2011-10-10 13:27:10 +0000",
+            "tweet_id": "123389108549718016"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u81ea\u8ee2\u8eca\u3067\u4e00\u6642\u9593\u306e\u3068\u3053\u308d\u307e\u3067\u5f80\u5fa9\u3057\u3066\u304d\u305f\u2026\u75b2\u308c\u305f",
+            "timestamp": "2011-10-10 12:09:06 +0000",
+            "tweet_id": "123369462043914240"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "date": "2010-01-11",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "O\u541b\u306e\u3068\u3053\u308d\u3067 Perl \u304c panic \u3067\u6b62\u307e\u3063\u305f\u3002encoding \u30d5\u30a3\u30eb\u30bf\u3092 utf8 \u306b\u3057\u305f\u3089\u5927\u4e08\u592b\u306b\u306a\u3063\u305f\u3051\u3069\u3001\u672c\u6765\u3069\u3093\u306a\u6587\u5b57\u3092\u3069\u3093\u306a\u30d5\u30a3\u30eb\u30bf\u3067\u51fa\u3057\u305f\u3063\u3066 panic \u3092\u8d77\u3053\u3059\u3079\u304d\u3058\u3083\u306a\u3044\u3088\u306a\u3041\u3002\u3051\u3063\u3053\u3046 Perl \u306e Unicode \u5468\u308a\u306f\u30d0\u30b0\u304c\u591a\u3044\u3002",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7614142457"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u3046\u30fc\u3093\u3001\u672a\u3060\u306b Kneser-Ney\u304c\u308f\u304b\u3089\u306a\u3044",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7617975121"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "modified",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7617984403"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u3069\u3046\u3057\u3066\u3082\u3001\u7406\u89e3\u3092\u3042\u304d\u3089\u3081\u3066\u5f0f\u3060\u3051\u898b\u3066\u5b9f\u88c5\u3059\u308b\u3088\u3046\u306a\u3053\u3068\u306b\u306a\u308b\u3053\u3068\u304c\u591a\u3044\u306a\u3041\u3002",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7621478098"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "modified Kneser-Ney \u306f\u5b9f\u88c5\u3059\u308b\u3060\u3051\u3067\u3082\u9762\u5012\u305d\u3046\u3060\u306a\u3041\u3001\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u91cf\u3067\u306f\u305f\u3044\u3057\u305f\u3053\u3068\u306a\u3044\u3093\u3060\u308d\u3046\u3051\u3069",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7622937300"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "Eclipse \u306e CDB \u4f7f\u3044\u306b\u304f\u3044\u306a\u2026",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7625543551"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "SRILM \u3092\u30c7\u30d0\u30c3\u30ac\u3067\u52d5\u304b\u3059\u306e\u306f\u306a\u3093\u3068\u304b\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u3063\u305f",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7625847652"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u5f8c\u306f\u3001\u5b9f\u969b\u306b Kneser-Ney \u306e\u30b3\u30fc\u30c9\u3092\u52d5\u304b\u3057\u3066\u307f\u305f\u304b\u3063\u305f\u3051\u3069\u3001\u307e\u3042\u4eca\u5ea6\u306b\u3057\u3088\u3046",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7625856098"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "Eclipse \u306b\u3082\u3082\u3046\u3061\u3087\u3063\u3068\u6163\u308c\u306a\u3044\u3068\u306a\u3041\u3001Windows \u306e\u4e16\u754c\u3067\u81ea\u5206\u3092\u7518\u3084\u304b\u3057\u3059\u304e\u3066\u308b",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7625871944"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "Eclipse \u3082 Windows + cygwin \u3067\u52d5\u304b\u3057\u3066\u308b\u3093\u3060\u3051\u3069",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7625878828"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u6751\u4e0a\u5f0f\u3092\u771f\u4f3c\u3066\u3001\u30ed\u30b7\u30a2\u8a9e\u306e\u521d\u5fc3\u8005\u5411\u3051\u8f9e\u66f8\u3092\u6bce\u65e5\u4e00\u56de\u305a\u3064\u8aad\u3080\u3068\u3044\u3046\u306e\u3092\u8a66\u884c\u4e2d",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7626029150"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u304b\u306a\u308a\u304d\u3064\u3044\u306a\u30fc",
+            "timestamp": "2010-01-11 00:00:00 +0000",
+            "tweet_id": "7626031333"
+        }
+    ]
+}

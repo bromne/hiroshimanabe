@@ -1,0 +1,29 @@
+{
+    "date": "2011-05-16",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u5f8c\u308d\u9aea\u3092\u5f15\u304b\u308c\u308b\u601d\u3044\u30677\u6642\u534a\u9000\u52e4",
+            "timestamp": "2011-05-16 10:33:51 +0000",
+            "tweet_id": "70074475378515968"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "69899815986806784",
+            "in_reply_to_user_id": "58994302",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "@yumu19 \u300c\u304c\u3063\u304f\u308a\u300d\u3067\u5909\u63db\u3067\u304d\u307e\u3059\u3088\uff01",
+            "timestamp": "2011-05-16 00:58:10 +0000",
+            "tweet_id": "69929600620314625"
+        }
+    ]
+}

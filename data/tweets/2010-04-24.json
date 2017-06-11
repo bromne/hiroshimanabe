@@ -1,0 +1,29 @@
+{
+    "date": "2010-04-24",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u300c\u3054\u5bb6\u5ead\u3067\u3054\u4e0d\u8981\u306b\u306a\u308a\u307e\u3057\u305f\u30ab\u30e9\u30fc\u30c6\u30ec\u30d3\u3001\u30d1\u30bd\u30b3\u30f3\u3001\u51b7\u8535\u5eab\u7b49\u3054\u3056\u3044\u307e\u3057\u305f\u3089\u2026\u300d\u3068\u3044\u3046\u306e\u304c\u5916\u304b\u3089\u805e\u3053\u3048\u3066\u304f\u308b\u3002\u305d\u306e\u300c\u30ab\u30e9\u30fc\u300d\u306f\u672c\u5f53\u306b\u5fc5\u8981\u306a\u306e\u304b\u3068\u3002",
+            "timestamp": "2010-04-24 00:00:00 +0000",
+            "tweet_id": "12749132018"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u96fb\u8eca\u306e\u8eca\u5185\u5e83\u544a\u3067\u3001\u300c\u904e\u6255\u3044\u5229\u606f\u306e\u8fd4\u9084\u3092\u3057\u305f\u3044\uff01\u300d\u3068\u3044\u3046\u3082\u306e\u304c\u3002\u305d\u3093\u306a\u6b8a\u52dd\u306a\u696d\u8005\u3092\u5e83\u544a\u306e\u30bf\u30fc\u30b2\u30c3\u30c8\u306b\u3059\u308b\u306e\u306f\u3069\u3046\u304b\u3068\u3002\u300c\u8fd4\u9084\u8acb\u6c42\u3092\u3057\u305f\u3044\uff01\u300d\u306e\u8acb\u6c42\u3092\u7701\u7565\u3057\u3066\u3044\u308b\u306e\u304b\u3002",
+            "timestamp": "2010-04-24 00:00:00 +0000",
+            "tweet_id": "12749289305"
+        }
+    ]
+}

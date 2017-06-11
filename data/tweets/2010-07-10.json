@@ -1,0 +1,41 @@
+{
+    "date": "2010-07-10",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "18160400197",
+            "in_reply_to_user_id": "111334670",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u304a\u3049\u3001\u540c\u3058\u8003\u3048\u3002\u4ed6\u306e\u3053\u3068\u3067\u306f\u81ea\u5206\u306e\u5229\u76ca\u304b\u4ed6\u4eba\u306e\u5229\u76ca\u306e\u305f\u3081\u306b\u884c\u52d5\u3067\u304d\u308b\u306e\u306b\u3001\u9078\u6319\u306b\u95a2\u3057\u3066\u306f\u9650\u754c\u7684\u306b\u4e21\u65b9\u3068\u3082\u30bc\u30ed\u3002\u81ea\u4ed6\u306e\u5229\u76ca\u3092\u96e2\u308c\u3066\u3001\u7d14\u7c8b\u306b\u300c\u502b\u7406\u300d\u3067\u884c\u52d5\u3055\u305b\u3089\u308c\u308b\u306e\u304c\u6c17\u6301\u3061\u60aa\u3044\u3002\u3044\u3063\u305d\u7f70\u91d1\u5236\u306b\u3057\u3066\u307b\u3057\u3044\u3002 RT @ysks: \u307c\u304f\u306e\u6295\u7968\u3067\u9078\u6319\u7d50\u679c\u304c\u5909\u308f\u308b\u3053\u3068\u306f\u306a\u3044\u304b\u3089\uff0c\u9650\u754c\u7684\u306b\u306f\u2026",
+            "timestamp": "2010-07-10 00:00:00 +0000",
+            "tweet_id": "18169085791"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u4eca\u65e5\u3082\u304a\u898b\u821e\u3044\u3002\u897f\u5bae\u306b\u3002",
+            "timestamp": "2010-07-10 00:00:00 +0000",
+            "tweet_id": "18173811777"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "text": "\u300a\u81ea\u52d5\u66f8\u304d\u8fbc\u307f\u300b\u3053\u306e\u66f8\u304d\u8fbc\u307f\u306e\u76f4\u5f8c\u306b\u5bdd\u307e\u3059\u3002",
+            "timestamp": "2010-07-10 00:00:00 +0000",
+            "tweet_id": "18206748052"
+        }
+    ]
+}

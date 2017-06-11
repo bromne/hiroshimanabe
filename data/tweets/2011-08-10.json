@@ -1,0 +1,29 @@
+{
+    "date": "2011-08-10",
+    "items": [
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "101134134331711488",
+            "in_reply_to_user_id": "34173398",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "@murawaki \u306a\u308b\u307b\u3069\u3001\u305d\u3046\u3060\u3063\u305f\u3093\u3067\u3059\u306d\u3002\u300c\u3088\u308a\u300d\u3082\u305d\u3046\u3067\u3059\u3088\u306d\u3002\u63a2\u305b\u3070\u3082\u3063\u3068\u3042\u308a\u305d\u3046\u306a\u6c17\u304c\u3059\u308b\u3002",
+            "timestamp": "2011-08-10 05:19:03 +0000",
+            "tweet_id": "101160611471306753"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "101123257905844224",
+            "in_reply_to_user_id": "34173398",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@murawaki \u300c\u30cf\u300d\u304c\u5b9f\u969b\u306b\u306f\u30ac\u3060\u3063\u305f\u308a\u30f2\u3060\u3063\u305f\u308a\u30cb\u3060\u3063\u305f\u308a\u3068\u3044\u3046\u306e\u306f\u6271\u3048\u308b\u3093\u3067\u3057\u305f\u3063\u3051\uff1f",
+            "timestamp": "2011-08-10 03:15:32 +0000",
+            "tweet_id": "101129524401549312"
+        }
+    ]
+}
