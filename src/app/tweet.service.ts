@@ -33,17 +33,32 @@ export class TweetService {
         let getNumber = (n: string) => TweetService.nullIfEmpty(n, Number.parseInt);
 
         let tweet_id = Number.parseInt(node.tweet_id);
-        let timestamp = DateTime.parse(node.timestamp);
+        let timestamp = TweetService.parseDate(node.timestamp);
         let in_reply_to_status_id = getNumber(node.in_reply_to_status_id);
         let in_reply_to_user_id = getNumber(node.in_reply_to_user_id);
         let retweeted_status_id = getNumber(node.retweeted_status_id);
         let retweeted_status_user_id = getNumber(node.retweeted_status_user_id);
-        let retweeted_status_timestamp = TweetService.nullIfEmpty(node.retweeted_status_timestamp, DateTime.parse);
+        let retweeted_status_timestamp = TweetService.nullIfEmpty(node.retweeted_status_timestamp, TweetService.parseDate);
         let expanded_urls = TweetService.nullIfEmpty(node.expanded_urls, s => s);
         
         return new Tweet(tweet_id, timestamp, node.source, node.text,
                 in_reply_to_status_id, in_reply_to_user_id, retweeted_status_id, retweeted_status_user_id,
                 retweeted_status_timestamp, expanded_urls);
+    }
+
+    static  parseDate(dateString: string): DateTime {
+        let get = (from: number, length: number) => Number.parseInt(dateString.substr(from, length));
+
+        let year = get(0, 4);
+        let month = get(5, 2);
+        let day = get(8, 2)
+        let hour = get(11, 2);
+        let minute = get(14, 2);
+        let second = get(17, 2);
+        let zone = dateString.substr(20, 5);
+
+        let date = new DateTime(year, month, day, hour, minute, second);
+        return date;
     }
 
     static nullIfEmpty<T>(maybeEmpty: string, converter: (string) => T): T | null {
