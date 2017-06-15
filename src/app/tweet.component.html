@@ -1,11 +1,13 @@
-<section>
-  <div>
-    <!--<img [src]="image">-->
-  </div>
-  <!-- <tweets-item></tweets-item> -->
-  <div>
-    <span></span> <span>@</span>
-    <p>{{tweet.text}}</p>
-    <time>{{tweet.timestamp}}</time>
+<section class="card">
+  <div class="card-content">
+    <div>
+      <!--<img [src]="image">-->
+    </div>
+    <!-- <tweets-item></tweets-item> -->
+    <div>
+      <span></span> <span>@</span> <span>{{ tweet.retweeted_user_name }}</span>
+      <p>{{ tweet.text }}</p>
+      <time>{{ tweet.timestamp.format("yyyy-MM-dd HH:mm:ss") }}</time>
+    </div>
   </div>
 </section>
