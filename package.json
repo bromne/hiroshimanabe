@@ -22,8 +22,10 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
+    "date-time-js": "^1.0.5",
     "materialize-css": "^0.98.2",
     "rxjs": "^5.1.0",
+    "typescript-dotnet-umd": "^4.9.6",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {

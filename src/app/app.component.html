@@ -7,7 +7,7 @@
 </div>
 <h2>Here are some links to help you start: </h2>
 <ul>
-  <li *ngFor="let tweet of tweets">
-    <tweets-item />
+  <li *ngFor="let tweet of tweetResult.tweets">
+    <tweets-item [tweet]="tweet"></tweets-item>
   </li>
 </ul>

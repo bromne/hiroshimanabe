@@ -1,16 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Tweet } from "app/tweet";
 
 @Component({
     selector: 'tweets-item',
     templateUrl: './tweet.component.html',
-    styleUrls: []
+    styleUrls: [],
 })
-
-
 export class TweetComponent {
-    userName: string;
-    displayName: string;
-    message: string;
-    date: Date;
-    image(): string { throw ""; }
+    @Input() tweet: Tweet
 }

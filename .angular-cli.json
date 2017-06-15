@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "data/**"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -23,6 +24,7 @@
         "styles.css"
       ],
       "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
         "../node_modules/materialize-css/bin/materialize.js"
       ],
       "environmentSource": "environments/environment.ts",
