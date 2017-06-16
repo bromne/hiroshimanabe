@@ -21,7 +21,8 @@ export class TweetService {
         json.items
 
         let tweets = Array.from(json.items)
-                .map(item => TweetService.fromJson(request.userName, item));
+                .map(item => TweetService.fromJson(request.userName, item))
+                .reverse();
         let result = new TweetResult(request, tweets);
         return Promise.resolve(result);
     }
@@ -58,7 +59,7 @@ export class TweetService {
         let second = get(17, 2);
         let zone = dateString.substr(20, 5);
 
-        let date = new DateTime(year, month, day, hour, minute, second);
+        let date = new DateTime(year, month - 1, day, hour, minute, second);
         return date;
     }
 

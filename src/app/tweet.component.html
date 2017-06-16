@@ -1,12 +1,12 @@
 <section class="card">
-  <div class="card-content">
-    <div>
+  <div class="card-content ">
+    <div style="float: left">
       <img [src]="image" width="48" height="48">
     </div>
-    <div>
-      <span></span> <span>{{ auther }}</span>
+    <div class="tweet-body">
+      <small class="grey-text text-darken-2">{{ auther }}</small>
       <p>{{ tweet.text }}</p>
-      <time>{{ tweet.timestamp.format("yyyy-MM-dd HH:mm:ss") }}</time>
+      <small class="grey-text text-darken-2"><time>{{ tweet.timestamp.format("yyyy-MM-dd HH:mm:ss") }}</time></small>
     </div>
   </div>
 </section>

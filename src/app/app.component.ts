@@ -10,7 +10,7 @@ import { TweetComponent } from "app/tweet.component";
     providers: [TweetService],
 })
 export class AppComponent implements OnInit {
-    tweetResult: TweetResult = new TweetResult(new RequestProfile("",new DateTime()), []);
+    tweetResult: TweetResult | null = null;
     constructor(private tweetService: TweetService) {
     }
 

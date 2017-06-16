@@ -3,10 +3,19 @@
   <div style="text-align:center">
     <h1>ツイート</h1>
   </div>
-  <h2>Here are some links to help you start: </h2>
-  <ul>
-    <li *ngFor="let tweet of tweetResult.tweets">
-      <tweets-item [tweet]="tweet"></tweets-item>
-    </li>
-  </ul>
+  <div class="row">
+    <div class="col s9">
+      <div *ngIf="tweetResult === null" class="progress" style="margin-top: 12em; margin-bottom: 12em">
+        <div class="indeterminate"></div>
+      </div>
+      <ul #ul *ngIf="tweetResult !== null && tweetResult.tweets.length > 0">
+        <li *ngFor="let tweet of tweetResult.tweets" class="avatar">
+          <tweets-item [tweet]="tweet"></tweets-item>
+        </li>
+      </ul>
+    </div>
+    <div class="col s3 datepicker">
+      <input type="date" name="created">
+    </div>
+  </div>
 </section>

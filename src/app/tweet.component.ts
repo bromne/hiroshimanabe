@@ -4,7 +4,7 @@ import { Tweet } from "app/tweet";
 @Component({
     selector: 'tweets-item',
     templateUrl: './tweet.component.html',
-    styleUrls: [],
+    styleUrls: ["./tweet.component.scss"],
 })
 export class TweetComponent {
     @Input() tweet: Tweet
