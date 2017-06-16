@@ -8,4 +8,14 @@ import { Tweet } from "app/tweet";
 })
 export class TweetComponent {
     @Input() tweet: Tweet
+
+    get image(): string {
+        let user_name = this.tweet.isRetweet ? this.tweet.retweeted_user_name : this.tweet.user_name;
+        return "https://twitter.com/" + user_name + "/profile_image?size=bigger";
+    }
+
+    get auther() {
+        let userName = this.tweet.isRetweet ? this.tweet.retweeted_user_name : this.tweet.user_name;
+        return "@" + userName;
+    }
 }

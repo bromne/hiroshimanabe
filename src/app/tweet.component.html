@@ -1,11 +1,10 @@
 <section class="card">
   <div class="card-content">
     <div>
-      <!--<img [src]="image">-->
+      <img [src]="image" width="48" height="48">
     </div>
-    <!-- <tweets-item></tweets-item> -->
     <div>
-      <span></span> <span>@</span> <span>{{ tweet.retweeted_user_name }}</span>
+      <span></span> <span>{{ auther }}</span>
       <p>{{ tweet.text }}</p>
       <time>{{ tweet.timestamp.format("yyyy-MM-dd HH:mm:ss") }}</time>
     </div>

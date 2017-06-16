@@ -20,7 +20,8 @@ export class TweetService {
         let json = response.json();
         json.items
 
-        let tweets = Array.from(json.items).map(TweetService.fromJson);
+        let tweets = Array.from(json.items)
+                .map(item => TweetService.fromJson(request.userName, item));
         let result = new TweetResult(request, tweets);
         return Promise.resolve(result);
     }
@@ -29,7 +30,7 @@ export class TweetService {
         return Promise.reject(error.toString());
     }
 
-    static fromJson(node: any): Tweet {
+    static fromJson(userName: string, node: any): Tweet {
         let getNumber = (n: string) => TweetService.nullIfEmpty(n, Number.parseInt);
 
         let tweet_id = Number.parseInt(node.tweet_id);
@@ -41,7 +42,7 @@ export class TweetService {
         let retweeted_status_timestamp = TweetService.nullIfEmpty(node.retweeted_status_timestamp, TweetService.parseDate);
         let expanded_urls = TweetService.nullIfEmpty(node.expanded_urls, s => s);
         
-        return new Tweet(tweet_id, timestamp, node.source, node.text,
+        return new Tweet(userName, tweet_id, timestamp, node.source, node.text,
                 in_reply_to_status_id, in_reply_to_user_id, retweeted_status_id, retweeted_status_user_id,
                 retweeted_status_timestamp, expanded_urls);
     }
