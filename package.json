@@ -25,7 +25,7 @@
     "date-time-js": "^1.0.5",
     "materialize-css": "^0.98.2",
     "rxjs": "^5.1.0",
-    "typescript-dotnet-umd": "^4.9.6",
+    "typescript-dotnet-commonjs": "^4.9.6",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {

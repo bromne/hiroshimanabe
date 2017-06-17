@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { TweetComponent } from './tweet.component';
 import { TweetService } from './tweet.service';
 import { Http, HttpModule } from "@angular/http";
+import { CalendarComponent } from "app/calendar.component";
 @NgModule({
   declarations: [
     AppComponent,
-    TweetComponent
+    TweetComponent,
+    CalendarComponent
   ],
   imports: [
     HttpModule, // Service で Http を使うのに必要

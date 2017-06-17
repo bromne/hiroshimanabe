@@ -1,0 +1,23 @@
+<section class="z-depth-2">
+  <div class="day teal darken-1 white-text">{{ dayString }}</div>
+  <div class="date teal lighten-1 white-text">{{ dateString }}</div>
+  <div class="year-and-month input-field">
+    <select materialize="material_select">
+      <option>2015</option>
+      <option>2016</option>
+      <option>2017</option>
+    </select>
+  </div>
+  <table class="calendar">
+    <thead>
+      <tr>
+        <td *ngFor="let day of days">{{ day }}</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let week of dateArray">
+        <td *ngFor="let date of week">{{ date }}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
