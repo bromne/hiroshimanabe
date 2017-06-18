@@ -23,6 +23,7 @@
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
     "date-time-js": "^1.0.5",
+    "js-joda": "^1.5.2",
     "materialize-css": "^0.98.2",
     "rxjs": "^5.1.0",
     "typescript-dotnet-commonjs": "^4.9.6",
