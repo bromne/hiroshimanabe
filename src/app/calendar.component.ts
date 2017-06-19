@@ -77,16 +77,13 @@ export class CalendarComponent {
         let day_offset = first.getDay();
         for (var line = 0; line < 6; line++) {
             var head_date = (line * 7) - day_offset + 1;
-            // if (head_date <= end_of_month) {
-                let cells: (number | null)[] = [];
-                for (var day_of_week = 0; day_of_week < 7; day_of_week++) {
-                    var date = head_date + day_of_week;
-                    cells.push(date > 0 && date <= end_of_month ? date : null)
-                }
-                calendar.push(cells);
-            // } else {
-            //     return calendar;
-            // }
+
+            let cells: (number | null)[] = [];
+            for (var day_of_week = 0; day_of_week < 7; day_of_week++) {
+                var date = head_date + day_of_week;
+                cells.push(date > 0 && date <= end_of_month ? date : null)
+            }
+            calendar.push(cells);
         }
         return calendar;
     }
