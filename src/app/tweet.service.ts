@@ -3,6 +3,7 @@ import {Injectable} from '@angular/core';
 import 'rxjs/add/operator/toPromise';
 import { DateTime } from 'date-time-js';
 import { Tweet } from "app/tweet";
+import { LocalDate } from "js-joda/dist/js-joda";
 
 @Injectable()
 export class TweetService {
@@ -10,7 +11,10 @@ export class TweetService {
     }
 
     findTweetsByDate(request: RequestProfile): Promise<TweetResult> {
-        return this.http.get("/data/tweets/2017-04-01.json")
+        let year = request.date.year();
+        let month = ("0" + request.date.monthValue()).slice(-2);
+        let dayOfMonth = ("0" + request.date.dayOfMonth()).slice(-2);
+        return this.http.get("/data/tweets/" + year + "-" + month + "-" + dayOfMonth + ".json")
             .toPromise()
             .then(response => this.handleData(request, response))
             .catch(this.handleFailure);
@@ -69,7 +73,7 @@ export class TweetService {
 }
 
 export class RequestProfile {
-    constructor(public userName: string, public date: DateTime) {
+    constructor(public userName: string, public date: LocalDate) {
     }
 }
 

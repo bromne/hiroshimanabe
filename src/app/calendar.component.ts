@@ -1,16 +1,19 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { LocalDate } from 'js-joda';
 
 @Component({
     selector: 'calendar-control',
     templateUrl: './calendar.component.html',
     styleUrls: ["./calendar.component.scss"],
+    
 })
 export class CalendarComponent {
+    @Output() change: EventEmitter<LocalDate> = new EventEmitter();
+
     days: string[] = ["日", "月", "火", "水", "木", "金", "土"];
 
     datePredicate: (DateTime) => boolean = (date: LocalDate) => !date.isAfter(LocalDate.now());
-    value: LocalDate;
+    _value: LocalDate;
 
     year: number;
     month: number;
@@ -20,6 +23,15 @@ export class CalendarComponent {
 
         this.year = this.value.year();
         this.month = this.value.monthValue();
+    }
+
+    get value(): LocalDate {
+        return this._value;
+    }
+
+    set value(value: LocalDate) {
+        this._value = value;
+        this.change.emit(value);
     }
 
     get dateString(): string {
