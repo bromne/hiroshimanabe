@@ -57,7 +57,7 @@ export class TweetService {
 
         let year = get(0, 4);
         let month = get(5, 2);
-        let day = get(8, 2)
+        let day = get(8, 2);
         let hour = get(11, 2);
         let minute = get(14, 2);
         let second = get(17, 2);

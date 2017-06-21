@@ -20,9 +20,6 @@ export class CalendarComponent {
 
     constructor() {
         this.value = LocalDate.now();
-
-        this.year = this.value.year();
-        this.month = this.value.monthValue();
     }
 
     get value(): LocalDate {
@@ -31,6 +28,9 @@ export class CalendarComponent {
 
     set value(value: LocalDate) {
         this._value = value;
+        this.year = this.value.year();
+        this.month = this.value.monthValue();
+        
         this.change.emit(value);
     }
 

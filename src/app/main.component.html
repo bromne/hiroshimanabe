@@ -1,0 +1,23 @@
+<section class="container">
+  <div style="text-align:center">
+    <h1>ツイート</h1>
+  </div>
+  <div class="">
+    <div class="result">
+      <div *ngIf="tweetResult === null" class="progress" style="margin-top: 12em; margin-bottom: 12em">
+        <div class="indeterminate"></div>
+      </div>
+      <ul *ngIf="tweetResult !== null && tweetResult.tweets.length > 0">
+        <li *ngFor="let tweet of tweetResult.tweets" class="avatar">
+          <tweets-item [tweet]="tweet"></tweets-item>
+        </li>
+      </ul>
+      <section *ngIf="tweetResult !== null && tweetResult.tweets.length === 0" class="no-items">
+        <p>なにもありません</p>
+      </section>
+    </div>
+    <div class="datepicker" class="calendar">
+      <calendar-control (change)="onDateChange($event)"></calendar-control>
+    </div>
+  </div>
+</section>
