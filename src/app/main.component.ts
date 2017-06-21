@@ -5,6 +5,7 @@ import { DateTime } from "date-time-js/date-time";
 import { TweetComponent } from "app/tweet.component";
 import { CalendarComponent } from "app/calendar.component";
 import { LocalDate } from "js-joda/dist/js-joda";
+import { Dates } from "app/util/data";
 
 @Component({
     selector: 'main-component',
@@ -20,11 +21,12 @@ export class MainComponent implements OnInit {
     date: LocalDate;
     tweetResult: TweetResult | null = null;
 
-    constructor(private tweetService: TweetService, private route: ActivatedRoute) {
+    constructor(private tweetService: TweetService, private route: ActivatedRoute, private router: Router) {
         this.route.params.subscribe(params => {
             LocalDate.of(2009, 12, 2);
             let date = params["date"];
-            this.date = date ? MainComponent.dateFrom(date) : LocalDate.of(2009, 12, 2);
+            this.date = date ? Dates.from(date) : LocalDate.of(2009, 12, 2);
+            this.loadData(this.date);
         })
     }
 
@@ -34,7 +36,10 @@ export class MainComponent implements OnInit {
     }
 
     onDateChange(date: LocalDate) {
-        this.tweetResult = null;
+        this.router.navigate(["/tweets", Dates.format(date)])
+    }
+
+    private loadData(date: LocalDate) {
         let request = new RequestProfile("takeda25", date);
         this.tweetService.findTweetsByDate(request)
             .then(result => {
@@ -43,14 +48,5 @@ export class MainComponent implements OnInit {
             .catch(e => {
                 this.tweetResult = new TweetResult(request, []);
             });
-    }
-
-    static dateFrom(value: string): LocalDate {
-        let get = (from: number, length: number) => Number.parseInt(value.substr(from, length));
-
-        let year = get(0, 4);
-        let month = get(5, 2);
-        let day = get(8, 2);
-        return LocalDate.of(year, month, day);
     }
 }
