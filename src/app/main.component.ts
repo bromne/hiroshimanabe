@@ -18,21 +18,21 @@ export class MainComponent implements OnInit {
     @ViewChild(CalendarComponent)
     calendar: CalendarComponent;
 
-    date: LocalDate;
+    request: RequestProfile;
     tweetResult: TweetResult | null = null;
 
     constructor(private tweetService: TweetService, private route: ActivatedRoute, private router: Router) {
         this.route.params.subscribe(params => {
             LocalDate.of(2009, 12, 2);
-            let date = params["date"];
-            this.date = date ? Dates.from(date) : LocalDate.of(2009, 12, 2);
-            this.loadData(this.date);
+            let date = params["date"] ? Dates.from(params["date"]) : LocalDate.of(2009, 12, 2);
+            this.request = new RequestProfile("takeda25", date);
+            this.loadData(this.request.date);
         })
     }
 
     ngOnInit(): void {
-        this.calendar.value = this.date;
-        this.onDateChange(this.date);
+        this.calendar.value = this.request.date;
+        this.onDateChange(this.request.date);
     }
 
     onDateChange(date: LocalDate) {
@@ -40,13 +40,12 @@ export class MainComponent implements OnInit {
     }
 
     private loadData(date: LocalDate) {
-        let request = new RequestProfile("takeda25", date);
-        this.tweetService.findTweetsByDate(request)
+        this.tweetService.findTweetsByDate(this.request)
             .then(result => {
                 this.tweetResult = result;
             })
             .catch(e => {
-                this.tweetResult = new TweetResult(request, []);
+                this.tweetResult = new TweetResult(this.request, []);
             });
     }
 }
