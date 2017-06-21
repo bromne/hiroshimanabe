@@ -41,8 +41,20 @@
             *ngFor="let date of week"
             [class.selectable]="isAvailableDate(date)"
             [class.selected]="isSelected(date)"
-            (click)="onDateClick(date)">{{ date ? date : "&nbsp;" }}</td>
+            (click)="onDateClick(date)">{{ date ? date.dayOfMonth() : "&nbsp;" }}</td>
       </tr>
     </tbody>
   </table>
 </section>
+<div class="buttons">
+  <button class="waves-effect waves-light btn-large"
+      type="button"
+      style="float: left"
+      [class.disabled]="!isAvailableDate(value.plusDays(-1))"
+      (click)="shiftDate(-1)">前の日</button>
+  <button class="waves-effect waves-light btn-large"
+      type="button"
+      style="float: right"
+      [class.disabled]="!isAvailableDate(value.plusDays(1))"
+      (click)="shiftDate(1)">次の日</button>
+</div>

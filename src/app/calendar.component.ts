@@ -48,7 +48,7 @@ export class CalendarComponent {
         return CalendarComponent.days[this.value.dayOfWeek().value() % 7] + "曜日";
     }
 
-    get dateArray(): (number | null)[][] {
+    get dateArray(): (LocalDate | null)[][] {
         return CalendarComponent.dateArrayOf(this.year, this.month);
     }
 
@@ -57,27 +57,31 @@ export class CalendarComponent {
         this.end = endInclusive;
     }
 
-    isSelected(dayOfMonth: number | null): boolean {
+    isSelected(dayOfMonth: LocalDate | null): boolean {
         if (dayOfMonth === null)
             return false;
         else
-            return this.value.equals(this.computeDate(dayOfMonth));
+            return this.value.equals(dayOfMonth);
     }
 
-    isAvailableDate(dayOfMonth: number | null) {
-        if (dayOfMonth === null) {
+    isAvailableDate(date: LocalDate | null) {
+        if (date === null)
             return false;
-        } else {
-            let date = this.computeDate(dayOfMonth);
+        else
             return (this.start ? !this.start.isAfter(date) : true)
                 && (this.end ? !this.end.isBefore(date) : true)
                 && this.datePredicate(date);
-        }
     }
 
-    onDateClick(date: number): void {
+    onDateClick(date: LocalDate): void {
         if (this.isAvailableDate(date))
-            this.value = this.computeDate(date);
+            this.value = date;
+    }
+
+    shiftDate(value: number): void {
+        let shifted = this.value.plusDays(value);
+        if (this.isAvailableDate(shifted))
+            this.value = shifted;
     }
 
     setYearMonth(year: number, month: number): void {
@@ -90,7 +94,7 @@ export class CalendarComponent {
         return LocalDate.of(this.year, this.month, dayOfMonth);
     }
 
-    static dateArrayOf(year: number, month: number): (number | null)[][] {
+    static dateArrayOf(year: number, month: number): (LocalDate | null)[][] {
         let first = new Date(year, month - 1);
         let end_of_month = (() => {
             let date = new Date(year, month);
@@ -98,15 +102,15 @@ export class CalendarComponent {
             return date.getDate();
         })();
 
-        let calendar: (number | null)[][] = []
+        let calendar: (LocalDate | null)[][] = []
         let day_offset = first.getDay();
         for (var line = 0; line < 6; line++) {
-            var head_date = (line * 7) - day_offset + 1;
+            var head_day = (line * 7) - day_offset + 1;
 
-            let cells: (number | null)[] = [];
+            let cells: (LocalDate | null)[] = [];
             for (var day_of_week = 0; day_of_week < 7; day_of_week++) {
-                var date = head_date + day_of_week;
-                cells.push(date > 0 && date <= end_of_month ? date : null)
+                var day = head_day + day_of_week;
+                cells.push(day > 0 && day <= end_of_month ? LocalDate.of(year, month, day) : null)
             }
             calendar.push(cells);
         }
