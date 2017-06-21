@@ -14,6 +14,8 @@ import { Dates } from "app/util/data";
     providers: [TweetService],
 })
 export class MainComponent implements OnInit {
+    static startDate: LocalDate = LocalDate.of(2009, 12, 2);
+    static endDate: LocalDate = LocalDate.of(2017, 5, 24);
 
     @ViewChild(CalendarComponent)
     calendar: CalendarComponent;
@@ -23,8 +25,7 @@ export class MainComponent implements OnInit {
 
     constructor(private tweetService: TweetService, private route: ActivatedRoute, private router: Router) {
         this.route.params.subscribe(params => {
-            LocalDate.of(2009, 12, 2);
-            let date = params["date"] ? Dates.from(params["date"]) : LocalDate.of(2009, 12, 2);
+            let date = params["date"] ? Dates.from(params["date"]) : MainComponent.startDate;
             this.request = new RequestProfile("takeda25", date);
             this.loadData(this.request.date);
         })
@@ -32,6 +33,8 @@ export class MainComponent implements OnInit {
 
     ngOnInit(): void {
         this.calendar.value = this.request.date;
+        this.calendar.setAvailableRange(MainComponent.startDate, MainComponent.endDate);
+
         this.onDateChange(this.request.date);
     }
 

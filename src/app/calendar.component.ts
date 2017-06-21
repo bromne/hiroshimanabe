@@ -12,11 +12,14 @@ export class CalendarComponent {
 
     days: string[] = ["日", "月", "火", "水", "木", "金", "土"];
 
-    datePredicate: (DateTime) => boolean = (date: LocalDate) => !date.isAfter(LocalDate.now());
+    datePredicate: (DateTime) => boolean = (date: LocalDate) => true;
     _value: LocalDate;
 
     year: number;
     month: number;
+
+    start: LocalDate | null;
+    end: LocalDate | null;
 
     constructor() {
         this.value = LocalDate.now();
@@ -49,6 +52,11 @@ export class CalendarComponent {
         return CalendarComponent.dateArrayOf(this.year, this.month);
     }
 
+    setAvailableRange(startInclusive: LocalDate, endInclusive: LocalDate): void {
+        this.start = startInclusive;
+        this.end = endInclusive;
+    }
+
     isSelected(dayOfMonth: number | null): boolean {
         if (dayOfMonth === null)
             return false;
@@ -57,10 +65,14 @@ export class CalendarComponent {
     }
 
     isAvailableDate(dayOfMonth: number | null) {
-        if (dayOfMonth === null)
+        if (dayOfMonth === null) {
             return false;
-        else
-            return this.datePredicate(this.computeDate(dayOfMonth));
+        } else {
+            let date = this.computeDate(dayOfMonth);
+            return (this.start ? !this.start.isAfter(date) : true)
+                && (this.end ? !this.end.isBefore(date) : true)
+                && this.datePredicate(date);
+        }
     }
 
     onDateClick(date: number): void {
