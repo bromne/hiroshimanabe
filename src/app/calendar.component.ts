@@ -10,7 +10,7 @@ import { LocalDate } from 'js-joda';
 export class CalendarComponent {
     @Output() change: EventEmitter<LocalDate> = new EventEmitter();
 
-    days: string[] = ["日", "月", "火", "水", "木", "金", "土"];
+    static days: string[] = ["日", "月", "火", "水", "木", "金", "土"];
 
     datePredicate: (DateTime) => boolean = (date: LocalDate) => true;
     _value: LocalDate;
@@ -45,7 +45,7 @@ export class CalendarComponent {
     }
 
     get dayString(): string {
-        return this.days[this.value.dayOfWeek().value() % 7] + "曜日";
+        return CalendarComponent.days[this.value.dayOfWeek().value() % 7] + "曜日";
     }
 
     get dateArray(): (number | null)[][] {
@@ -76,7 +76,8 @@ export class CalendarComponent {
     }
 
     onDateClick(date: number): void {
-        this.value = this.computeDate(date);
+        if (this.isAvailableDate(date))
+            this.value = this.computeDate(date);
     }
 
     setYearMonth(year: number, month: number): void {
