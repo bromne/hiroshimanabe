@@ -24,6 +24,7 @@ export class MainComponent implements OnInit {
     tweetResult: TweetResult | null = null;
 
     constructor(private tweetService: TweetService, private route: ActivatedRoute, private router: Router) {
+        window.scrollTo(0, 0)
         this.route.params.subscribe(params => {
             let date = params["date"] ? Dates.from(params["date"]) : MainComponent.startDate;
             this.request = new RequestProfile("takeda25", date);

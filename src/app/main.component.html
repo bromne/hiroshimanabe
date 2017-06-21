@@ -11,6 +11,9 @@
         <li *ngFor="let tweet of tweetResult.tweets" class="avatar">
           <tweets-item [tweet]="tweet"></tweets-item>
         </li>
+        <div class="sentinel">
+          <img src="/assets/twitter.png" width="48" height="48" style="filter: grayscale(100%);">
+        </div>
       </ul>
       <section *ngIf="tweetResult !== null && tweetResult.tweets.length === 0" class="no-items">
         <p>なにもありません</p>
