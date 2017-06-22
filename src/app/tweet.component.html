@@ -6,7 +6,9 @@
     <div class="tweet-body">
       <small class="grey-text text-darken-2">{{ auther }}</small>
       <p>{{ tweet.text }}</p>
-      <small class="grey-text text-darken-2"><time>{{ tweet.timestamp.format("yyyy-MM-dd HH:mm:ss") }}</time></small>
+      <small class="grey-text text-darken-2">
+        <time><a target="_blank" [href]="statusUrl">{{ tweet.timestamp.format("yyyy-MM-dd HH:mm:ss") }}</a></time>
+      </small>
     </div>
   </div>
 </section>

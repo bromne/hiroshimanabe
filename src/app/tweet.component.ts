@@ -18,4 +18,8 @@ export class TweetComponent {
         let userName = this.tweet.isRetweet ? this.tweet.retweeted_user_name : this.tweet.user_name;
         return "@" + userName;
     }
+
+    get statusUrl() {
+        return "https://twitter.com/" + this.tweet.user_name + "/status/" + this.tweet.tweet_id;
+    }
 }
