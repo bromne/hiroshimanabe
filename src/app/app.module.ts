@@ -13,7 +13,7 @@ import { APP_BASE_HREF } from '@angular/common';
 const appRoutes: Routes = [
   { path: "tweets/:date", component: MainComponent },
   { path: "tweets", component: MainComponent },
-  { path: "", redirectTo: "/tweets", pathMatch: 'full' },
+  { path: "", redirectTo: environment.baseHref + "tweets", pathMatch: 'full' },
 ];
 
 @NgModule({
