@@ -39,6 +39,7 @@ export class MainComponent implements OnInit {
     }
 
     onDateChange(date: LocalDate) {
+        this.tweetResult = null;
         this.router.navigate(["/tweets", Dates.format(date)])
     }
 
