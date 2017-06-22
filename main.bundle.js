@@ -43,6 +43,8 @@ module.exports = module.exports.toString();
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_environments_environment__ = __webpack_require__("../../../../../src/environments/environment.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -50,10 +52,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
 
 var AppComponent = (function () {
-    function AppComponent() {
+    function AppComponent(document) {
+        this.document = document;
     }
+    AppComponent.prototype.ngOnInit = function () {
+        var bases = this.document.getElementsByTagName("base");
+        if (bases.length > 0) {
+            bases[0].setAttribute("href", __WEBPACK_IMPORTED_MODULE_1_environments_environment__["a" /* environment */].baseHref);
+        }
+    };
     return AppComponent;
 }());
 AppComponent = __decorate([
@@ -62,7 +79,9 @@ AppComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/app.component.html"),
         styles: [__webpack_require__("../../../../../src/app/app.component.scss")],
         providers: [],
-    })
+    }),
+    __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Inject */])(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DOCUMENT */])),
+    __metadata("design:paramtypes", [Object])
 ], AppComponent);
 
 //# sourceMappingURL=app.component.js.map
@@ -82,6 +101,8 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_app_calendar_component__ = __webpack_require__("../../../../../src/app/calendar.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_app_main_component__ = __webpack_require__("../../../../../src/app/main.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_environments_environment__ = __webpack_require__("../../../../../src/environments/environment.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -89,6 +110,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -121,7 +144,10 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* RouterModule */].forRoot(appRoutes),
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_5__tweet_service__["a" /* TweetService */]],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_5__tweet_service__["a" /* TweetService */],
+            { provide: __WEBPACK_IMPORTED_MODULE_10__angular_common__["a" /* APP_BASE_HREF */], useValue: __WEBPACK_IMPORTED_MODULE_9_environments_environment__["a" /* environment */].baseHref }
+        ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
@@ -176,7 +202,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var CalendarComponent = CalendarComponent_1 = (function () {
     function CalendarComponent() {
-        this.change = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* EventEmitter */]();
+        this.change = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* EventEmitter */]();
         this.datePredicate = function (date) { return true; };
         this.value = __WEBPACK_IMPORTED_MODULE_1_js_joda__["LocalDate"].now();
     }
@@ -277,7 +303,7 @@ var CalendarComponent = CalendarComponent_1 = (function () {
 CalendarComponent.days = ["日", "月", "火", "水", "木", "金", "土"];
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Output */])(),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* EventEmitter */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* EventEmitter */]) === "function" && _a || Object)
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* EventEmitter */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* EventEmitter */]) === "function" && _a || Object)
 ], CalendarComponent.prototype, "change", void 0);
 CalendarComponent = CalendarComponent_1 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
@@ -352,7 +378,6 @@ var MainComponent = MainComponent_1 = (function () {
         this.route = route;
         this.router = router;
         this.tweetResult = null;
-        window.scrollTo(0, 0);
         this.route.params.subscribe(function (params) {
             var date = params["date"] ? __WEBPACK_IMPORTED_MODULE_5_app_util_data__["a" /* Dates */].from(params["date"]) : MainComponent_1.startDate;
             _this.request = new __WEBPACK_IMPORTED_MODULE_2_app_tweet_service__["b" /* RequestProfile */]("takeda25", date);
@@ -365,6 +390,7 @@ var MainComponent = MainComponent_1 = (function () {
         this.onDateChange(this.request.date);
     };
     MainComponent.prototype.onDateChange = function (date) {
+        this.tweetResult = null;
         this.router.navigate(["/tweets", __WEBPACK_IMPORTED_MODULE_5_app_util_data__["a" /* Dates */].format(date)]);
     };
     MainComponent.prototype.loadData = function (date) {
@@ -372,6 +398,7 @@ var MainComponent = MainComponent_1 = (function () {
         this.tweetService.findTweetsByDate(this.request)
             .then(function (result) {
             _this.tweetResult = result;
+            window.scrollTo(0, 0);
         })
             .catch(function (e) {
             _this.tweetResult = new __WEBPACK_IMPORTED_MODULE_2_app_tweet_service__["c" /* TweetResult */](_this.request, []);
@@ -472,7 +499,7 @@ var TweetComponent = (function () {
     return TweetComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_app_tweet__["a" /* Tweet */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_app_tweet__["a" /* Tweet */]) === "function" && _a || Object)
 ], TweetComponent.prototype, "tweet", void 0);
 TweetComponent = __decorate([
@@ -531,7 +558,6 @@ var TweetService = TweetService_1 = (function () {
     };
     TweetService.prototype.handleData = function (request, response) {
         var json = response.json();
-        json.items;
         var tweets = Array.from(json.items)
             .map(function (item) { return TweetService_1.fromJson(request.userName, item); });
         var result = new TweetResult(request, tweets);
@@ -541,15 +567,15 @@ var TweetService = TweetService_1 = (function () {
         return Promise.reject(error.toString());
     };
     TweetService.fromJson = function (userName, node) {
-        var getNumber = function (n) { return TweetService_1.nullIfEmpty(n, Number.parseInt); };
-        var tweet_id = Number.parseInt(node.tweet_id);
+        var identity = function (x) { return x; };
+        var tweet_id = node.tweet_id;
         var timestamp = TweetService_1.parseDate(node.timestamp);
-        var in_reply_to_status_id = getNumber(node.in_reply_to_status_id);
-        var in_reply_to_user_id = getNumber(node.in_reply_to_user_id);
-        var retweeted_status_id = getNumber(node.retweeted_status_id);
-        var retweeted_status_user_id = getNumber(node.retweeted_status_user_id);
+        var in_reply_to_status_id = TweetService_1.nullIfEmpty(node.in_reply_to_status_id, identity);
+        var in_reply_to_user_id = TweetService_1.nullIfEmpty(node.in_reply_to_user_id, identity);
+        var retweeted_status_id = TweetService_1.nullIfEmpty(node.retweeted_status_id, identity);
+        var retweeted_status_user_id = TweetService_1.nullIfEmpty(node.retweeted_status_user_id, identity);
         var retweeted_status_timestamp = TweetService_1.nullIfEmpty(node.retweeted_status_timestamp, TweetService_1.parseDate);
-        var expanded_urls = TweetService_1.nullIfEmpty(node.expanded_urls, function (s) { return s; });
+        var expanded_urls = TweetService_1.nullIfEmpty(node.expanded_urls, identity);
         return new __WEBPACK_IMPORTED_MODULE_4_app_tweet__["a" /* Tweet */](userName, tweet_id, timestamp, node.source, node.text, in_reply_to_status_id, in_reply_to_user_id, retweeted_status_id, retweeted_status_user_id, retweeted_status_timestamp, expanded_urls);
     };
     TweetService.parseDate = function (dateString) {
@@ -570,7 +596,7 @@ var TweetService = TweetService_1 = (function () {
     return TweetService;
 }());
 TweetService = TweetService_1 = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["c" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["e" /* Injectable */])(),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_http__["b" /* Http */]) === "function" && _a || Object])
 ], TweetService);
 
@@ -685,7 +711,8 @@ var Dates = (function () {
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 // The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: false
+    production: false,
+    baseHref: "/",
 };
 //# sourceMappingURL=environment.js.map
 
