@@ -7,6 +7,8 @@ import { TweetService } from './tweet.service';
 import { Http, HttpModule } from "@angular/http";
 import { CalendarComponent } from "app/calendar.component";
 import { MainComponent } from "app/main.component";
+import { environment } from "environments/environment";
+import { APP_BASE_HREF } from '@angular/common';
 
 const appRoutes: Routes = [
   { path: "tweets/:date", component: MainComponent },
@@ -26,7 +28,10 @@ const appRoutes: Routes = [
     BrowserModule, // HTML テンプレートの展開に必要
     RouterModule.forRoot(appRoutes),
   ],
-  providers: [TweetService],
+  providers: [
+    TweetService,
+    { provide: APP_BASE_HREF, useValue: environment.baseHref }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
