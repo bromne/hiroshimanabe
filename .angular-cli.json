@@ -10,6 +10,7 @@
       "assets": [
         "assets",
         "favicon.ico",
+        "404.html",
         "data/**"
       ],
       "index": "index.html",
