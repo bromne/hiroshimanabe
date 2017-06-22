@@ -22,7 +22,6 @@ export class TweetService {
 
     handleData(request: RequestProfile, response: Response): Promise<TweetResult> {
         let json = response.json();
-        json.items
 
         let tweets = Array.from(json.items)
                 .map(item => TweetService.fromJson(request.userName, item));
@@ -35,16 +34,16 @@ export class TweetService {
     }
 
     static fromJson(userName: string, node: any): Tweet {
-        let getNumber = (n: string) => TweetService.nullIfEmpty(n, Number.parseInt);
+        let identity = (x: string) => x;
 
-        let tweet_id = Number.parseInt(node.tweet_id);
+        let tweet_id = node.tweet_id;
         let timestamp = TweetService.parseDate(node.timestamp);
-        let in_reply_to_status_id = getNumber(node.in_reply_to_status_id);
-        let in_reply_to_user_id = getNumber(node.in_reply_to_user_id);
-        let retweeted_status_id = getNumber(node.retweeted_status_id);
-        let retweeted_status_user_id = getNumber(node.retweeted_status_user_id);
+        let in_reply_to_status_id = TweetService.nullIfEmpty(node.in_reply_to_status_id, identity);
+        let in_reply_to_user_id = TweetService.nullIfEmpty(node.in_reply_to_user_id, identity);
+        let retweeted_status_id = TweetService.nullIfEmpty(node.retweeted_status_id, identity);
+        let retweeted_status_user_id = TweetService.nullIfEmpty(node.retweeted_status_user_id, identity);
         let retweeted_status_timestamp = TweetService.nullIfEmpty(node.retweeted_status_timestamp, TweetService.parseDate);
-        let expanded_urls = TweetService.nullIfEmpty(node.expanded_urls, s => s);
+        let expanded_urls = TweetService.nullIfEmpty(node.expanded_urls, identity);
         
         return new Tweet(userName, tweet_id, timestamp, node.source, node.text,
                 in_reply_to_status_id, in_reply_to_user_id, retweeted_status_id, retweeted_status_user_id,

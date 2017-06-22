@@ -8,14 +8,14 @@ export class Tweet {
 
     constructor(
         public user_name : string,
-        public tweet_id: number,
+        public tweet_id: string,
         public timestamp: DateTime,
         public source: string,
         text: string,
-        public in_reply_to_status_id: number | null,
-        public in_reply_to_user_id: number | null,
-        public retweeted_status_id: number | null,
-        public retweeted_status_user_id: number | null,
+        public in_reply_to_status_id: string | null,
+        public in_reply_to_user_id: string | null,
+        public retweeted_status_id: string | null,
+        public retweeted_status_user_id: string | null,
         public retweeted_status_timestamp: DateTime | null,
         public expanded_urls: string | null,
     ) {
