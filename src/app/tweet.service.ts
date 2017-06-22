@@ -14,7 +14,7 @@ export class TweetService {
         let year = request.date.year();
         let month = ("0" + request.date.monthValue()).slice(-2);
         let dayOfMonth = ("0" + request.date.dayOfMonth()).slice(-2);
-        return this.http.get("/data/tweets/" + year + "-" + month + "-" + dayOfMonth + ".json")
+        return this.http.get("data/tweets/" + year + "-" + month + "-" + dayOfMonth + ".json")
             .toPromise()
             .then(response => this.handleData(request, response))
             .catch(this.handleFailure);
