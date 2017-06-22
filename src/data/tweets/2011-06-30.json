@@ -2,28 +2,28 @@
     "date": "2011-06-30",
     "items": [
         {
-            "expanded_urls": "",
+            "expanded_urls": "http://googledevjp.blogspot.com/2011/06/google-1175810x.html?spref=tw,http://googledevjp.blogspot.com/2011/06/google-1175810x.html?spref=tw",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "86374120358543360",
-            "retweeted_status_timestamp": "2011-06-30 10:02:49 +0000",
-            "retweeted_status_user_id": "82081881",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "RT @ra_si: \u8a2d\u8a08\u66f8\u306b\u4e0d\u5099\u304c\u3042\u308b\u3068\u3044\u3046\u4e8b\u3067\u8fd4\u5374\u3055\u308c\u305f\u3002\u6307\u6458\u5185\u5bb9\u306f\u300c\u30d6\u30c3\u30c0\u3092\u3064\u3051\u3066\u4e0b\u3055\u3044\u300d\u3002\u4ecf\u9640\u3063\u3066\u4f55\u3060\u3088\u30d5\u30c3\u30bf\u3060\u308d\uff01\u3068\u601d\u3044\u3064\u3064\u3001\u540c\u3058\u6307\u6458\u3092\u53d7\u3051\u305f\u5148\u8f29\u306e\u6240\u306b\u884c\u3063\u305f\u3089\u5148\u8f29\u304c\u5948\u826f\u306e\u5927\u4ecf\u306e\u753b\u50cf\u3092\u8a2d\u8a08\u66f8\u306b\u5f35\u308a\u4ed8\u3051\u3066\u305f\u3002",
-            "timestamp": "2011-06-30 14:44:02 +0000",
-            "tweet_id": "86444889172230145"
+            "retweeted_status_id": "86331591869218816",
+            "retweeted_status_timestamp": "2011-06-30 07:13:50 +0000",
+            "retweeted_status_user_id": "78059788",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "RT @ttuusskk: Google Japan Developer Relations Blog: Google \u65e5\u672c\u8a9e\u5165\u529b\u306e\u958b\u767a\u7248\u3092\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3057\u307e\u3057\u305f\u3002\uff081.1.758.10x\uff09 http://t.co/KMFykmd",
+            "timestamp": "2011-06-30 08:01:14 +0000",
+            "tweet_id": "86343523607121921"
         },
         {
             "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
+            "retweeted_status_id": "86368271313534976",
+            "retweeted_status_timestamp": "2011-06-30 09:39:35 +0000",
+            "retweeted_status_user_id": "12873342",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u300c\u30bd\u30fc\u30b9\u5439\u3044\u305f\u300d\u300c\u3053\u308c\u306fwww\u300d\u3068\u76db\u308a\u4e0a\u304c\u3063\u3066\u3044\u308b\u306e\u3092 iOS \u7aef\u672b\u3067\u773a\u3081\u308b\u53d6\u308a\u6b8b\u3055\u308c\u611f",
-            "timestamp": "2011-06-30 11:56:36 +0000",
-            "tweet_id": "86402755299774464"
+            "text": "RT @Cryolite: \u300c2\u3061\u3083\u3093\u306d\u308b\u3068\u304b\uff0c\u5e38\u306b\u3069\u3046\u8a00\u8a9e\u51e6\u7406\u3059\u308b\u304b\u3068\u304b\u8003\u3048\u306a\u304c\u3089\u8aad\u3093\u3067\u308b\u308f\u3051\u3060\u304b\u3089\u2026\u2026\u300d\u300c\u305d\u3093\u306a\u3053\u3068\u8003\u3048\u306a\u304c\u3089\u8aad\u3093\u3067\u308b\u3093\u3067\u3059\u304b\uff01\uff1f\u300d\u300c\u3048\uff0c\u8a00\u8a9e\u7814\u7a76\u8005\u3068\u3057\u3066\u306f\u5f53\u305f\u308a\u524d\u3058\u3083\u306a\u3044\uff01\uff1f\u300d\u6050\u308d\u3057\u3044\u2026\u2026\u6050\u308d\u3057\u3044\u2026\u2026\u6050\u308d\u3057\u3044\u2026\u2026\uff0e",
+            "timestamp": "2011-06-30 09:52:25 +0000",
+            "tweet_id": "86371504337600512"
         },
         {
             "expanded_urls": "",
@@ -41,25 +41,25 @@
             "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "86368271313534976",
-            "retweeted_status_timestamp": "2011-06-30 09:39:35 +0000",
-            "retweeted_status_user_id": "12873342",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @Cryolite: \u300c2\u3061\u3083\u3093\u306d\u308b\u3068\u304b\uff0c\u5e38\u306b\u3069\u3046\u8a00\u8a9e\u51e6\u7406\u3059\u308b\u304b\u3068\u304b\u8003\u3048\u306a\u304c\u3089\u8aad\u3093\u3067\u308b\u308f\u3051\u3060\u304b\u3089\u2026\u2026\u300d\u300c\u305d\u3093\u306a\u3053\u3068\u8003\u3048\u306a\u304c\u3089\u8aad\u3093\u3067\u308b\u3093\u3067\u3059\u304b\uff01\uff1f\u300d\u300c\u3048\uff0c\u8a00\u8a9e\u7814\u7a76\u8005\u3068\u3057\u3066\u306f\u5f53\u305f\u308a\u524d\u3058\u3083\u306a\u3044\uff01\uff1f\u300d\u6050\u308d\u3057\u3044\u2026\u2026\u6050\u308d\u3057\u3044\u2026\u2026\u6050\u308d\u3057\u3044\u2026\u2026\uff0e",
-            "timestamp": "2011-06-30 09:52:25 +0000",
-            "tweet_id": "86371504337600512"
+            "text": "\u300c\u30bd\u30fc\u30b9\u5439\u3044\u305f\u300d\u300c\u3053\u308c\u306fwww\u300d\u3068\u76db\u308a\u4e0a\u304c\u3063\u3066\u3044\u308b\u306e\u3092 iOS \u7aef\u672b\u3067\u773a\u3081\u308b\u53d6\u308a\u6b8b\u3055\u308c\u611f",
+            "timestamp": "2011-06-30 11:56:36 +0000",
+            "tweet_id": "86402755299774464"
         },
         {
-            "expanded_urls": "http://googledevjp.blogspot.com/2011/06/google-1175810x.html?spref=tw,http://googledevjp.blogspot.com/2011/06/google-1175810x.html?spref=tw",
+            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "86331591869218816",
-            "retweeted_status_timestamp": "2011-06-30 07:13:50 +0000",
-            "retweeted_status_user_id": "78059788",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "RT @ttuusskk: Google Japan Developer Relations Blog: Google \u65e5\u672c\u8a9e\u5165\u529b\u306e\u958b\u767a\u7248\u3092\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3057\u307e\u3057\u305f\u3002\uff081.1.758.10x\uff09 http://t.co/KMFykmd",
-            "timestamp": "2011-06-30 08:01:14 +0000",
-            "tweet_id": "86343523607121921"
+            "retweeted_status_id": "86374120358543360",
+            "retweeted_status_timestamp": "2011-06-30 10:02:49 +0000",
+            "retweeted_status_user_id": "82081881",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "RT @ra_si: \u8a2d\u8a08\u66f8\u306b\u4e0d\u5099\u304c\u3042\u308b\u3068\u3044\u3046\u4e8b\u3067\u8fd4\u5374\u3055\u308c\u305f\u3002\u6307\u6458\u5185\u5bb9\u306f\u300c\u30d6\u30c3\u30c0\u3092\u3064\u3051\u3066\u4e0b\u3055\u3044\u300d\u3002\u4ecf\u9640\u3063\u3066\u4f55\u3060\u3088\u30d5\u30c3\u30bf\u3060\u308d\uff01\u3068\u601d\u3044\u3064\u3064\u3001\u540c\u3058\u6307\u6458\u3092\u53d7\u3051\u305f\u5148\u8f29\u306e\u6240\u306b\u884c\u3063\u305f\u3089\u5148\u8f29\u304c\u5948\u826f\u306e\u5927\u4ecf\u306e\u753b\u50cf\u3092\u8a2d\u8a08\u66f8\u306b\u5f35\u308a\u4ed8\u3051\u3066\u305f\u3002",
+            "timestamp": "2011-06-30 14:44:02 +0000",
+            "tweet_id": "86444889172230145"
         }
     ]
 }

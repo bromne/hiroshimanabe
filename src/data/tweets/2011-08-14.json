@@ -2,28 +2,28 @@
     "date": "2011-08-14",
     "items": [
         {
-            "expanded_urls": "http://uwl.weblio.jp/vocab-index",
+            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
-            "text": "\u4eca\u56de\u306eweblio\u8a9e\u5f59\u529b\u8a3a\u65ad\u7d50\u679c\u306f\u300c\u30ec\u30d9\u30eb24\u300d\u63a8\u5b9a\u8a9e\u5f59\u6570\u300c17001\uff5e18000\u8a9e\u300d\u79f0\u53f7\u300c\u9054\u4eba\u300dgrade\u300csavant\u300d\u56de\u7b54\u6642\u9593\u300c2\u520653\u79d2\u300d\u30b9\u30b3\u30a2\u300c176.7\u300d #vocab_test http://t.co/qSQhbxe",
-            "timestamp": "2011-08-14 16:06:54 +0000",
-            "tweet_id": "102773199854518272"
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u8133\u5185\u5f62\u614b\u7d20\u89e3\u6790\u30a8\u30f3\u30b8\u30f3\u304c\u300c\u5e2f\u5e83\u5927\u7a7a\u4e2d\u300d\u306e\u89e3\u6790\u306b\u5931\u6557\u3057\u305f",
+            "timestamp": "2011-08-14 01:52:16 +0000",
+            "tweet_id": "102558120588492800"
         },
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "102614105097125888",
-            "retweeted_status_timestamp": "2011-08-14 05:34:43 +0000",
-            "retweeted_status_user_id": "100411906",
+            "in_reply_to_status_id": "102614012688203776",
+            "in_reply_to_user_id": "35763370",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @dsk_saito: \u300e\u300cDr. \u52df\u96c6\u300d\u3063\u3066\u66f8\u3044\u3066\u3066\u3001\u559c\u3093\u3067\u305f\u3089\u3001\u30d0\u30f3\u30c9\u306e\u6c42\u4eba\u3060\u3063\u305f\u306e\u3067\u30b9\u30c6\u30a3\u30c3\u30af\u8cb7\u3044\u306b\u3044\u304f\u30dd\u30b9\u30c9\u30af\u300f",
-            "timestamp": "2011-08-14 06:15:38 +0000",
-            "tweet_id": "102624399760424960"
+            "text": "@caesar_wanya \u305d\u308c\u304c\u6b63\u89e3\u3067\u3001\u307c\u304f\u306e\u8133\u5185\u5f62\u614b\u7d20\u89e3\u6790\u5668\u306e\u7b2c\u4e00\u5019\u88dc\u306f\u304a\u3073\u3072\u308d\u3060\u3044\u304f\u3046\u3061\u3085\u3046\u3067\u3057\u305f",
+            "timestamp": "2011-08-14 06:02:31 +0000",
+            "tweet_id": "102621102018265089"
         },
         {
             "expanded_urls": "http://www.aoky.net/articles/randall_munroe/lisp.htm,http://www.aoky.net/articles/randall_munroe/lisp.htm",
@@ -39,27 +39,27 @@
         },
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "102614012688203776",
-            "in_reply_to_user_id": "35763370",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "102614105097125888",
+            "retweeted_status_timestamp": "2011-08-14 05:34:43 +0000",
+            "retweeted_status_user_id": "100411906",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@caesar_wanya \u305d\u308c\u304c\u6b63\u89e3\u3067\u3001\u307c\u304f\u306e\u8133\u5185\u5f62\u614b\u7d20\u89e3\u6790\u5668\u306e\u7b2c\u4e00\u5019\u88dc\u306f\u304a\u3073\u3072\u308d\u3060\u3044\u304f\u3046\u3061\u3085\u3046\u3067\u3057\u305f",
-            "timestamp": "2011-08-14 06:02:31 +0000",
-            "tweet_id": "102621102018265089"
+            "text": "RT @dsk_saito: \u300e\u300cDr. \u52df\u96c6\u300d\u3063\u3066\u66f8\u3044\u3066\u3066\u3001\u559c\u3093\u3067\u305f\u3089\u3001\u30d0\u30f3\u30c9\u306e\u6c42\u4eba\u3060\u3063\u305f\u306e\u3067\u30b9\u30c6\u30a3\u30c3\u30af\u8cb7\u3044\u306b\u3044\u304f\u30dd\u30b9\u30c9\u30af\u300f",
+            "timestamp": "2011-08-14 06:15:38 +0000",
+            "tweet_id": "102624399760424960"
         },
         {
-            "expanded_urls": "",
+            "expanded_urls": "http://uwl.weblio.jp/vocab-index",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u8133\u5185\u5f62\u614b\u7d20\u89e3\u6790\u30a8\u30f3\u30b8\u30f3\u304c\u300c\u5e2f\u5e83\u5927\u7a7a\u4e2d\u300d\u306e\u89e3\u6790\u306b\u5931\u6557\u3057\u305f",
-            "timestamp": "2011-08-14 01:52:16 +0000",
-            "tweet_id": "102558120588492800"
+            "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+            "text": "\u4eca\u56de\u306eweblio\u8a9e\u5f59\u529b\u8a3a\u65ad\u7d50\u679c\u306f\u300c\u30ec\u30d9\u30eb24\u300d\u63a8\u5b9a\u8a9e\u5f59\u6570\u300c17001\uff5e18000\u8a9e\u300d\u79f0\u53f7\u300c\u9054\u4eba\u300dgrade\u300csavant\u300d\u56de\u7b54\u6642\u9593\u300c2\u520653\u79d2\u300d\u30b9\u30b3\u30a2\u300c176.7\u300d #vocab_test http://t.co/qSQhbxe",
+            "timestamp": "2011-08-14 16:06:54 +0000",
+            "tweet_id": "102773199854518272"
         }
     ]
 }

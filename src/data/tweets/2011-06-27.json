@@ -4,26 +4,14 @@
         {
             "expanded_urls": "",
             "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u65e5\u672c\u8a9e\u306e\u3001\u4f8b\u3048\u3070 10\u4e07\u4eba\u4ee5\u4e0a\u306b\u5171\u6709\u3055\u308c\u3066\u3044\u308b\u8a9e\u5f59\u3063\u3066\u3001\u3069\u306e\u304f\u3089\u3044\u3042\u308b\u3093\u3060\u308d\u3046\u306a\u3041\u3002\u56fa\u6709\u540d\u8a5e\u5165\u308c\u305f\u5834\u5408\u3068\u5165\u308c\u306a\u3044\u5834\u5408\u3067\u300230\u4e07\u8a9e\u3068100\u4e07\u8a9e\u3050\u3089\u3044\uff1f \u8d85\u9069\u5f53",
-            "timestamp": "2011-06-27 12:03:48 +0000",
-            "tweet_id": "85317401004081152"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
             "in_reply_to_user_id": "173468827",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@shitake96 \u30cd\u30bf\u304b\u3044\u3063w",
-            "timestamp": "2011-06-27 10:14:16 +0000",
-            "tweet_id": "85289835807518720"
+            "text": "@shitake96 \u304a\u3049\uff5e \u3069\u3046\u306a\u3063\u305f\uff1f\u3068\u3053\u308d\u3067\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u304c\u4fee\u58eb\u306e\u307e\u307ew",
+            "timestamp": "2011-06-27 10:09:38 +0000",
+            "tweet_id": "85288673200971776"
         },
         {
             "expanded_urls": "",
@@ -45,9 +33,21 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@shitake96 \u304a\u3049\uff5e \u3069\u3046\u306a\u3063\u305f\uff1f\u3068\u3053\u308d\u3067\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u304c\u4fee\u58eb\u306e\u307e\u307ew",
-            "timestamp": "2011-06-27 10:09:38 +0000",
-            "tweet_id": "85288673200971776"
+            "text": "@shitake96 \u30cd\u30bf\u304b\u3044\u3063w",
+            "timestamp": "2011-06-27 10:14:16 +0000",
+            "tweet_id": "85289835807518720"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u65e5\u672c\u8a9e\u306e\u3001\u4f8b\u3048\u3070 10\u4e07\u4eba\u4ee5\u4e0a\u306b\u5171\u6709\u3055\u308c\u3066\u3044\u308b\u8a9e\u5f59\u3063\u3066\u3001\u3069\u306e\u304f\u3089\u3044\u3042\u308b\u3093\u3060\u308d\u3046\u306a\u3041\u3002\u56fa\u6709\u540d\u8a5e\u5165\u308c\u305f\u5834\u5408\u3068\u5165\u308c\u306a\u3044\u5834\u5408\u3067\u300230\u4e07\u8a9e\u3068100\u4e07\u8a9e\u3050\u3089\u3044\uff1f \u8d85\u9069\u5f53",
+            "timestamp": "2011-06-27 12:03:48 +0000",
+            "tweet_id": "85317401004081152"
         }
     ]
 }

@@ -9,9 +9,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u4eca\u8aad\u3093\u3067\u308b\u8ad6\u6587\u3067\u3001\u300ca \u304c b \u306e\u63a5\u982d\u8f9e\u3067\u3042\u308b\u300d\u3053\u3068\u3092 a\u2266b \u7684\u306a\u8a18\u53f7\u3067\u8868\u3057\u3066\u3044\u308b\u306e\u3060\u304c\u3001\u8aad\u3080\u3046\u3061\u306b\u8a71\u304c\u901a\u3089\u306a\u304f\u306a\u3063\u3066\u78ba\u8a8d\u3057\u305f\u3089 proper prefix \u3060\u3063\u305f\u3002\u305d\u308c\u306a\u3089 a\uff1cb \u7684\u306a\u8a18\u53f7\u3092\u4f7f\u3048\u3070\u3044\u3044\u306e\u306b\u3001\u3069\u3046\u3057\u3066\u308f\u3056\u308f\u3056\u305d\u3063\u3061\u3092\u9078\u3093\u3060\u3093\u3060\u304b\u3002",
-            "timestamp": "2011-10-05 12:42:39 +0000",
-            "tweet_id": "121565964067291136"
+            "text": "\u4eca\u65e5\u306f\u4eba\u304c\u5c11\u306a\u3044\u306e\u3067\u8d85\u4e45\u3057\u3076\u308a\u306b\u98df\u5802\u3067\u663c\u98df\u3092\u3068\u3063\u305f",
+            "timestamp": "2011-10-05 03:12:48 +0000",
+            "tweet_id": "121422556828934144"
         },
         {
             "expanded_urls": "",
@@ -21,9 +21,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u4eca\u65e5\u306f\u4eba\u304c\u5c11\u306a\u3044\u306e\u3067\u8d85\u4e45\u3057\u3076\u308a\u306b\u98df\u5802\u3067\u663c\u98df\u3092\u3068\u3063\u305f",
-            "timestamp": "2011-10-05 03:12:48 +0000",
-            "tweet_id": "121422556828934144"
+            "text": "\u4eca\u8aad\u3093\u3067\u308b\u8ad6\u6587\u3067\u3001\u300ca \u304c b \u306e\u63a5\u982d\u8f9e\u3067\u3042\u308b\u300d\u3053\u3068\u3092 a\u2266b \u7684\u306a\u8a18\u53f7\u3067\u8868\u3057\u3066\u3044\u308b\u306e\u3060\u304c\u3001\u8aad\u3080\u3046\u3061\u306b\u8a71\u304c\u901a\u3089\u306a\u304f\u306a\u3063\u3066\u78ba\u8a8d\u3057\u305f\u3089 proper prefix \u3060\u3063\u305f\u3002\u305d\u308c\u306a\u3089 a\uff1cb \u7684\u306a\u8a18\u53f7\u3092\u4f7f\u3048\u3070\u3044\u3044\u306e\u306b\u3001\u3069\u3046\u3057\u3066\u308f\u3056\u308f\u3056\u305d\u3063\u3061\u3092\u9078\u3093\u3060\u3093\u3060\u304b\u3002",
+            "timestamp": "2011-10-05 12:42:39 +0000",
+            "tweet_id": "121565964067291136"
         }
     ]
 }

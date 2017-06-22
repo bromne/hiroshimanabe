@@ -3,15 +3,75 @@
     "items": [
         {
             "expanded_urls": "",
+            "in_reply_to_status_id": "319221032273711105",
+            "in_reply_to_user_id": "5646002",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+            "text": "@kozawa \u300c\uff08\u808c\u306e\uff09\u8352\u308c\u300d\uff1a\u300c\uff08\u808c\u304c\uff09\u8352\u308c\u308b\u300d\u306e\u3088\u3046\u306a\u5bfe\u5fdc\u3092\u8003\u3048\u308b\u3068\u3001\u300c\u5272\u308c\u300d\u304c\u5148\u3067\u3082\u300c\uff08\u30bd\u30d5\u30c8\u306e\uff09\u5272\u308c\u300d\uff1a\u300c\uff08\u30bd\u30d5\u30c8\u304c\uff09\u5272\u308c\u308b\u300d\u3068\u3044\u3046\u5bfe\u5fdc\u304c\u8003\u3048\u3089\u308c\u308b\u304b\u306a\u3068\u3002\u3067\u3082\u300c\u5272\u308c\u308b\u300d\u306e\u8a9e\u7fa9\u3092\u300c\u30b3\u30d4\u30fc\u30fb\u30af\u30e9\u30c3\u30af\u3055\u308c\u308b\u300d\u3068\u3059\u308b\u3068\u3001\u300c\u30b3\u30d4\u30fc\u30fb\u30af\u30e9\u30c3\u30af\u3059\u308b\u300d\u304c\u300c\u5272\u308b\u300d\u306b\u306a\u308b\u306e\u306f\u81ea\u7136\u3067\u3059\u306d\u3002",
+            "timestamp": "2013-04-03 01:08:14 +0000",
+            "tweet_id": "319254985521119232"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "319278106068267009",
+            "in_reply_to_user_id": "8154412",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
+            "text": "@yang8 \u30d3\u30eb\u30de\u8a9e\u3067\u3057\u3087\u3046\u306d\u3002\u3084\u308a\u3068\u308a\u306e\u4e2d\u306bburmese language \u3068\u3044\u3046\u306e\u304c\u3042\u308a\u307e\u3059\u3002",
+            "timestamp": "2013-04-03 03:50:16 +0000",
+            "tweet_id": "319295759788961792"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
+            "text": "\u3044\u3061\u307e\u3055\u3093bot\u3063\u3066\u3044\u307e\u3060\u306b1000\u4eba\u4ee5\u4e0a\u306e\u30d5\u30a9\u30ed\u30ef\u30fc\u304c\u3042\u308b\u306e\u304b\u3002\u72c2\u6c17\u301c",
+            "timestamp": "2013-04-03 10:34:54 +0000",
+            "tweet_id": "319397590821122049"
+        },
+        {
+            "expanded_urls": "http://htn.to/HTLwdv8UFE",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.hatena.ne.jp/guide/twitter\" rel=\"nofollow\">Hatena</a>",
+            "text": "\u201c\u300c\u30ab\u30eb\u30c8\u306e\u601d\u3044\u51fa\u300d | \u624b\u6301\u671b\u306e\u30de\u30f3\u30ac\u201d http://t.co/kluVjWBbu8",
+            "timestamp": "2013-04-03 11:21:27 +0000",
+            "tweet_id": "319409307504492544"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "319418685481689088",
+            "retweeted_status_timestamp": "2013-04-03 11:58:43 +0000",
+            "retweeted_status_user_id": "5310852",
+            "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
+            "text": "RT @tanakh: \u30a4\u30bf\u30ea\u30a2\u8a9e\u52c9\u5f37\u3057\u305f\u3044",
+            "timestamp": "2013-04-03 12:17:54 +0000",
+            "tweet_id": "319423513515679745"
+        },
+        {
+            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
-            "text": "\u300c\u5c0f\u591c\u66f2\u300d\u3001\u30bb\u30ec\u30ca\u30fc\u30c7\u3068\u304b\u30bb\u30ec\u30ca\u30fc\u30c9\u3068\u304b\u3070\u3063\u304b\u308a\u8aad\u3080\u304b\u3089\u65e5\u672c\u8a9e\u8aad\u307f\u3092\u77e5\u3089\u306a\u304b\u3063\u305f\uff08\u3055\u3088\u304d\u3087\u304f\uff09",
-            "timestamp": "2013-04-03 13:26:37 +0000",
-            "tweet_id": "319440806232596480"
+            "text": "\u4e2d\u5357\u7c73\u3067\u306f\u30a2\u30d1\u30fc\u30c8\u306e\u3053\u3068\u3092 departamento \u3068\u8a00\u3046\u306e\u304b\u2026 \uff08\u30e1\u30ad\u30b7\u30b3\uff09\uff08\u30db\u30f3\u30b8\u30e6\u30e9\u30b9\uff0c\u30a8\u30eb\u30b5\u30eb\u30d0\u30c9\u30eb\uff09\uff08\u30a8\u30af\u30a2\u30c9\u30eb\uff0c\u30da\u30eb\u30fc\uff0c\u30dc\u30ea\u30d3\u30a2\uff09\uff08\u30c1\u30ea\uff09\uff08\u30d1\u30e9\u30b0\u30a2\u30a4\uff0c\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3\uff09",
+            "timestamp": "2013-04-03 12:52:50 +0000",
+            "tweet_id": "319432302600024065"
         },
         {
             "expanded_urls": "",
@@ -33,69 +93,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
-            "text": "\u4e2d\u5357\u7c73\u3067\u306f\u30a2\u30d1\u30fc\u30c8\u306e\u3053\u3068\u3092 departamento \u3068\u8a00\u3046\u306e\u304b\u2026 \uff08\u30e1\u30ad\u30b7\u30b3\uff09\uff08\u30db\u30f3\u30b8\u30e6\u30e9\u30b9\uff0c\u30a8\u30eb\u30b5\u30eb\u30d0\u30c9\u30eb\uff09\uff08\u30a8\u30af\u30a2\u30c9\u30eb\uff0c\u30da\u30eb\u30fc\uff0c\u30dc\u30ea\u30d3\u30a2\uff09\uff08\u30c1\u30ea\uff09\uff08\u30d1\u30e9\u30b0\u30a2\u30a4\uff0c\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3\uff09",
-            "timestamp": "2013-04-03 12:52:50 +0000",
-            "tweet_id": "319432302600024065"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "319418685481689088",
-            "retweeted_status_timestamp": "2013-04-03 11:58:43 +0000",
-            "retweeted_status_user_id": "5310852",
-            "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
-            "text": "RT @tanakh: \u30a4\u30bf\u30ea\u30a2\u8a9e\u52c9\u5f37\u3057\u305f\u3044",
-            "timestamp": "2013-04-03 12:17:54 +0000",
-            "tweet_id": "319423513515679745"
-        },
-        {
-            "expanded_urls": "http://htn.to/HTLwdv8UFE",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.hatena.ne.jp/guide/twitter\" rel=\"nofollow\">Hatena</a>",
-            "text": "\u201c\u300c\u30ab\u30eb\u30c8\u306e\u601d\u3044\u51fa\u300d | \u624b\u6301\u671b\u306e\u30de\u30f3\u30ac\u201d http://t.co/kluVjWBbu8",
-            "timestamp": "2013-04-03 11:21:27 +0000",
-            "tweet_id": "319409307504492544"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "\u3044\u3061\u307e\u3055\u3093bot\u3063\u3066\u3044\u307e\u3060\u306b1000\u4eba\u4ee5\u4e0a\u306e\u30d5\u30a9\u30ed\u30ef\u30fc\u304c\u3042\u308b\u306e\u304b\u3002\u72c2\u6c17\u301c",
-            "timestamp": "2013-04-03 10:34:54 +0000",
-            "tweet_id": "319397590821122049"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "319278106068267009",
-            "in_reply_to_user_id": "8154412",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
-            "text": "@yang8 \u30d3\u30eb\u30de\u8a9e\u3067\u3057\u3087\u3046\u306d\u3002\u3084\u308a\u3068\u308a\u306e\u4e2d\u306bburmese language \u3068\u3044\u3046\u306e\u304c\u3042\u308a\u307e\u3059\u3002",
-            "timestamp": "2013-04-03 03:50:16 +0000",
-            "tweet_id": "319295759788961792"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "319221032273711105",
-            "in_reply_to_user_id": "5646002",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
-            "text": "@kozawa \u300c\uff08\u808c\u306e\uff09\u8352\u308c\u300d\uff1a\u300c\uff08\u808c\u304c\uff09\u8352\u308c\u308b\u300d\u306e\u3088\u3046\u306a\u5bfe\u5fdc\u3092\u8003\u3048\u308b\u3068\u3001\u300c\u5272\u308c\u300d\u304c\u5148\u3067\u3082\u300c\uff08\u30bd\u30d5\u30c8\u306e\uff09\u5272\u308c\u300d\uff1a\u300c\uff08\u30bd\u30d5\u30c8\u304c\uff09\u5272\u308c\u308b\u300d\u3068\u3044\u3046\u5bfe\u5fdc\u304c\u8003\u3048\u3089\u308c\u308b\u304b\u306a\u3068\u3002\u3067\u3082\u300c\u5272\u308c\u308b\u300d\u306e\u8a9e\u7fa9\u3092\u300c\u30b3\u30d4\u30fc\u30fb\u30af\u30e9\u30c3\u30af\u3055\u308c\u308b\u300d\u3068\u3059\u308b\u3068\u3001\u300c\u30b3\u30d4\u30fc\u30fb\u30af\u30e9\u30c3\u30af\u3059\u308b\u300d\u304c\u300c\u5272\u308b\u300d\u306b\u306a\u308b\u306e\u306f\u81ea\u7136\u3067\u3059\u306d\u3002",
-            "timestamp": "2013-04-03 01:08:14 +0000",
-            "tweet_id": "319254985521119232"
+            "text": "\u300c\u5c0f\u591c\u66f2\u300d\u3001\u30bb\u30ec\u30ca\u30fc\u30c7\u3068\u304b\u30bb\u30ec\u30ca\u30fc\u30c9\u3068\u304b\u3070\u3063\u304b\u308a\u8aad\u3080\u304b\u3089\u65e5\u672c\u8a9e\u8aad\u307f\u3092\u77e5\u3089\u306a\u304b\u3063\u305f\uff08\u3055\u3088\u304d\u3087\u304f\uff09",
+            "timestamp": "2013-04-03 13:26:37 +0000",
+            "tweet_id": "319440806232596480"
         }
     ]
 }

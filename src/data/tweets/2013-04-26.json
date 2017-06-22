@@ -3,15 +3,15 @@
     "items": [
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "327783518941900801",
-            "in_reply_to_user_id": "155236081",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "327326341898854401",
+            "retweeted_status_timestamp": "2013-04-25 07:40:55 +0000",
+            "retweeted_status_user_id": "3752201",
             "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "@Patric7777777 \u3044\u3084\u30fc\u308f\u304b\u3089\u306a\u3044\u3067\u3059\uff08\u3042\u3048\u3066\u8abf\u3079\u305a\u305d\u306e\u307e\u307e\u306b\u3057\u3066\u304a\u304f\uff09",
-            "timestamp": "2013-04-26 13:58:41 +0000",
-            "tweet_id": "327783794461523969"
+            "text": "RT @todesking: \u30ed\u30b4\u30015000\u5186\u3067\u4f5c\u308c\u308b\u3088\u308a50\u4e07\u5186\u3060\u3051\u3069\u6255\u308f\u306a\u304f\u3066\u3044\u3044\u307b\u3046\u304c\u304a\u5f97\u306a\u306e\u3067\u306f",
+            "timestamp": "2013-04-26 03:04:15 +0000",
+            "tweet_id": "327619100903866370"
         },
         {
             "expanded_urls": "",
@@ -21,81 +21,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "\u300c\u305d\u3063\u3053\u30fc\u300d\u5426\u5b9a\u3057\u305f\u3001\u3068\u3044\u3046\u3068\u304d\u306e\u300c\u305d\u3063\u3053\u30fc\u300d\u3063\u3066\u6f22\u5b57\u306f\u300c\u901f\u653b\u300d\u3058\u3083\u306a\u3044\u306e\u304b\u306a\u3002",
-            "timestamp": "2013-04-26 13:56:40 +0000",
-            "tweet_id": "327783290079703041"
-        },
-        {
-            "expanded_urls": "http://matome.naver.jp/odai/2136673188816861901,http://matome.naver.jp/odai/2136673188816861901",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "327778691314761728",
-            "retweeted_status_timestamp": "2013-04-26 13:38:24 +0000",
-            "retweeted_status_user_id": "166888744",
-            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "RT @ottwo: \u201cTwitter\u3084Facebook\u3067\u7e70\u308a\u8fd4\u3057\u62e1\u6563\u3055\u308c\u308b\u5b9a\u756a\u30c7\u30de\u3092\u307e\u3068\u3081\u3066\u307f\u305f - NAVER \u307e\u3068\u3081\u201d http://t.co/hOND1JSrpa \u4f5c\u3063\u305f",
-            "timestamp": "2013-04-26 13:55:28 +0000",
-            "tweet_id": "327782985577398274"
-        },
-        {
-            "expanded_urls": "https://twitter.com/masayukigt/status/327703370167115777/photo/1,https://twitter.com/masayukigt/status/327703370167115777/photo/1",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "327703370167115777",
-            "retweeted_status_timestamp": "2013-04-26 08:39:06 +0000",
-            "retweeted_status_user_id": "77401806",
-            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "RT @masayukigt: \u65e5\u672c\u9280\u884c\u306e\u5b50\u4f9b\u30b3\u30f3\u30c6\u30f3\u30c4\u304c\u771f\u5b9f\u3092\u3064\u304d\u3059\u304e\u3066\u3066\u30e4\u30d0\u3044 http://t.co/xDf9mCDxrm",
-            "timestamp": "2013-04-26 13:43:59 +0000",
-            "tweet_id": "327780096175898626"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "327760483346178050",
-            "retweeted_status_timestamp": "2013-04-26 12:26:03 +0000",
-            "retweeted_status_user_id": "68095648",
-            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "RT @shz_fsmy: \u57fa\u672c\u5143\u7d20 \u2190 \u3082\u3068\u3082\u3068\u3082\u3068\u3082\u3068.",
-            "timestamp": "2013-04-26 13:28:35 +0000",
-            "tweet_id": "327776219477196800"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
-            "text": "\u53f0\u6e7e\u3067\u3082\u8425\u306e\u3088\u3046\u306a\u7565\u3057\u65b9\u3092\u3059\u308b\u306e\u304b\u3002",
-            "timestamp": "2013-04-26 10:45:31 +0000",
-            "tweet_id": "327735181714808833"
-        },
-        {
-            "expanded_urls": "http://p.twipple.jp/I3bDC,http://p.twipple.jp/I3bDC",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "327729820148580352",
-            "retweeted_status_timestamp": "2013-04-26 10:24:12 +0000",
-            "retweeted_status_user_id": "113007232",
-            "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
-            "text": "RT @Yumit_419: \u3010\u53f0\u5317\u306e\u6587\u5b57\u3011\u8def\u5730\u3067\u767a\u898b\u3057\u305f\u5f37\u70c8\u306aPOP\u3002\u7cf8\u3078\u3093\u3084\u53e3\u3075\u305f\u3064\u306e\u5927\u80c6\u306a\u7701\u7565\u3001\u982d\u3067\u3063\u304b\u3061\u306a\u30d0\u30e9\u30f3\u30b9\u3001\u300c\u5143\u300d\u306e\u30ab\u30bf\u30c1\u3082\u4f55\u3068\u3082\u30d1\u30ef\u30d5\u30eb\uff01\n\nhttp://t.co/TprU4dFwSv",
-            "timestamp": "2013-04-26 10:44:57 +0000",
-            "tweet_id": "327735041956392961"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "327720011634470913",
-            "retweeted_status_timestamp": "2013-04-26 09:45:14 +0000",
-            "retweeted_status_user_id": "736264874",
-            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "RT @xhioe: \u97d3\u56fd\u8a9e\u306e\ub098\uc911\uc5d0\u3092\u300c\u5f8c\u3067\u300d\u3060\u3068\u601d\u3063\u3066\u3044\u308b\u3068\u3001\u7279\u306b\u7d04\u675f\u3082\u3057\u3066\u306a\u3044\u306e\u306b\u5225\u308c\u969b\u306b\u201c\ub098\uc911\uc5d0 \ubd10~\u201d\u3068\u8a00\u308f\u308c\u3066\u6238\u60d1\u3046\u3002\u300c\u307e\u305f\u6b21\u306e\u6a5f\u4f1a\u306b\u300d\u3050\u3089\u3044\u306e\u610f\u5473\u306a\u3093\u3060\u3068\u6c17\u4ed8\u3044\u305f\u306e\u306f\u3051\u3063\u3053\u3046\u6700\u8fd1\u3060\u304c\u3001\u305d\u308c\u3067\u3082\u6163\u308c\u306a\u3044\u3002",
-            "timestamp": "2013-04-26 10:16:58 +0000",
-            "tweet_id": "327727998084198401"
+            "text": "\u4eca\u65e5\u306f\u5f01\u5f53\u304c\u306a\u3044\u306e\u3067\u3001\u3057\u304b\u305f\u306a\u304f\u5409\u91ce\u5bb6\u3067\u725b\u4e3c\u3068\u5375\u3002\u666e\u6bb5\u5f01\u5f53\u306b\u3059\u308b\u306e\u306f\u3001\u304a\u91d1\u304c\u3082\u3063\u305f\u3044\u306a\u3044\u3068\u3044\u3046\u306e\u3082\u3042\u308b\u3051\u3069\u3001\u663c\u4f11\u307f\u306e\u4f53\u3092\u4f11\u3081\u308b\u6642\u9593\u304c\u3082\u3063\u305f\u3044\u306a\u3044\u3068\u3044\u3046\u306e\u3082\u3042\u308b\u3002",
+            "timestamp": "2013-04-26 03:12:44 +0000",
+            "tweet_id": "327621235867537408"
         },
         {
             "expanded_urls": "",
@@ -113,25 +41,97 @@
             "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
+            "retweeted_status_id": "327720011634470913",
+            "retweeted_status_timestamp": "2013-04-26 09:45:14 +0000",
+            "retweeted_status_user_id": "736264874",
             "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "\u4eca\u65e5\u306f\u5f01\u5f53\u304c\u306a\u3044\u306e\u3067\u3001\u3057\u304b\u305f\u306a\u304f\u5409\u91ce\u5bb6\u3067\u725b\u4e3c\u3068\u5375\u3002\u666e\u6bb5\u5f01\u5f53\u306b\u3059\u308b\u306e\u306f\u3001\u304a\u91d1\u304c\u3082\u3063\u305f\u3044\u306a\u3044\u3068\u3044\u3046\u306e\u3082\u3042\u308b\u3051\u3069\u3001\u663c\u4f11\u307f\u306e\u4f53\u3092\u4f11\u3081\u308b\u6642\u9593\u304c\u3082\u3063\u305f\u3044\u306a\u3044\u3068\u3044\u3046\u306e\u3082\u3042\u308b\u3002",
-            "timestamp": "2013-04-26 03:12:44 +0000",
-            "tweet_id": "327621235867537408"
+            "text": "RT @xhioe: \u97d3\u56fd\u8a9e\u306e\ub098\uc911\uc5d0\u3092\u300c\u5f8c\u3067\u300d\u3060\u3068\u601d\u3063\u3066\u3044\u308b\u3068\u3001\u7279\u306b\u7d04\u675f\u3082\u3057\u3066\u306a\u3044\u306e\u306b\u5225\u308c\u969b\u306b\u201c\ub098\uc911\uc5d0 \ubd10~\u201d\u3068\u8a00\u308f\u308c\u3066\u6238\u60d1\u3046\u3002\u300c\u307e\u305f\u6b21\u306e\u6a5f\u4f1a\u306b\u300d\u3050\u3089\u3044\u306e\u610f\u5473\u306a\u3093\u3060\u3068\u6c17\u4ed8\u3044\u305f\u306e\u306f\u3051\u3063\u3053\u3046\u6700\u8fd1\u3060\u304c\u3001\u305d\u308c\u3067\u3082\u6163\u308c\u306a\u3044\u3002",
+            "timestamp": "2013-04-26 10:16:58 +0000",
+            "tweet_id": "327727998084198401"
+        },
+        {
+            "expanded_urls": "http://p.twipple.jp/I3bDC,http://p.twipple.jp/I3bDC",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "327729820148580352",
+            "retweeted_status_timestamp": "2013-04-26 10:24:12 +0000",
+            "retweeted_status_user_id": "113007232",
+            "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
+            "text": "RT @Yumit_419: \u3010\u53f0\u5317\u306e\u6587\u5b57\u3011\u8def\u5730\u3067\u767a\u898b\u3057\u305f\u5f37\u70c8\u306aPOP\u3002\u7cf8\u3078\u3093\u3084\u53e3\u3075\u305f\u3064\u306e\u5927\u80c6\u306a\u7701\u7565\u3001\u982d\u3067\u3063\u304b\u3061\u306a\u30d0\u30e9\u30f3\u30b9\u3001\u300c\u5143\u300d\u306e\u30ab\u30bf\u30c1\u3082\u4f55\u3068\u3082\u30d1\u30ef\u30d5\u30eb\uff01\n\nhttp://t.co/TprU4dFwSv",
+            "timestamp": "2013-04-26 10:44:57 +0000",
+            "tweet_id": "327735041956392961"
         },
         {
             "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "327326341898854401",
-            "retweeted_status_timestamp": "2013-04-25 07:40:55 +0000",
-            "retweeted_status_user_id": "3752201",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://sites.google.com/site/yorufukurou/\" rel=\"nofollow\">YoruFukurou</a>",
+            "text": "\u53f0\u6e7e\u3067\u3082\u8425\u306e\u3088\u3046\u306a\u7565\u3057\u65b9\u3092\u3059\u308b\u306e\u304b\u3002",
+            "timestamp": "2013-04-26 10:45:31 +0000",
+            "tweet_id": "327735181714808833"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "327760483346178050",
+            "retweeted_status_timestamp": "2013-04-26 12:26:03 +0000",
+            "retweeted_status_user_id": "68095648",
             "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
-            "text": "RT @todesking: \u30ed\u30b4\u30015000\u5186\u3067\u4f5c\u308c\u308b\u3088\u308a50\u4e07\u5186\u3060\u3051\u3069\u6255\u308f\u306a\u304f\u3066\u3044\u3044\u307b\u3046\u304c\u304a\u5f97\u306a\u306e\u3067\u306f",
-            "timestamp": "2013-04-26 03:04:15 +0000",
-            "tweet_id": "327619100903866370"
+            "text": "RT @shz_fsmy: \u57fa\u672c\u5143\u7d20 \u2190 \u3082\u3068\u3082\u3068\u3082\u3068\u3082\u3068.",
+            "timestamp": "2013-04-26 13:28:35 +0000",
+            "tweet_id": "327776219477196800"
+        },
+        {
+            "expanded_urls": "https://twitter.com/masayukigt/status/327703370167115777/photo/1,https://twitter.com/masayukigt/status/327703370167115777/photo/1",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "327703370167115777",
+            "retweeted_status_timestamp": "2013-04-26 08:39:06 +0000",
+            "retweeted_status_user_id": "77401806",
+            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
+            "text": "RT @masayukigt: \u65e5\u672c\u9280\u884c\u306e\u5b50\u4f9b\u30b3\u30f3\u30c6\u30f3\u30c4\u304c\u771f\u5b9f\u3092\u3064\u304d\u3059\u304e\u3066\u3066\u30e4\u30d0\u3044 http://t.co/xDf9mCDxrm",
+            "timestamp": "2013-04-26 13:43:59 +0000",
+            "tweet_id": "327780096175898626"
+        },
+        {
+            "expanded_urls": "http://matome.naver.jp/odai/2136673188816861901,http://matome.naver.jp/odai/2136673188816861901",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "327778691314761728",
+            "retweeted_status_timestamp": "2013-04-26 13:38:24 +0000",
+            "retweeted_status_user_id": "166888744",
+            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
+            "text": "RT @ottwo: \u201cTwitter\u3084Facebook\u3067\u7e70\u308a\u8fd4\u3057\u62e1\u6563\u3055\u308c\u308b\u5b9a\u756a\u30c7\u30de\u3092\u307e\u3068\u3081\u3066\u307f\u305f - NAVER \u307e\u3068\u3081\u201d http://t.co/hOND1JSrpa \u4f5c\u3063\u305f",
+            "timestamp": "2013-04-26 13:55:28 +0000",
+            "tweet_id": "327782985577398274"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
+            "text": "\u300c\u305d\u3063\u3053\u30fc\u300d\u5426\u5b9a\u3057\u305f\u3001\u3068\u3044\u3046\u3068\u304d\u306e\u300c\u305d\u3063\u3053\u30fc\u300d\u3063\u3066\u6f22\u5b57\u306f\u300c\u901f\u653b\u300d\u3058\u3083\u306a\u3044\u306e\u304b\u306a\u3002",
+            "timestamp": "2013-04-26 13:56:40 +0000",
+            "tweet_id": "327783290079703041"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "327783518941900801",
+            "in_reply_to_user_id": "155236081",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.justsystems.com/jp/products/tweetatok/\" rel=\"nofollow\">Tweet ATOK</a>",
+            "text": "@Patric7777777 \u3044\u3084\u30fc\u308f\u304b\u3089\u306a\u3044\u3067\u3059\uff08\u3042\u3048\u3066\u8abf\u3079\u305a\u305d\u306e\u307e\u307e\u306b\u3057\u3066\u304a\u304f\uff09",
+            "timestamp": "2013-04-26 13:58:41 +0000",
+            "tweet_id": "327783794461523969"
         }
     ]
 }

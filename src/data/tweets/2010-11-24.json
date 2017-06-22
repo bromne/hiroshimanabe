@@ -3,15 +3,27 @@
     "items": [
         {
             "expanded_urls": "",
+            "in_reply_to_status_id": "7274624198901760",
+            "in_reply_to_user_id": "111334670",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "@ysks \u3053\u308c\u304b\u306a\uff1f http://graphics.stanford.edu/~seander/bithacks.html#IntegerMinOrMax",
+            "timestamp": "2010-11-24 03:39:28 +0000",
+            "tweet_id": "7277093503111168"
+        },
+        {
+            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u5bdd\u308b\u3002\u660e\u65e5\u306f\u4e88\u5099\u5be9\u306e\u30b9\u30e9\u30a4\u30c9\u3092\u3082\u3046\u5c11\u3057\u9811\u5f35\u308b\u3002",
-            "timestamp": "2010-11-24 16:25:15 +0000",
-            "tweet_id": "7469807892959235"
+            "text": "\u92ad\u6e6f\u3002",
+            "timestamp": "2010-11-24 15:11:04 +0000",
+            "tweet_id": "7451140241227777"
         },
         {
             "expanded_urls": "",
@@ -33,21 +45,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u92ad\u6e6f\u3002",
-            "timestamp": "2010-11-24 15:11:04 +0000",
-            "tweet_id": "7451140241227777"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "7274624198901760",
-            "in_reply_to_user_id": "111334670",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "@ysks \u3053\u308c\u304b\u306a\uff1f http://graphics.stanford.edu/~seander/bithacks.html#IntegerMinOrMax",
-            "timestamp": "2010-11-24 03:39:28 +0000",
-            "tweet_id": "7277093503111168"
+            "text": "\u5bdd\u308b\u3002\u660e\u65e5\u306f\u4e88\u5099\u5be9\u306e\u30b9\u30e9\u30a4\u30c9\u3092\u3082\u3046\u5c11\u3057\u9811\u5f35\u308b\u3002",
+            "timestamp": "2010-11-24 16:25:15 +0000",
+            "tweet_id": "7469807892959235"
         }
     ]
 }

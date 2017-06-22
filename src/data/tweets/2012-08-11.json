@@ -8,10 +8,22 @@
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
+            "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+            "text": "\u300c\u4eba\u6587\u5b66\u304c\u306a\u305c\u91cd\u8981\u306a\u306e\u304b\u300d\u3092\u300c\u4eba\u6587\u5b57\u304c\u306a\u305c\u91cd\u8981\u306a\u306e\u304b\u300d\u3068\u7a7a\u76ee\u3057\u3066\u3001\u305d\u3093\u306a\u306b\u91cd\u8981\u304b\u306a\u3041\u3068\u601d\u3063\u305f\u3002",
+            "timestamp": "2012-08-11 00:44:23 +0000",
+            "tweet_id": "234087833902645248"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u300c\u881f\u300d\u304b\u3089\u304b\u3002",
-            "timestamp": "2012-08-11 16:29:27 +0000",
-            "tweet_id": "234325667058171906"
+            "text": "\u30a6\u30df\u30e4\u30c4\u30e1\u3063\u3066\u30ad\u30e2\u3044\u306a",
+            "timestamp": "2012-08-11 16:15:45 +0000",
+            "tweet_id": "234322219864567808"
         },
         {
             "expanded_urls": "",
@@ -33,21 +45,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u30a6\u30df\u30e4\u30c4\u30e1\u3063\u3066\u30ad\u30e2\u3044\u306a",
-            "timestamp": "2012-08-11 16:15:45 +0000",
-            "tweet_id": "234322219864567808"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
-            "text": "\u300c\u4eba\u6587\u5b66\u304c\u306a\u305c\u91cd\u8981\u306a\u306e\u304b\u300d\u3092\u300c\u4eba\u6587\u5b57\u304c\u306a\u305c\u91cd\u8981\u306a\u306e\u304b\u300d\u3068\u7a7a\u76ee\u3057\u3066\u3001\u305d\u3093\u306a\u306b\u91cd\u8981\u304b\u306a\u3041\u3068\u601d\u3063\u305f\u3002",
-            "timestamp": "2012-08-11 00:44:23 +0000",
-            "tweet_id": "234087833902645248"
+            "text": "\u300c\u881f\u300d\u304b\u3089\u304b\u3002",
+            "timestamp": "2012-08-11 16:29:27 +0000",
+            "tweet_id": "234325667058171906"
         }
     ]
 }

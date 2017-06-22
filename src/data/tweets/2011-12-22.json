@@ -2,16 +2,28 @@
     "date": "2011-12-22",
     "items": [
         {
+            "expanded_urls": "http://www.kek.jp/ja/NewsRoom/Release/20111222093000/,http://www.kek.jp/ja/NewsRoom/Release/20111222093000/",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "149662785423413248",
+            "retweeted_status_timestamp": "2011-12-22 01:29:23 +0000",
+            "retweeted_status_user_id": "3382331",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "RT @technohippy: \u610f\u5473\u5206\u304b\u3093\u306a\u3044\u3051\u3069\u5b87\u5b99\u8ad6\u3063\u3066\u805e\u304f\u3060\u3051\u3067\u30ef\u30af\u30ef\u30af\u3057\u307e\u3059\u306a\u3041 http://t.co/XnkDjwdb",
+            "timestamp": "2011-12-22 03:16:39 +0000",
+            "tweet_id": "149689779867488257"
+        },
+        {
             "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u6bce\u65e5\u884c\u3063\u3066\u3044\u308b\u30d7\u30fc\u30eb\u306b\u306f\u76e3\u8996\u54e1\uff1f\uff08\u6c34\u7740\u3001\u5973\u6027\u3067\u3042\u308b\u3053\u3068\u304c\u591a\u3044\uff09\u304c\u3044\u308b\u306e\u3060\u304c\u3001\u4eca\u65e5\u306e\u76e3\u8996\u54e1\u306f\u3044\u304b\u306b\u3082\u5916\u898b\u3084\u4f53\u578b\u3084\u5e74\u9f62\u3092\u57fa\u6e96\u306b\u9078\u3070\u308c\u3066\u3044\u306a\u3044\u611f\u3058\u306e\u5973\u6027\u3067\u3001\u982d\u306e\u4e00\u90e8\u3067\u306f\u9078\u629c\u306e\u516c\u5e73\u3055\u306b\u559c\u3073\u3092\u611f\u3058\u305f",
-            "timestamp": "2011-12-22 16:02:51 +0000",
-            "tweet_id": "149882601757347840"
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u30d1\u30a4\u30d7\u30ab\u30c3\u30bf\u30fc\u3068\u3044\u3046\u306e\u306f\u30d1\u30a4\u30d7\u30ab\u30c3\u30c8\u3092\u3059\u308b\u5668\u5177\u3067\u306f\u306a\u3044\u3093\u3060\u306a",
+            "timestamp": "2011-12-22 09:16:13 +0000",
+            "tweet_id": "149780269262585856"
         },
         {
             "expanded_urls": "",
@@ -32,22 +44,10 @@
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u30d1\u30a4\u30d7\u30ab\u30c3\u30bf\u30fc\u3068\u3044\u3046\u306e\u306f\u30d1\u30a4\u30d7\u30ab\u30c3\u30c8\u3092\u3059\u308b\u5668\u5177\u3067\u306f\u306a\u3044\u3093\u3060\u306a",
-            "timestamp": "2011-12-22 09:16:13 +0000",
-            "tweet_id": "149780269262585856"
-        },
-        {
-            "expanded_urls": "http://www.kek.jp/ja/NewsRoom/Release/20111222093000/,http://www.kek.jp/ja/NewsRoom/Release/20111222093000/",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "149662785423413248",
-            "retweeted_status_timestamp": "2011-12-22 01:29:23 +0000",
-            "retweeted_status_user_id": "3382331",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @technohippy: \u610f\u5473\u5206\u304b\u3093\u306a\u3044\u3051\u3069\u5b87\u5b99\u8ad6\u3063\u3066\u805e\u304f\u3060\u3051\u3067\u30ef\u30af\u30ef\u30af\u3057\u307e\u3059\u306a\u3041 http://t.co/XnkDjwdb",
-            "timestamp": "2011-12-22 03:16:39 +0000",
-            "tweet_id": "149689779867488257"
+            "text": "\u6bce\u65e5\u884c\u3063\u3066\u3044\u308b\u30d7\u30fc\u30eb\u306b\u306f\u76e3\u8996\u54e1\uff1f\uff08\u6c34\u7740\u3001\u5973\u6027\u3067\u3042\u308b\u3053\u3068\u304c\u591a\u3044\uff09\u304c\u3044\u308b\u306e\u3060\u304c\u3001\u4eca\u65e5\u306e\u76e3\u8996\u54e1\u306f\u3044\u304b\u306b\u3082\u5916\u898b\u3084\u4f53\u578b\u3084\u5e74\u9f62\u3092\u57fa\u6e96\u306b\u9078\u3070\u308c\u3066\u3044\u306a\u3044\u611f\u3058\u306e\u5973\u6027\u3067\u3001\u982d\u306e\u4e00\u90e8\u3067\u306f\u9078\u629c\u306e\u516c\u5e73\u3055\u306b\u559c\u3073\u3092\u611f\u3058\u305f",
+            "timestamp": "2011-12-22 16:02:51 +0000",
+            "tweet_id": "149882601757347840"
         }
     ]
 }

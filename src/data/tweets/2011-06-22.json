@@ -2,16 +2,16 @@
     "date": "2011-06-22",
     "items": [
         {
-            "expanded_urls": "",
+            "expanded_urls": "http://www.foocom.net/fs/aguri/745/,http://www.foocom.net/fs/aguri/745/,http://cruel.org/economist/economistgoodfood.html",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
+            "retweeted_status_id": "83137736994865152",
+            "retweeted_status_timestamp": "2011-06-21 11:42:35 +0000",
+            "retweeted_status_user_id": "87442420",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u75b2\u308c\u3059\u304e\u3002\u3002\u660e\u65e5\u306f\u7701\u30a8\u30cd\u30eb\u30ae\u30fc\u30e2\u30fc\u30c9\u3067\u884c\u3053\u3046\u3002",
-            "timestamp": "2011-06-22 15:59:31 +0000",
-            "tweet_id": "83564784016044032"
+            "text": "RT @YJSZK: \u677e\u6c38\u548c\u7d00\u3055\u3093\u304c\u5c11\u3057\u524d\uff082007\u5e74\uff09\u306e\u30b3\u30e9\u30e0\u300e\u6709\u6a5f\u8fb2\u7523\u7269\u3082\u5730\u7523\u5730\u6d88\u3082\u3001\u74b0\u5883\u306b\u3088\u304f\u306a\u3044\u5834\u5408\u304c\u2026\u300f http://t.co/C1J2nms \u3067\u540c\u69d8\u306e\u8a71\u3092\u3057\u3066\u307e\u3059\u306d\u3002 QT @maeda \u502b\u7406\u7684\u306a\u98df\u3079\u7269\u306f\u304b\u3048\u3063\u3066\u6709\u5bb3\u304b\u3082\u3057\u308c\u306a\u3044\u3002 http://t.co/h ...",
+            "timestamp": "2011-06-22 03:20:04 +0000",
+            "tweet_id": "83373661423276032"
         },
         {
             "expanded_urls": "",
@@ -26,16 +26,16 @@
             "tweet_id": "83378474248716288"
         },
         {
-            "expanded_urls": "http://www.foocom.net/fs/aguri/745/,http://www.foocom.net/fs/aguri/745/,http://cruel.org/economist/economistgoodfood.html",
+            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "83137736994865152",
-            "retweeted_status_timestamp": "2011-06-21 11:42:35 +0000",
-            "retweeted_status_user_id": "87442420",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @YJSZK: \u677e\u6c38\u548c\u7d00\u3055\u3093\u304c\u5c11\u3057\u524d\uff082007\u5e74\uff09\u306e\u30b3\u30e9\u30e0\u300e\u6709\u6a5f\u8fb2\u7523\u7269\u3082\u5730\u7523\u5730\u6d88\u3082\u3001\u74b0\u5883\u306b\u3088\u304f\u306a\u3044\u5834\u5408\u304c\u2026\u300f http://t.co/C1J2nms \u3067\u540c\u69d8\u306e\u8a71\u3092\u3057\u3066\u307e\u3059\u306d\u3002 QT @maeda \u502b\u7406\u7684\u306a\u98df\u3079\u7269\u306f\u304b\u3048\u3063\u3066\u6709\u5bb3\u304b\u3082\u3057\u308c\u306a\u3044\u3002 http://t.co/h ...",
-            "timestamp": "2011-06-22 03:20:04 +0000",
-            "tweet_id": "83373661423276032"
+            "text": "\u75b2\u308c\u3059\u304e\u3002\u3002\u660e\u65e5\u306f\u7701\u30a8\u30cd\u30eb\u30ae\u30fc\u30e2\u30fc\u30c9\u3067\u884c\u3053\u3046\u3002",
+            "timestamp": "2011-06-22 15:59:31 +0000",
+            "tweet_id": "83564784016044032"
         }
     ]
 }

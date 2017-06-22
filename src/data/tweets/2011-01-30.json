@@ -9,9 +9,21 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u5bdd\u308b\u3002",
-            "timestamp": "2011-01-30 17:12:04 +0000",
-            "tweet_id": "31761577396936705"
+            "text": "self.marriedTo = E",
+            "timestamp": "2011-01-30 15:13:06 +0000",
+            "tweet_id": "31731638614364160"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u92ad\u6e6f\u3078\u3002",
+            "timestamp": "2011-01-30 15:17:08 +0000",
+            "tweet_id": "31732652293758976"
         },
         {
             "expanded_urls": "",
@@ -33,21 +45,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u92ad\u6e6f\u3078\u3002",
-            "timestamp": "2011-01-30 15:17:08 +0000",
-            "tweet_id": "31732652293758976"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "self.marriedTo = E",
-            "timestamp": "2011-01-30 15:13:06 +0000",
-            "tweet_id": "31731638614364160"
+            "text": "\u5bdd\u308b\u3002",
+            "timestamp": "2011-01-30 17:12:04 +0000",
+            "tweet_id": "31761577396936705"
         }
     ]
 }

@@ -3,51 +3,15 @@
     "items": [
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "79211389134188544",
-            "in_reply_to_user_id": "173468827",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@shitake96 \u4e86\u89e3\uff5e\u3002\u52c9\u5f37\u306f\u3069\u3046\u3059\u308b\uff1f",
-            "timestamp": "2011-06-10 15:45:57 +0000",
-            "tweet_id": "79212715301801985"
-        },
-        {
-            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u5449\uff08NG\uff09\u3068\u3044\u3046\u8868\u672d\u3001\u4f55\u304c NG \u306a\u306e\u304b\u3068\u601d\u3063\u3066\u3057\u307e\u3046\u4eba\u3082\u591a\u305d\u3046\u3060",
-            "timestamp": "2011-06-10 12:26:36 +0000",
-            "tweet_id": "79162546535399424"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "a \u3068\u304b the \u3068\u304b\u305d\u306e\u3078\u3093\u306f\u3001\u9069\u5f53\u306a\u672c\u306b\u51fa\u3066\u304f\u308b\u540d\u8a5e\u3092\u7247\u3063\u7aef\u304b\u3089 a \u4ed8\u304d\u30fb\u51a0\u8a5e\u306a\u3057\u8907\u6570\u5f62\u30fbthe \u4ed8\u304d\u30fb\u7121\u51a0\u8a5e\u306e\u56db\u8272\u3067\u8272\u5206\u3051\u3057\u3066\u307f\u305f\u3089\u898b\u3048\u3066\u304f\u308b\u3082\u306e\u304c\u3042\u308b\u3068\u601d\u3046\u3002",
-            "timestamp": "2011-06-10 12:14:42 +0000",
-            "tweet_id": "79159552322445312"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "79142833562468353",
-            "in_reply_to_user_id": "216303243",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@phdeetdesy \uff08@\u7565\uff09\u3044\u3044\u3063\u3059\u306d\uff5e\u3084\u3063\u3071\u308a\u571f\u66dc\u304c\u3044\u3044\u304b\u306a\uff1f",
-            "timestamp": "2011-06-10 11:11:04 +0000",
-            "tweet_id": "79143539824529408"
+            "text": "\u30bd\u30a6\u30eb\u30b8\u30a7\u30e0\u304c\u6fc1\u308a\u6c17\u5473",
+            "timestamp": "2011-06-10 00:19:23 +0000",
+            "tweet_id": "78979537307844608"
         },
         {
             "expanded_urls": "",
@@ -63,15 +27,51 @@
         },
         {
             "expanded_urls": "",
+            "in_reply_to_status_id": "79142833562468353",
+            "in_reply_to_user_id": "216303243",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@phdeetdesy \uff08@\u7565\uff09\u3044\u3044\u3063\u3059\u306d\uff5e\u3084\u3063\u3071\u308a\u571f\u66dc\u304c\u3044\u3044\u304b\u306a\uff1f",
+            "timestamp": "2011-06-10 11:11:04 +0000",
+            "tweet_id": "79143539824529408"
+        },
+        {
+            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u30bd\u30a6\u30eb\u30b8\u30a7\u30e0\u304c\u6fc1\u308a\u6c17\u5473",
-            "timestamp": "2011-06-10 00:19:23 +0000",
-            "tweet_id": "78979537307844608"
+            "text": "a \u3068\u304b the \u3068\u304b\u305d\u306e\u3078\u3093\u306f\u3001\u9069\u5f53\u306a\u672c\u306b\u51fa\u3066\u304f\u308b\u540d\u8a5e\u3092\u7247\u3063\u7aef\u304b\u3089 a \u4ed8\u304d\u30fb\u51a0\u8a5e\u306a\u3057\u8907\u6570\u5f62\u30fbthe \u4ed8\u304d\u30fb\u7121\u51a0\u8a5e\u306e\u56db\u8272\u3067\u8272\u5206\u3051\u3057\u3066\u307f\u305f\u3089\u898b\u3048\u3066\u304f\u308b\u3082\u306e\u304c\u3042\u308b\u3068\u601d\u3046\u3002",
+            "timestamp": "2011-06-10 12:14:42 +0000",
+            "tweet_id": "79159552322445312"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u5449\uff08NG\uff09\u3068\u3044\u3046\u8868\u672d\u3001\u4f55\u304c NG \u306a\u306e\u304b\u3068\u601d\u3063\u3066\u3057\u307e\u3046\u4eba\u3082\u591a\u305d\u3046\u3060",
+            "timestamp": "2011-06-10 12:26:36 +0000",
+            "tweet_id": "79162546535399424"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "79211389134188544",
+            "in_reply_to_user_id": "173468827",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@shitake96 \u4e86\u89e3\uff5e\u3002\u52c9\u5f37\u306f\u3069\u3046\u3059\u308b\uff1f",
+            "timestamp": "2011-06-10 15:45:57 +0000",
+            "tweet_id": "79212715301801985"
         }
     ]
 }

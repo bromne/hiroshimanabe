@@ -9,9 +9,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u5bdd\u308b\u3002",
-            "timestamp": "2011-01-10 17:29:06 +0000",
-            "tweet_id": "24518106068033536"
+            "text": "\u6d77\u5916\u6319\u5f0f\u306e\u76f8\u8ac7\u306b\u884c\u3063\u3066\u304d\u305f\u3002\u4e8c\u4eba\u3068\u3082\u7279\u306b\u3053\u3060\u308f\u308a\u306f\u306a\u3044\u306e\u3067\u3001\u305d\u308c\u306a\u308a\u306b\u9069\u5f53\u306b\u6c7a\u5b9a\u3002",
+            "timestamp": "2011-01-10 14:32:44 +0000",
+            "tweet_id": "24473720898715649"
         },
         {
             "expanded_urls": "",
@@ -33,9 +33,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u6d77\u5916\u6319\u5f0f\u306e\u76f8\u8ac7\u306b\u884c\u3063\u3066\u304d\u305f\u3002\u4e8c\u4eba\u3068\u3082\u7279\u306b\u3053\u3060\u308f\u308a\u306f\u306a\u3044\u306e\u3067\u3001\u305d\u308c\u306a\u308a\u306b\u9069\u5f53\u306b\u6c7a\u5b9a\u3002",
-            "timestamp": "2011-01-10 14:32:44 +0000",
-            "tweet_id": "24473720898715649"
+            "text": "\u5bdd\u308b\u3002",
+            "timestamp": "2011-01-10 17:29:06 +0000",
+            "tweet_id": "24518106068033536"
         }
     ]
 }

@@ -5,13 +5,37 @@
             "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
+            "retweeted_status_id": "57606458304507904",
+            "retweeted_status_timestamp": "2011-04-12 00:50:24 +0000",
+            "retweeted_status_user_id": "115864059",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "RT @mu_co: \u3042\u308b\u6388\u696d\u306e\u30b7\u30e9\u30d0\u30b9\u306b\uff4a\u3053\u3093\u306a\u30b3\u30e1\u30f3\u30c8\u304c\uff01\n\u300c\u793e\u4f1a\u3067\u306f\u3010\u52d5\u304f\u30d7\u30ed\u30b0\u30e9\u30e0\u3011\u304c\u6c42\u3081\u3089\u308c\u307e\u3059\uff0e\n\u52d5\u4f5c\u306e\u6b63\u5426\u306f\u95a2\u4fc2\u3042\u308a\u307e\u305b\u3093\uff0e\n\u306a\u3093\u306b\u305b\u3088\u3010\u52d5\u304f\u3011\u3053\u3068\u304c\u7b2c\u4e00\u3067\u3059\uff0e\u300d\n\uff12\u756a\u76ee\u306e\u6587\u7ae0\u306a\u3093\u3059\u304b",
+            "timestamp": "2011-04-12 02:04:00 +0000",
+            "tweet_id": "57624979784736770"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "57698200961822720",
+            "retweeted_status_timestamp": "2011-04-12 06:54:57 +0000",
+            "retweeted_status_user_id": "17916105",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "RT @ceekz: \u3053\u308c\u304c\u73fe\u5b9f\u304b\u2026\u3002 \u300c\u3042\u306e\u300c\u5e83\u544a\u300d\u306f\u672c\u5f53\u306a\u306e\u304b\u3002\u300d http://bit.ly/hfgM1s",
+            "timestamp": "2011-04-12 09:08:49 +0000",
+            "tweet_id": "57731889745772544"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "10\u5e74\u524d\u306e\u672c\u306b\u51fa\u3066\u304d\u305fATR\u97f3\u58f0\u8a00\u8a9e\u901a\u4fe1\u7814\u7a76\u6240\u793e\u9577\u306b\u3088\u308b\u3068\u30012010\u5e74\u306b\u306f\u5916\u56fd\u4eba\u306e\u8b1b\u6f14\u3092\u81ea\u52d5\u7ffb\u8a33\u3067\u540c\u6642\u901a\u8a33\u3067\u304d\u308b\u53ef\u80fd\u6027\u304c\u5927\u304d\u3044\u3068\u306e\u3053\u3068\u3002\u4eba\u985e\u306e\u9032\u6b69\u306e\u901f\u5ea6\u306f\u601d\u3063\u305f\u3088\u308a\u9045\u3044\u3002",
-            "timestamp": "2011-04-12 16:12:47 +0000",
-            "tweet_id": "57838583951794176"
+            "text": "\u8179\u306e\u51fa\u5177\u5408\u304c\u6df1\u523b\u306b\u30e4\u30d0\u3044",
+            "timestamp": "2011-04-12 15:42:23 +0000",
+            "tweet_id": "57830934862499842"
         },
         {
             "expanded_urls": "",
@@ -33,33 +57,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u8179\u306e\u51fa\u5177\u5408\u304c\u6df1\u523b\u306b\u30e4\u30d0\u3044",
-            "timestamp": "2011-04-12 15:42:23 +0000",
-            "tweet_id": "57830934862499842"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "57698200961822720",
-            "retweeted_status_timestamp": "2011-04-12 06:54:57 +0000",
-            "retweeted_status_user_id": "17916105",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @ceekz: \u3053\u308c\u304c\u73fe\u5b9f\u304b\u2026\u3002 \u300c\u3042\u306e\u300c\u5e83\u544a\u300d\u306f\u672c\u5f53\u306a\u306e\u304b\u3002\u300d http://bit.ly/hfgM1s",
-            "timestamp": "2011-04-12 09:08:49 +0000",
-            "tweet_id": "57731889745772544"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "57606458304507904",
-            "retweeted_status_timestamp": "2011-04-12 00:50:24 +0000",
-            "retweeted_status_user_id": "115864059",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "RT @mu_co: \u3042\u308b\u6388\u696d\u306e\u30b7\u30e9\u30d0\u30b9\u306b\uff4a\u3053\u3093\u306a\u30b3\u30e1\u30f3\u30c8\u304c\uff01\n\u300c\u793e\u4f1a\u3067\u306f\u3010\u52d5\u304f\u30d7\u30ed\u30b0\u30e9\u30e0\u3011\u304c\u6c42\u3081\u3089\u308c\u307e\u3059\uff0e\n\u52d5\u4f5c\u306e\u6b63\u5426\u306f\u95a2\u4fc2\u3042\u308a\u307e\u305b\u3093\uff0e\n\u306a\u3093\u306b\u305b\u3088\u3010\u52d5\u304f\u3011\u3053\u3068\u304c\u7b2c\u4e00\u3067\u3059\uff0e\u300d\n\uff12\u756a\u76ee\u306e\u6587\u7ae0\u306a\u3093\u3059\u304b",
-            "timestamp": "2011-04-12 02:04:00 +0000",
-            "tweet_id": "57624979784736770"
+            "text": "10\u5e74\u524d\u306e\u672c\u306b\u51fa\u3066\u304d\u305fATR\u97f3\u58f0\u8a00\u8a9e\u901a\u4fe1\u7814\u7a76\u6240\u793e\u9577\u306b\u3088\u308b\u3068\u30012010\u5e74\u306b\u306f\u5916\u56fd\u4eba\u306e\u8b1b\u6f14\u3092\u81ea\u52d5\u7ffb\u8a33\u3067\u540c\u6642\u901a\u8a33\u3067\u304d\u308b\u53ef\u80fd\u6027\u304c\u5927\u304d\u3044\u3068\u306e\u3053\u3068\u3002\u4eba\u985e\u306e\u9032\u6b69\u306e\u901f\u5ea6\u306f\u601d\u3063\u305f\u3088\u308a\u9045\u3044\u3002",
+            "timestamp": "2011-04-12 16:12:47 +0000",
+            "tweet_id": "57838583951794176"
         }
     ]
 }

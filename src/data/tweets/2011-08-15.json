@@ -9,9 +9,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u4eca\u306e\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\u6b74\u53f2\u3067\u306f\u65e5\u672c\u306f\u4fb5\u7565\u6226\u4e89\u3092\u3057\u3066\u3044\u306a\u3044\u3068\u306e\u3053\u3068\u306e\u3088\u3046\u3060\u3002\u30aa\u30fc\u30a6\u30a7\u30eb\u3082\u771f\u7406\u7701\u306e\u6c11\u55b6\u5316\u307e\u3067\u306f\u4e88\u6e2c\u3057\u3066\u3044\u306a\u304b\u3063\u305f\u3088\u3046\u3067\u3002",
-            "timestamp": "2011-08-15 15:33:42 +0000",
-            "tweet_id": "103127230359674880"
+            "text": "\u4eca\u65e5\u306f\u5927\u962a\u3060\u3051\u3069\u4e88\u5b9a\u306a\u3057\u3002\u672c\u5c4b\u3067\u3082\u884c\u304f\u304b",
+            "timestamp": "2011-08-15 03:14:24 +0000",
+            "tweet_id": "102941178865000448"
         },
         {
             "expanded_urls": "",
@@ -33,9 +33,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u4eca\u65e5\u306f\u5927\u962a\u3060\u3051\u3069\u4e88\u5b9a\u306a\u3057\u3002\u672c\u5c4b\u3067\u3082\u884c\u304f\u304b",
-            "timestamp": "2011-08-15 03:14:24 +0000",
-            "tweet_id": "102941178865000448"
+            "text": "\u4eca\u306e\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\u6b74\u53f2\u3067\u306f\u65e5\u672c\u306f\u4fb5\u7565\u6226\u4e89\u3092\u3057\u3066\u3044\u306a\u3044\u3068\u306e\u3053\u3068\u306e\u3088\u3046\u3060\u3002\u30aa\u30fc\u30a6\u30a7\u30eb\u3082\u771f\u7406\u7701\u306e\u6c11\u55b6\u5316\u307e\u3067\u306f\u4e88\u6e2c\u3057\u3066\u3044\u306a\u304b\u3063\u305f\u3088\u3046\u3067\u3002",
+            "timestamp": "2011-08-15 15:33:42 +0000",
+            "tweet_id": "103127230359674880"
         }
     ]
 }

@@ -2,16 +2,16 @@
     "date": "2011-10-25",
     "items": [
         {
-            "expanded_urls": "http://htn.to/v641GG,http://htn.to/v641GG",
+            "expanded_urls": "http://text.ssig33.com/73,http://text.ssig33.com/73",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "128849348506304512",
-            "retweeted_status_timestamp": "2011-10-25 15:04:13 +0000",
-            "retweeted_status_user_id": "9724042",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @dlit: [2ch][\u30cd\u30bf]\u7b11\u3044\u3042\u308a\u6d99\u3042\u308a\u3002 / \u201c\uff62\u306f\u3001\u306f\u3058\u3081\u307e\u3057\u3066\u3063\uff01IS04\u3067\u3059\u3063\uff01REGZA\u30d5\u30a9\u30f3\u3068\u547c\u3093\u3067\u304f\u3060\u3055\u3044\uff01\uff63:\u30cf\u30e0\u30b9\u30bf\u30fc\u901f\u5831\u201d http://t.co/4R3YCDtv",
-            "timestamp": "2011-10-25 16:07:02 +0000",
-            "tweet_id": "128865157731459072"
+            "retweeted_status_id": "128730113381642241",
+            "retweeted_status_timestamp": "2011-10-25 07:10:25 +0000",
+            "retweeted_status_user_id": "5159931",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "RT @ssig33: \u66f8\u3044\u305f http://t.co/cSRDAqCX",
+            "timestamp": "2011-10-25 07:23:04 +0000",
+            "tweet_id": "128733298947133440"
         },
         {
             "expanded_urls": "http://twitpic.com/75jhxy,http://twitpic.com/75jhxy",
@@ -26,16 +26,16 @@
             "tweet_id": "128816431092600833"
         },
         {
-            "expanded_urls": "http://text.ssig33.com/73,http://text.ssig33.com/73",
+            "expanded_urls": "http://htn.to/v641GG,http://htn.to/v641GG",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "128730113381642241",
-            "retweeted_status_timestamp": "2011-10-25 07:10:25 +0000",
-            "retweeted_status_user_id": "5159931",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "RT @ssig33: \u66f8\u3044\u305f http://t.co/cSRDAqCX",
-            "timestamp": "2011-10-25 07:23:04 +0000",
-            "tweet_id": "128733298947133440"
+            "retweeted_status_id": "128849348506304512",
+            "retweeted_status_timestamp": "2011-10-25 15:04:13 +0000",
+            "retweeted_status_user_id": "9724042",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "RT @dlit: [2ch][\u30cd\u30bf]\u7b11\u3044\u3042\u308a\u6d99\u3042\u308a\u3002 / \u201c\uff62\u306f\u3001\u306f\u3058\u3081\u307e\u3057\u3066\u3063\uff01IS04\u3067\u3059\u3063\uff01REGZA\u30d5\u30a9\u30f3\u3068\u547c\u3093\u3067\u304f\u3060\u3055\u3044\uff01\uff63:\u30cf\u30e0\u30b9\u30bf\u30fc\u901f\u5831\u201d http://t.co/4R3YCDtv",
+            "timestamp": "2011-10-25 16:07:02 +0000",
+            "tweet_id": "128865157731459072"
         }
     ]
 }

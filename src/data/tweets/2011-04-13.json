@@ -3,39 +3,15 @@
     "items": [
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "58189348893491200",
-            "in_reply_to_user_id": "78059788",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@ttuusskk \u4e00\u822c\u7684\u306b\u3001\u305d\u3046\u3044\u3063\u305f\u7528\u4ef6\u306e\u96fb\u8a71\u306f\u52e4\u52d9\u6642\u9593\u4e2d\u306b\u53d6\u3063\u3066\u3082\u3044\u3044\u3082\u306e\u3060\u3068\u601d\u3044\u307e\u3059\u3088\u3002\u4f8b\u3048\u3070\u6b6f\u533b\u8005\u3084\u5f79\u6240\u3001\u9280\u884c\u306a\u3069\u3067\u3082\u305d\u3046\u3067\u3059\u304c\u3002\u305d\u3046\u3057\u306a\u3044\u3068\u9023\u7d61\u3092\u53d6\u308b\u3053\u3068\u304c\u96e3\u3057\u304f\u3001\u307e\u305f\u6570\u5206\u306e\u3053\u3068\u3067\u3042\u308c\u3070\u52e4\u52d9\u6642\u9593\u306b\u5bfe\u3059\u308b\u5272\u5408\u3082\u5927\u304d\u304f\u306a\u3044\u306e\u3067\u3001\u793e\u4f1a\u901a\u5ff5\u4e0a\u8a31\u5bb9\u3055\u308c\u3066\u3044\u308b\u3068\u601d\u3044\u307e\u3059\u3002",
-            "timestamp": "2011-04-13 16:28:11 +0000",
-            "tweet_id": "58204845869506561"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "58086707806994433",
-            "retweeted_status_timestamp": "2011-04-13 08:38:44 +0000",
-            "retweeted_status_user_id": "17916105",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "RT @ceekz: \u30a6\u30a7\u30d6\u30da\u30fc\u30b8\u306e\u30bf\u30a4\u30c8\u30eb\u306f\u899a\u3048\u3066\u3044\u306a\u3044\u304c URL \u306e\u4e00\u90e8\u3092\u899a\u3048\u3066\u3044\u308b\u30b1\u30fc\u30b9\u304c\u591a\u304f\u3066\u56f0\u3063\u3066\u3044\u308b\u3002 Firefox \u306e\u30a2\u30c9\u30ec\u30b9\u30d0\u30fc\u3067\u306f\u3001\u305d\u306e\u3088\u3046\u306a\u30cb\u30fc\u30ba\u3067\u30b5\u30b8\u30a7\u30b9\u30c8\u3092\u884c\u3063\u3066\u304f\u308c\u305f\u304c\u3001 Chrome \u306f\u30c0\u30e1\u307d\u3002 URL \u3067\u691c\u7d22\u3059\u308b\u5834\u5408\u306f\u524d\u65b9\u4e00\u81f4\u306e\u307f\u3002",
-            "timestamp": "2011-04-13 08:46:15 +0000",
-            "tweet_id": "58088598448242689"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u30a4\u30fc\u30aa\u30f3\u306b\u3057\u3068\u304f\u304b",
-            "timestamp": "2011-04-13 05:20:06 +0000",
-            "tweet_id": "58036719680884738"
+            "text": "\u30d1\u30f3\u30b1\u30fc\u30ad\u306e\u30d1\u30f3\u304c\u30d5\u30e9\u30a4\u30d1\u30f3\u306e\u30d1\u30f3\u3068\u3044\u3046\u306e\u306f\u304d\u3063\u3068\u4f55\u304b\u306e\u7f60",
+            "timestamp": "2011-04-13 04:50:48 +0000",
+            "tweet_id": "58029344207024128"
         },
         {
             "expanded_urls": "",
@@ -56,10 +32,34 @@
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u30a4\u30fc\u30aa\u30f3\u306b\u3057\u3068\u304f\u304b",
+            "timestamp": "2011-04-13 05:20:06 +0000",
+            "tweet_id": "58036719680884738"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "58086707806994433",
+            "retweeted_status_timestamp": "2011-04-13 08:38:44 +0000",
+            "retweeted_status_user_id": "17916105",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "RT @ceekz: \u30a6\u30a7\u30d6\u30da\u30fc\u30b8\u306e\u30bf\u30a4\u30c8\u30eb\u306f\u899a\u3048\u3066\u3044\u306a\u3044\u304c URL \u306e\u4e00\u90e8\u3092\u899a\u3048\u3066\u3044\u308b\u30b1\u30fc\u30b9\u304c\u591a\u304f\u3066\u56f0\u3063\u3066\u3044\u308b\u3002 Firefox \u306e\u30a2\u30c9\u30ec\u30b9\u30d0\u30fc\u3067\u306f\u3001\u305d\u306e\u3088\u3046\u306a\u30cb\u30fc\u30ba\u3067\u30b5\u30b8\u30a7\u30b9\u30c8\u3092\u884c\u3063\u3066\u304f\u308c\u305f\u304c\u3001 Chrome \u306f\u30c0\u30e1\u307d\u3002 URL \u3067\u691c\u7d22\u3059\u308b\u5834\u5408\u306f\u524d\u65b9\u4e00\u81f4\u306e\u307f\u3002",
+            "timestamp": "2011-04-13 08:46:15 +0000",
+            "tweet_id": "58088598448242689"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "58189348893491200",
+            "in_reply_to_user_id": "78059788",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u30d1\u30f3\u30b1\u30fc\u30ad\u306e\u30d1\u30f3\u304c\u30d5\u30e9\u30a4\u30d1\u30f3\u306e\u30d1\u30f3\u3068\u3044\u3046\u306e\u306f\u304d\u3063\u3068\u4f55\u304b\u306e\u7f60",
-            "timestamp": "2011-04-13 04:50:48 +0000",
-            "tweet_id": "58029344207024128"
+            "text": "@ttuusskk \u4e00\u822c\u7684\u306b\u3001\u305d\u3046\u3044\u3063\u305f\u7528\u4ef6\u306e\u96fb\u8a71\u306f\u52e4\u52d9\u6642\u9593\u4e2d\u306b\u53d6\u3063\u3066\u3082\u3044\u3044\u3082\u306e\u3060\u3068\u601d\u3044\u307e\u3059\u3088\u3002\u4f8b\u3048\u3070\u6b6f\u533b\u8005\u3084\u5f79\u6240\u3001\u9280\u884c\u306a\u3069\u3067\u3082\u305d\u3046\u3067\u3059\u304c\u3002\u305d\u3046\u3057\u306a\u3044\u3068\u9023\u7d61\u3092\u53d6\u308b\u3053\u3068\u304c\u96e3\u3057\u304f\u3001\u307e\u305f\u6570\u5206\u306e\u3053\u3068\u3067\u3042\u308c\u3070\u52e4\u52d9\u6642\u9593\u306b\u5bfe\u3059\u308b\u5272\u5408\u3082\u5927\u304d\u304f\u306a\u3044\u306e\u3067\u3001\u793e\u4f1a\u901a\u5ff5\u4e0a\u8a31\u5bb9\u3055\u308c\u3066\u3044\u308b\u3068\u601d\u3044\u307e\u3059\u3002",
+            "timestamp": "2011-04-13 16:28:11 +0000",
+            "tweet_id": "58204845869506561"
         }
     ]
 }

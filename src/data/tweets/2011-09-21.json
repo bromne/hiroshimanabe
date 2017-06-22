@@ -2,52 +2,16 @@
     "date": "2011-09-21",
     "items": [
         {
-            "expanded_urls": "http://ufcpp.wordpress.com/2011/09/17/winrt-%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%A4%E8%A7%A3/,http://ufcpp.wordpress.com/2011/09/17/winrt-%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%A4%E8%A7%A3/",
+            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
-            "retweeted_status_id": "116638827749187586",
-            "retweeted_status_timestamp": "2011-09-21 22:23:58 +0000",
-            "retweeted_status_user_id": "22112721",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @decimalbloat: \u3075\u3080\u3075\u3080\u306a\u308b\u307b\u3069 http://t.co/r2lUauVu",
-            "timestamp": "2011-09-21 23:35:03 +0000",
-            "tweet_id": "116656718452236288"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "\u6a5f\u5185\u3067\u306f\u7a7a\u60f3\u79d1\u5b66X\u3068\u30a4\u30ab\u5a18\u8aad\u3093\u3060\u3002\u30a4\u30ab\u5a18\u306e\u8a9e\u5c3e\u306f \"~\uc9d5\uc5b4\" \u306b\u306a\u3063\u3066\u3044\u305f\u3002\u3081\u3063\u3061\u3083\u9055\u548c\u611f\u3042\u3063\u305f\u3051\u3069\u3001\u8aad\u3080\u3046\u3061\u306b\u5c11\u3057\u6163\u308c\u305f\u3002\"\ud574\uc8fc\uaca0\ub2e4\uc9d5\uc5b4\" \u306e\u3088\u3046\u306b\u3001\ud558\ub2e4\u5f62\u306b\u4ed8\u3051\u308b\uff08\u7591\u554f\u6587\u306a\u3069\u3082\uff09\u306e\u304c\u57fa\u672c\u3060\u304c\u3001\"\ucda9\ubd84\ud558\uaca0\uc9d5\uc5b4\"\u306e\u3088\u3046\u306b\u3001\"\uc9c0\" \u3067\u7d42\u308f\u308b\u6642\u3060\u3051\u305d\u308c\u3092\u4f7f\u3044\u56de\u3057\u3066\u3044\u308b\u3002",
-            "timestamp": "2011-09-21 15:18:07 +0000",
-            "tweet_id": "116531658903126017"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "\u59dc\u5c1a\u4e2d\u300c\u611b\u56fd\u306e\u4f5c\u6cd5\u300d\u8aad\u4e86\u3002",
-            "timestamp": "2011-09-21 15:13:15 +0000",
-            "tweet_id": "116530433642070016"
-        },
-        {
-            "expanded_urls": "http://ascii.jp/elem/000/000/635/635625/,http://ascii.jp/elem/000/000/635/635625/",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "116518471138934785",
-            "retweeted_status_timestamp": "2011-09-21 14:25:42 +0000",
-            "retweeted_status_user_id": "20662927",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "RT @togiso: [B!] ASCII.jp\uff1a\u65e5\u672c\u751f\u307e\u308c\u306e\u30af\u30e9\u30a6\u30c9\u30ce\u30fc\u30c8\u300cKYBER\u300d\u304c\u3059\u3054\u3044\u7406\u7531 http://t.co/YOATdDQ6",
-            "timestamp": "2011-09-21 15:04:21 +0000",
-            "tweet_id": "116528197092392961"
+            "text": "\u6210\u7530\u3067\u4eac\u6025\u304c\u6b62\u307e\u3063\u305f\u304c\u3001\u30cd\u30c3\u30c8\u304c\u81ea\u7531\u306b\u4f7f\u3048\u308b\u3088\u3046\u306b\u306a\u3063\u305f\u3053\u3068\u306b\u6bd4\u3079\u308b\u3068\u4e9b\u4e8b\u306b\u3059\u304e\u306a\u3044\u3068\u611f\u3058\u308b\u307b\u3069\u306b\u306f\u30cd\u30c3\u30c8\u4e2d\u6bd2",
+            "timestamp": "2011-09-21 08:31:42 +0000",
+            "tweet_id": "116429381827698689"
         },
         {
             "expanded_urls": "",
@@ -57,21 +21,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u4eca\u65e5\u306e\u5bbf\u6cca\u8cbb\u306f9000\u5186\u3060\u304b\u3089135000\u30a6\u30a9\u30f3\u3001\u6628\u65e5\u307e\u3067\u306e3\u65e5\u5206\u3060\u306a\u3041\u3002\u307e\u3042\u74b0\u5883\u306f\u305a\u3063\u3068\u3044\u3044\u3051\u3069\u3002",
-            "timestamp": "2011-09-21 13:36:49 +0000",
-            "tweet_id": "116506167265591297"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u6210\u7530\u306a\u306e\u3067\u7d50\u69cb\u63fa\u308c\u305f",
-            "timestamp": "2011-09-21 13:35:04 +0000",
-            "tweet_id": "116505726125481984"
+            "text": "\u30ea\u30e0\u30b8\u30f3\u30d0\u30b9\u3082\u6b62\u307e\u3063\u3066\u305f\u3002\u3053\u3046\u306a\u308b\u3068\u5e30\u308c\u306a\u3044\u306e\u3067\u3001\u81ea\u5206\u306b\u3068\u3063\u3066\u3082\u30cd\u30c3\u30c8\u63a5\u7d9a\u3088\u308a\u6df1\u523b\u306a\u554f\u984c\u3060",
+            "timestamp": "2011-09-21 08:35:26 +0000",
+            "tweet_id": "116430320538095616"
         },
         {
             "expanded_urls": "",
@@ -93,9 +45,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u30ea\u30e0\u30b8\u30f3\u30d0\u30b9\u3082\u6b62\u307e\u3063\u3066\u305f\u3002\u3053\u3046\u306a\u308b\u3068\u5e30\u308c\u306a\u3044\u306e\u3067\u3001\u81ea\u5206\u306b\u3068\u3063\u3066\u3082\u30cd\u30c3\u30c8\u63a5\u7d9a\u3088\u308a\u6df1\u523b\u306a\u554f\u984c\u3060",
-            "timestamp": "2011-09-21 08:35:26 +0000",
-            "tweet_id": "116430320538095616"
+            "text": "\u6210\u7530\u306a\u306e\u3067\u7d50\u69cb\u63fa\u308c\u305f",
+            "timestamp": "2011-09-21 13:35:04 +0000",
+            "tweet_id": "116505726125481984"
         },
         {
             "expanded_urls": "",
@@ -105,9 +57,57 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u6210\u7530\u3067\u4eac\u6025\u304c\u6b62\u307e\u3063\u305f\u304c\u3001\u30cd\u30c3\u30c8\u304c\u81ea\u7531\u306b\u4f7f\u3048\u308b\u3088\u3046\u306b\u306a\u3063\u305f\u3053\u3068\u306b\u6bd4\u3079\u308b\u3068\u4e9b\u4e8b\u306b\u3059\u304e\u306a\u3044\u3068\u611f\u3058\u308b\u307b\u3069\u306b\u306f\u30cd\u30c3\u30c8\u4e2d\u6bd2",
-            "timestamp": "2011-09-21 08:31:42 +0000",
-            "tweet_id": "116429381827698689"
+            "text": "\u4eca\u65e5\u306e\u5bbf\u6cca\u8cbb\u306f9000\u5186\u3060\u304b\u3089135000\u30a6\u30a9\u30f3\u3001\u6628\u65e5\u307e\u3067\u306e3\u65e5\u5206\u3060\u306a\u3041\u3002\u307e\u3042\u74b0\u5883\u306f\u305a\u3063\u3068\u3044\u3044\u3051\u3069\u3002",
+            "timestamp": "2011-09-21 13:36:49 +0000",
+            "tweet_id": "116506167265591297"
+        },
+        {
+            "expanded_urls": "http://ascii.jp/elem/000/000/635/635625/,http://ascii.jp/elem/000/000/635/635625/",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "116518471138934785",
+            "retweeted_status_timestamp": "2011-09-21 14:25:42 +0000",
+            "retweeted_status_user_id": "20662927",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "RT @togiso: [B!] ASCII.jp\uff1a\u65e5\u672c\u751f\u307e\u308c\u306e\u30af\u30e9\u30a6\u30c9\u30ce\u30fc\u30c8\u300cKYBER\u300d\u304c\u3059\u3054\u3044\u7406\u7531 http://t.co/YOATdDQ6",
+            "timestamp": "2011-09-21 15:04:21 +0000",
+            "tweet_id": "116528197092392961"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "\u59dc\u5c1a\u4e2d\u300c\u611b\u56fd\u306e\u4f5c\u6cd5\u300d\u8aad\u4e86\u3002",
+            "timestamp": "2011-09-21 15:13:15 +0000",
+            "tweet_id": "116530433642070016"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "\u6a5f\u5185\u3067\u306f\u7a7a\u60f3\u79d1\u5b66X\u3068\u30a4\u30ab\u5a18\u8aad\u3093\u3060\u3002\u30a4\u30ab\u5a18\u306e\u8a9e\u5c3e\u306f \"~\uc9d5\uc5b4\" \u306b\u306a\u3063\u3066\u3044\u305f\u3002\u3081\u3063\u3061\u3083\u9055\u548c\u611f\u3042\u3063\u305f\u3051\u3069\u3001\u8aad\u3080\u3046\u3061\u306b\u5c11\u3057\u6163\u308c\u305f\u3002\"\ud574\uc8fc\uaca0\ub2e4\uc9d5\uc5b4\" \u306e\u3088\u3046\u306b\u3001\ud558\ub2e4\u5f62\u306b\u4ed8\u3051\u308b\uff08\u7591\u554f\u6587\u306a\u3069\u3082\uff09\u306e\u304c\u57fa\u672c\u3060\u304c\u3001\"\ucda9\ubd84\ud558\uaca0\uc9d5\uc5b4\"\u306e\u3088\u3046\u306b\u3001\"\uc9c0\" \u3067\u7d42\u308f\u308b\u6642\u3060\u3051\u305d\u308c\u3092\u4f7f\u3044\u56de\u3057\u3066\u3044\u308b\u3002",
+            "timestamp": "2011-09-21 15:18:07 +0000",
+            "tweet_id": "116531658903126017"
+        },
+        {
+            "expanded_urls": "http://ufcpp.wordpress.com/2011/09/17/winrt-%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%A4%E8%A7%A3/,http://ufcpp.wordpress.com/2011/09/17/winrt-%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%A4%E8%A7%A3/",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "116638827749187586",
+            "retweeted_status_timestamp": "2011-09-21 22:23:58 +0000",
+            "retweeted_status_user_id": "22112721",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "RT @decimalbloat: \u3075\u3080\u3075\u3080\u306a\u308b\u307b\u3069 http://t.co/r2lUauVu",
+            "timestamp": "2011-09-21 23:35:03 +0000",
+            "tweet_id": "116656718452236288"
         }
     ]
 }

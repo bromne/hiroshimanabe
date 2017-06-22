@@ -3,15 +3,27 @@
     "items": [
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "71662826078486528",
-            "in_reply_to_user_id": "7229862",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@niam \u6a2a\u30ec\u30b9\u3067\u3059\u304c\u3001\u300c\u6383\u9664\u3068\u3044\u3046\u884c\u70ba\u3092\u5b8c\u4e86\u3057\u3066\u3044\u308b-&gt;\u7dba\u9e97\u3067\u3042\u308b\u300d\u306e\u5bfe\u5076\u306a\u306e\u3067\u3001\u300c\u6c5a\u3044-&gt;\u6383\u9664\u3092\u3057\u3066\u3044\u306a\u3044\u300d\u3067\u3059\u3088\u306d\u3002",
-            "timestamp": "2011-05-20 23:13:18 +0000",
-            "tweet_id": "71715147512680451"
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "\u5730\u9707\u6765\u305f",
+            "timestamp": "2011-05-20 00:47:38 +0000",
+            "tweet_id": "71376502104657920"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "71436556447133696",
+            "retweeted_status_timestamp": "2011-05-20 04:46:16 +0000",
+            "retweeted_status_user_id": "3577141",
+            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
+            "text": "RT @mazzo: \u30a2\u30c3\u30d7\u30eb\u306e\u30d5\u30a1\u30f3\u306b\u540c\u793e\u306e\u88fd\u54c1\u3092\u898b\u305b\u3001\u8133\u5185\u306e\u53cd\u5fdc\u3092\uff2d\uff32\uff29\u3067\u8abf\u3079\u305f\u7d50\u679c\u3001\u5b97\u6559\u4fe1\u8005\u306b\u795e\u306e\u50cf\u3092\u898b\u305b\u305f\u6642\u3068\u540c\u3058\u8133\u306e\u90e8\u4f4d\u304c\u660e\u308b\u304f\u306a\u3063\u3066\u3044\u305f\uff1aCNN.co.jp\uff1a\u30a2\u30c3\u30d7\u30eb\u304c\u304b\u304d\u7acb\u3066\u308b\u300c\u5b97\u6559\u7684\u53cd\u5fdc\u300d\u3001\uff22\uff22\uff23\u304c\u79d1\u5b66\u5b9f\u8a3c http://ow.ly/4YRPq",
+            "timestamp": "2011-05-20 06:46:47 +0000",
+            "tweet_id": "71466883899068416"
         },
         {
             "expanded_urls": "",
@@ -21,81 +33,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "bio \u306b\u4f1a\u793e\u540d\u3092\u66f8\u3044\u3066\u306a\u3044 Twitter \u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u81ea\u7531\u5ea6\u3063\u3066\u3069\u308c\u3050\u3089\u3044\u306a\u3093\u3060\u308d\u3046\u306a\u3041\u3002\u4f8b\u3048\u3070\u3001\u793e\u54e1\u3060\u3068\u540d\u8a00\u3057\u3066\u3044\u306a\u3044\u30b0\u30fc\u30b0\u30eb\u793e\u54e1\u3067\u3082\u300c\u30a2\u30f3\u30c9\u30ed\u30a4\u30c9\u3063\u3066\u7cde\u3060\u3088\u306d\u300d\u3068\u304b\u306f\u66f8\u304d\u306b\u304f\u305d\u3046\u3002",
-            "timestamp": "2011-05-20 13:25:59 +0000",
-            "tweet_id": "71567345444859904"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "71556523159068672",
-            "retweeted_status_timestamp": "2011-05-20 12:42:59 +0000",
-            "retweeted_status_user_id": "138904193",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @f_nisihara: \u30b5\u30e2\u30a2\u72ec\u7acb\u56fd\u306f12\u670829\u65e5\u3088\u308a\u4e01\u5ea624\u6642\u9593\u5206\u3001\u6642\u9593\u5e2f\u3092\u5909\u66f4\u306e\u4e88\u5b9a\u3002UTC -11\uff08\u65e5\u672c\u3088\u308a20\u6642\u9593\u9045\u3044\uff09\u304b\u3089UTC +13\uff08\u65e5\u672c\u3088\u308a4\u6642\u9593\u65e9\u3044\uff09\u306b\u3002\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u66f8\u304f\u4eba\u3084\u793e\u4f1a\u79d1\u95a2\u4fc2\u8005\u306f\u8981\u6ce8\u610f\u3002 http://www.bbc.co.uk/new ...",
-            "timestamp": "2011-05-20 13:21:52 +0000",
-            "tweet_id": "71566308499668993"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "71555624604938241",
-            "in_reply_to_user_id": "5310852",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@tanakh \u6bd4\u8f03\u30d9\u30fc\u30b9\u306e\u30bd\u30fc\u30c8\u3068\u3057\u3066\u306f\u3001O(nlogn)\u306f\u8a08\u7b97\u91cf\u7684\u4e0b\u9650\u306a\u306e\u3067\u3001\u30aa\u30fc\u30c0\u30fc\u3068\u3057\u3066\u306f\u3053\u308c\u4ee5\u4e0a\u306e\u6539\u5584\u306f\u3067\u304d\u306a\u3044\u3067\u3059\u3088\u306d\u3002",
-            "timestamp": "2011-05-20 13:21:19 +0000",
-            "tweet_id": "71566171308167168"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u30b3\u30b3\u30a4\u30c1\u3068\u30e2\u30b9\u3068\u30b9\u30b7\u30ed\u30fc\u304c\u4e16\u754c\u4e09\u5927\u7f8e\u98df\u3068\u3044\u3046\u4fe1\u5ff5\u306b\u4e00\u70b9\u306e\u63fa\u3089\u304e\u306a\u3057",
-            "timestamp": "2011-05-20 12:20:06 +0000",
-            "tweet_id": "71550763842813954"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "71530981470912512",
-            "retweeted_status_timestamp": "2011-05-20 11:01:29 +0000",
-            "retweeted_status_user_id": "78927579",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @komatsuh: Google \u65e5\u672c\u8a9e\u5165\u529b\u306e\u958b\u767a\u7248\u3092\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3057\u307e\u3057\u305f\u3002\u5909\u63db\u7cbe\u5ea6\u3084\u5b89\u5b9a\u6027\u306e\u5411\u4e0a\u304c\u4e2d\u5fc3\u3067\u3059\u3002 (http://goo.gl/Nx32g)",
-            "timestamp": "2011-05-20 11:05:54 +0000",
-            "tweet_id": "71532093884219392"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u6bce\u65e5\u30d7\u30fc\u30eb\u3067\u6cf3\u3044\u3067\u308b\u306e\u306b\u3084\u305b\u306a\u3044\u3002\u304a\u304b\u3057\u3044\u306a\u3041",
-            "timestamp": "2011-05-20 10:24:26 +0000",
-            "tweet_id": "71521658896257024"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u91d1\u5238\u30b7\u30e7\u30c3\u30d7\u3067\u8cb7\u3063\u305f\u30de\u30af\u30c9\u30ca\u30eb\u30c9\u306e\u682a\u4e3b\u512a\u5f85\u5238\u304c\u3042\u308a\u3001\u3053\u306e\u5238\u306f\u30dd\u30c6\u30c8\u3092L\u306b\u3067\u304d\u308b\u306e\u3067\u3001L\u3092\u98df\u3079\u3056\u308b\u3092\u5f97\u306a\u3044",
-            "timestamp": "2011-05-20 10:23:30 +0000",
-            "tweet_id": "71521421662228480"
+            "text": "\u3042\u3042\u3042\u98df\u6599\u304c\u306a\u3044\u3002\u6cb9\u65ad\u3057\u305f\u2026\u3002",
+            "timestamp": "2011-05-20 10:11:16 +0000",
+            "tweet_id": "71518344058126336"
         },
         {
             "expanded_urls": "",
@@ -117,21 +57,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u3042\u3042\u3042\u98df\u6599\u304c\u306a\u3044\u3002\u6cb9\u65ad\u3057\u305f\u2026\u3002",
-            "timestamp": "2011-05-20 10:11:16 +0000",
-            "tweet_id": "71518344058126336"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "71436556447133696",
-            "retweeted_status_timestamp": "2011-05-20 04:46:16 +0000",
-            "retweeted_status_user_id": "3577141",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "RT @mazzo: \u30a2\u30c3\u30d7\u30eb\u306e\u30d5\u30a1\u30f3\u306b\u540c\u793e\u306e\u88fd\u54c1\u3092\u898b\u305b\u3001\u8133\u5185\u306e\u53cd\u5fdc\u3092\uff2d\uff32\uff29\u3067\u8abf\u3079\u305f\u7d50\u679c\u3001\u5b97\u6559\u4fe1\u8005\u306b\u795e\u306e\u50cf\u3092\u898b\u305b\u305f\u6642\u3068\u540c\u3058\u8133\u306e\u90e8\u4f4d\u304c\u660e\u308b\u304f\u306a\u3063\u3066\u3044\u305f\uff1aCNN.co.jp\uff1a\u30a2\u30c3\u30d7\u30eb\u304c\u304b\u304d\u7acb\u3066\u308b\u300c\u5b97\u6559\u7684\u53cd\u5fdc\u300d\u3001\uff22\uff22\uff23\u304c\u79d1\u5b66\u5b9f\u8a3c http://ow.ly/4YRPq",
-            "timestamp": "2011-05-20 06:46:47 +0000",
-            "tweet_id": "71466883899068416"
+            "text": "\u91d1\u5238\u30b7\u30e7\u30c3\u30d7\u3067\u8cb7\u3063\u305f\u30de\u30af\u30c9\u30ca\u30eb\u30c9\u306e\u682a\u4e3b\u512a\u5f85\u5238\u304c\u3042\u308a\u3001\u3053\u306e\u5238\u306f\u30dd\u30c6\u30c8\u3092L\u306b\u3067\u304d\u308b\u306e\u3067\u3001L\u3092\u98df\u3079\u3056\u308b\u3092\u5f97\u306a\u3044",
+            "timestamp": "2011-05-20 10:23:30 +0000",
+            "tweet_id": "71521421662228480"
         },
         {
             "expanded_urls": "",
@@ -140,10 +68,82 @@
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.geocities.jp/twicli/\" rel=\"nofollow\">twicli</a>",
-            "text": "\u5730\u9707\u6765\u305f",
-            "timestamp": "2011-05-20 00:47:38 +0000",
-            "tweet_id": "71376502104657920"
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u6bce\u65e5\u30d7\u30fc\u30eb\u3067\u6cf3\u3044\u3067\u308b\u306e\u306b\u3084\u305b\u306a\u3044\u3002\u304a\u304b\u3057\u3044\u306a\u3041",
+            "timestamp": "2011-05-20 10:24:26 +0000",
+            "tweet_id": "71521658896257024"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "71530981470912512",
+            "retweeted_status_timestamp": "2011-05-20 11:01:29 +0000",
+            "retweeted_status_user_id": "78927579",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "RT @komatsuh: Google \u65e5\u672c\u8a9e\u5165\u529b\u306e\u958b\u767a\u7248\u3092\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3057\u307e\u3057\u305f\u3002\u5909\u63db\u7cbe\u5ea6\u3084\u5b89\u5b9a\u6027\u306e\u5411\u4e0a\u304c\u4e2d\u5fc3\u3067\u3059\u3002 (http://goo.gl/Nx32g)",
+            "timestamp": "2011-05-20 11:05:54 +0000",
+            "tweet_id": "71532093884219392"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u30b3\u30b3\u30a4\u30c1\u3068\u30e2\u30b9\u3068\u30b9\u30b7\u30ed\u30fc\u304c\u4e16\u754c\u4e09\u5927\u7f8e\u98df\u3068\u3044\u3046\u4fe1\u5ff5\u306b\u4e00\u70b9\u306e\u63fa\u3089\u304e\u306a\u3057",
+            "timestamp": "2011-05-20 12:20:06 +0000",
+            "tweet_id": "71550763842813954"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "71555624604938241",
+            "in_reply_to_user_id": "5310852",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@tanakh \u6bd4\u8f03\u30d9\u30fc\u30b9\u306e\u30bd\u30fc\u30c8\u3068\u3057\u3066\u306f\u3001O(nlogn)\u306f\u8a08\u7b97\u91cf\u7684\u4e0b\u9650\u306a\u306e\u3067\u3001\u30aa\u30fc\u30c0\u30fc\u3068\u3057\u3066\u306f\u3053\u308c\u4ee5\u4e0a\u306e\u6539\u5584\u306f\u3067\u304d\u306a\u3044\u3067\u3059\u3088\u306d\u3002",
+            "timestamp": "2011-05-20 13:21:19 +0000",
+            "tweet_id": "71566171308167168"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "71556523159068672",
+            "retweeted_status_timestamp": "2011-05-20 12:42:59 +0000",
+            "retweeted_status_user_id": "138904193",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "RT @f_nisihara: \u30b5\u30e2\u30a2\u72ec\u7acb\u56fd\u306f12\u670829\u65e5\u3088\u308a\u4e01\u5ea624\u6642\u9593\u5206\u3001\u6642\u9593\u5e2f\u3092\u5909\u66f4\u306e\u4e88\u5b9a\u3002UTC -11\uff08\u65e5\u672c\u3088\u308a20\u6642\u9593\u9045\u3044\uff09\u304b\u3089UTC +13\uff08\u65e5\u672c\u3088\u308a4\u6642\u9593\u65e9\u3044\uff09\u306b\u3002\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u66f8\u304f\u4eba\u3084\u793e\u4f1a\u79d1\u95a2\u4fc2\u8005\u306f\u8981\u6ce8\u610f\u3002 http://www.bbc.co.uk/new ...",
+            "timestamp": "2011-05-20 13:21:52 +0000",
+            "tweet_id": "71566308499668993"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "bio \u306b\u4f1a\u793e\u540d\u3092\u66f8\u3044\u3066\u306a\u3044 Twitter \u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u81ea\u7531\u5ea6\u3063\u3066\u3069\u308c\u3050\u3089\u3044\u306a\u3093\u3060\u308d\u3046\u306a\u3041\u3002\u4f8b\u3048\u3070\u3001\u793e\u54e1\u3060\u3068\u540d\u8a00\u3057\u3066\u3044\u306a\u3044\u30b0\u30fc\u30b0\u30eb\u793e\u54e1\u3067\u3082\u300c\u30a2\u30f3\u30c9\u30ed\u30a4\u30c9\u3063\u3066\u7cde\u3060\u3088\u306d\u300d\u3068\u304b\u306f\u66f8\u304d\u306b\u304f\u305d\u3046\u3002",
+            "timestamp": "2011-05-20 13:25:59 +0000",
+            "tweet_id": "71567345444859904"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "71662826078486528",
+            "in_reply_to_user_id": "7229862",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@niam \u6a2a\u30ec\u30b9\u3067\u3059\u304c\u3001\u300c\u6383\u9664\u3068\u3044\u3046\u884c\u70ba\u3092\u5b8c\u4e86\u3057\u3066\u3044\u308b-&gt;\u7dba\u9e97\u3067\u3042\u308b\u300d\u306e\u5bfe\u5076\u306a\u306e\u3067\u3001\u300c\u6c5a\u3044-&gt;\u6383\u9664\u3092\u3057\u3066\u3044\u306a\u3044\u300d\u3067\u3059\u3088\u306d\u3002",
+            "timestamp": "2011-05-20 23:13:18 +0000",
+            "tweet_id": "71715147512680451"
         }
     ]
 }

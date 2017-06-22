@@ -8,46 +8,10 @@
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u30c6\u30ec\u30d3\u3067\u300c\u624b\u304c\u30ab\u30d4\u30ab\u30d4\u306b\u306a\u308b\u300d\u3068\u3044\u3046\u306e\u3092\u7121\u96e3\u306a\u6587\u8108\u3067\u8a00\u3063\u3066\u3044\u305f\u306e\u3060\u304c\u3001\u59bb\u306b\u610f\u5473\u3092\u805e\u304b\u308c\u3066\u3042\u307e\u308a\u7121\u96e3\u3058\u3083\u306a\u3044\u4f7f\u3044\u65b9\u304c\u771f\u3063\u5148\u306b\u601d\u3044\u6d6e\u304b\u3093\u3060\u3002",
-            "timestamp": "2012-01-17 23:18:12 +0000",
-            "tweet_id": "159414244373299200"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "7229862",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@niam \u500b\u4eba\u306e\u8a9e\u5f59\u6570\u306f\u3082\u3061\u308d\u3093\u5927\u304d\u304f\u5897\u3048\u306a\u3044\u3057\u3001\u56fa\u6709\u540d\u8a5e\u3092\u6570\u3048\u51fa\u3057\u305f\u3089\u304d\u308a\u304c\u306a\u3044\u3068\u3044\u3046\u306e\u3082\u6614\u304b\u3089\u5909\u308f\u3089\u306a\u3044\u3068\u601d\u3044\u307e\u3059\u3002\u5909\u308f\u3063\u305f\u306e\u306f\u3001\u6614\u306a\u3089\u66f8\u7c4d\u306e\u5c71\u306b\u57cb\u3082\u308c\u3066\u3044\u305f\u305d\u308c\u3089\u306e\u56fa\u6709\u540d\u8a5e\u304c\u4eca\u306f\u30a6\u30a7\u30d6\u30da\u30fc\u30b8\u306a\u3069\u306e\u5f62\u3067\u30de\u30a4\u30cb\u30f3\u30b0\u53ef\u80fd\u306b\u306a\u3063\u3066\u304d\u305f\u3068\u3044\u3046\u3068\u3053\u308d\u3067\u306f\u306a\u3044\u3067\u3057\u3087\u3046\u304b\u3002",
-            "timestamp": "2012-01-17 23:05:17 +0000",
-            "tweet_id": "159410993389256705"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "159402418059231233",
-            "in_reply_to_user_id": "7229862",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@niam @sleepy_yoshi @y_shindoh \"\u30d2\u30fc\u30d7\u306e\u6cd5\u5247\"\u3092\u5f15\u7528\u7b26\u3067\u304f\u304f\u3063\u3066\u691c\u7d22\u3059\u308b\u3068\u78ba\u304b\u306b\u4f55\u304b\u5927\u304d\u306a\u6570\u5b57\u304c\u51fa\u3066\u304f\u308b\u306e\u3067\u3059\u304c\u30012\u30da\u30fc\u30b8\u76ee\u306b\u884c\u304f\u3068\u3057\u308c\u3063\u306813\u4ef6\u306b\u306a\u3063\u3066\u307e\u3059\u3002\u91cd\u8907\u3092\u5165\u308c\u3066\u3082\u6700\u7d42\u30da\u30fc\u30b8\u3067\u306f39\u4ef6\u3002\u5b9a\u8a33\u304c\u306a\u3044\u72b6\u614b\u306e\u3088\u3046\u3067\u3059\u3002",
-            "timestamp": "2012-01-17 23:01:26 +0000",
-            "tweet_id": "159410027323600896"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "159091306730225667",
-            "in_reply_to_user_id": "333348235",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@doubleko712 \u3053\u3061\u3089\u304b\u3089\u306f\u597d\u304d\u3082\u5acc\u3044\u3082\u7279\u306b\u306a\u3044\u306e\u3067\u3059\u304c\u3001\u3069\u3046\u3082\u5408\u308f\u306a\u3044\u3093\u3067\u3059\u3088\u3002\u75b2\u308c\u307e\u3059\u3002",
-            "timestamp": "2012-01-17 14:47:04 +0000",
-            "tweet_id": "159285612627771393"
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "\u51fa\u52e4\u3002\u3086\u3063\u304f\u308a\u4f11\u3081\u305f\u3002",
+            "timestamp": "2012-01-17 00:11:43 +0000",
+            "tweet_id": "159065324182962177"
         },
         {
             "expanded_urls": "",
@@ -63,15 +27,51 @@
         },
         {
             "expanded_urls": "",
+            "in_reply_to_status_id": "159091306730225667",
+            "in_reply_to_user_id": "333348235",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@doubleko712 \u3053\u3061\u3089\u304b\u3089\u306f\u597d\u304d\u3082\u5acc\u3044\u3082\u7279\u306b\u306a\u3044\u306e\u3067\u3059\u304c\u3001\u3069\u3046\u3082\u5408\u308f\u306a\u3044\u3093\u3067\u3059\u3088\u3002\u75b2\u308c\u307e\u3059\u3002",
+            "timestamp": "2012-01-17 14:47:04 +0000",
+            "tweet_id": "159285612627771393"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "159402418059231233",
+            "in_reply_to_user_id": "7229862",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@niam @sleepy_yoshi @y_shindoh \"\u30d2\u30fc\u30d7\u306e\u6cd5\u5247\"\u3092\u5f15\u7528\u7b26\u3067\u304f\u304f\u3063\u3066\u691c\u7d22\u3059\u308b\u3068\u78ba\u304b\u306b\u4f55\u304b\u5927\u304d\u306a\u6570\u5b57\u304c\u51fa\u3066\u304f\u308b\u306e\u3067\u3059\u304c\u30012\u30da\u30fc\u30b8\u76ee\u306b\u884c\u304f\u3068\u3057\u308c\u3063\u306813\u4ef6\u306b\u306a\u3063\u3066\u307e\u3059\u3002\u91cd\u8907\u3092\u5165\u308c\u3066\u3082\u6700\u7d42\u30da\u30fc\u30b8\u3067\u306f39\u4ef6\u3002\u5b9a\u8a33\u304c\u306a\u3044\u72b6\u614b\u306e\u3088\u3046\u3067\u3059\u3002",
+            "timestamp": "2012-01-17 23:01:26 +0000",
+            "tweet_id": "159410027323600896"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "7229862",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@niam \u500b\u4eba\u306e\u8a9e\u5f59\u6570\u306f\u3082\u3061\u308d\u3093\u5927\u304d\u304f\u5897\u3048\u306a\u3044\u3057\u3001\u56fa\u6709\u540d\u8a5e\u3092\u6570\u3048\u51fa\u3057\u305f\u3089\u304d\u308a\u304c\u306a\u3044\u3068\u3044\u3046\u306e\u3082\u6614\u304b\u3089\u5909\u308f\u3089\u306a\u3044\u3068\u601d\u3044\u307e\u3059\u3002\u5909\u308f\u3063\u305f\u306e\u306f\u3001\u6614\u306a\u3089\u66f8\u7c4d\u306e\u5c71\u306b\u57cb\u3082\u308c\u3066\u3044\u305f\u305d\u308c\u3089\u306e\u56fa\u6709\u540d\u8a5e\u304c\u4eca\u306f\u30a6\u30a7\u30d6\u30da\u30fc\u30b8\u306a\u3069\u306e\u5f62\u3067\u30de\u30a4\u30cb\u30f3\u30b0\u53ef\u80fd\u306b\u306a\u3063\u3066\u304d\u305f\u3068\u3044\u3046\u3068\u3053\u308d\u3067\u306f\u306a\u3044\u3067\u3057\u3087\u3046\u304b\u3002",
+            "timestamp": "2012-01-17 23:05:17 +0000",
+            "tweet_id": "159410993389256705"
+        },
+        {
+            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-            "text": "\u51fa\u52e4\u3002\u3086\u3063\u304f\u308a\u4f11\u3081\u305f\u3002",
-            "timestamp": "2012-01-17 00:11:43 +0000",
-            "tweet_id": "159065324182962177"
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u30c6\u30ec\u30d3\u3067\u300c\u624b\u304c\u30ab\u30d4\u30ab\u30d4\u306b\u306a\u308b\u300d\u3068\u3044\u3046\u306e\u3092\u7121\u96e3\u306a\u6587\u8108\u3067\u8a00\u3063\u3066\u3044\u305f\u306e\u3060\u304c\u3001\u59bb\u306b\u610f\u5473\u3092\u805e\u304b\u308c\u3066\u3042\u307e\u308a\u7121\u96e3\u3058\u3083\u306a\u3044\u4f7f\u3044\u65b9\u304c\u771f\u3063\u5148\u306b\u601d\u3044\u6d6e\u304b\u3093\u3060\u3002",
+            "timestamp": "2012-01-17 23:18:12 +0000",
+            "tweet_id": "159414244373299200"
         }
     ]
 }

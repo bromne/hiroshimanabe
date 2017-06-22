@@ -3,99 +3,63 @@
     "items": [
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "86840217411133440",
-            "in_reply_to_user_id": "15415471",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "@sumita12 \u958b\u767a\u7248\u3067\u306f\u76f4\u3063\u3066\u308b\u3002\u5b89\u5b9a\u7248\u306a\u304b\u306a\u304b\u51fa\u306a\u3044\u304b\u3089\u306d\u3047\u2026\u3002\u3061\u306a\u307f\u306b\u65e2\u5b58\u306f\u304d\u305e\u3093\u3067\u3082\u304d\u305d\u3093\u3067\u3082\u3044\u3044\u306f\u305a\u3002",
-            "timestamp": "2011-07-01 16:56:26 +0000",
-            "tweet_id": "86840595858984960"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "86838319832506368",
-            "in_reply_to_user_id": "15415471",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "@sumita12 \u5b89\u5b9a\u7248\uff1f\uff1c\u304d\u305e\u3093",
-            "timestamp": "2011-07-01 16:53:54 +0000",
-            "tweet_id": "86839961113997312"
-        },
-        {
-            "expanded_urls": "",
             "in_reply_to_status_id": "",
             "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "\u300c\u6307\u8f2a\u4ea4\u63db\u3060\u3093\u3002\u8a93\u3044\u306e\u30ad\u30b9\u306a\u3046\u300d\u307f\u305f\u3044\u306a\u30c4\u30a4\u30fc\u30c8\u3001\u3042\u308a\u305d\u3046\u3067\u306a\u3044\u306a",
-            "timestamp": "2011-07-01 16:52:32 +0000",
-            "tweet_id": "86839614156967936"
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "C++ \u306e\u30c7\u30d0\u30c3\u30ac\u306b\u306f\u300c\u30b9\u30c6\u30c3\u30d7\u30a4\u30f3\u300d\u300c\u30b9\u30c6\u30c3\u30d7\u30aa\u30fc\u30d0\u30fc\u300d\u306b\u52a0\u3048\u3066\u300c\u30b3\u30f3\u30b9\u30c8\u30e9\u30af\u30bf\u3068\u304b\u30aa\u30da\u30ec\u30fc\u30bf\u30fc\u3068\u304b\u3044\u3044\u304b\u3089\u305d\u3053\u3067\u95a2\u6570\u3063\u307d\u304f\u898b\u3048\u3066\u308b\u3084\u3064\u306b\u3068\u3063\u3068\u3068\u5165\u308a\u3084\u304c\u308c\u30b3\u30ce\u30e4\u30ed\u30a6\u300d\u6a5f\u80fd\u304c\u5fc5\u8981\u3060\u3068\u601d\u3046",
+            "timestamp": "2011-07-01 00:22:05 +0000",
+            "tweet_id": "86590359072808960"
         },
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "\u305d\u3046\u3044\u3048\u3070\u3001atan() \u306e\u5f15\u6570\u304c (y, x) \u3068\u3044\u3046\u306e\u3082\u7f60\u3060\u306a\u3041",
-            "timestamp": "2011-07-01 16:24:34 +0000",
-            "tweet_id": "86832576710451201"
-        },
-        {
-            "expanded_urls": "https://developer.mozilla.org/ja/JavaScript/Reference/Global_Objects/Math/atan2",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "http://t.co/4vIsypM MDN \u306e Math.atan() \u306b\u3064\u3044\u3066\u306e\u8aac\u660e\u3067\u3001\u300c\u6b63\u306e X \u8ef8\u304b\u3089 (x,y) \u5ea7\u6a19\u307e\u3067\u3092\u30e9\u30b8\u30a2\u30f3\u5358\u4f4d\u3067\u8868\u3057\u305f\u300e\u9006\u6642\u8a08\u56de\u308a\u300f\u306e\u89d2\u5ea6\u300d\u3068\u3042\u308b\u304c\u3001\u30d6\u30e9\u30a6\u30b6\u3067\u306f y \u8ef8\u306e\u5897\u52a0\u65b9\u5411\u304c\u9006\u306a\u306e\u3067\u300c\u6642\u8a08\u56de\u308a\u300d\u306b\u306a\u308b\u3002",
-            "timestamp": "2011-07-01 15:38:15 +0000",
-            "tweet_id": "86820923298168832"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "86817597403824129",
+            "in_reply_to_status_id": "86634445469261824",
             "in_reply_to_user_id": "5373072",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "@nokuno \u305d\u3046\u3044\u3048\u3070\u30e9\u30a4\u30c8\u30ce\u30d9\u30eb\u3067\u3057\u305f\u3002\u30cf\u30eb\u30d2\u306f\u7279\u306b\u96e3\u3057\u3044\u6c17\u304c\u3057\u307e\u3059\u306d\u3002\u3002",
-            "timestamp": "2011-07-01 15:28:33 +0000",
-            "tweet_id": "86818479973466113"
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@nokuno \u3061\u3087\u3063\u3068\u8003\u3048\u3066\u307f\u305f\u306e\u3067\u3059\u304c\u3001\u305d\u308c\u3092\u3084\u308d\u3046\u3068\u3059\u308b\u3068\u307e\u305a\u30d0\u30b0\u3063\u307d\u3044\u3068\u3053\u308d\u3092\u898b\u3064\u3051\u308b\u3053\u3068\u306b\u306a\u308b\u306e\u3067\u3001\u305d\u306e\u7b87\u6240\u3092\u76f4\u63a5\u4eba\u9593\u306b\u63d0\u793a\u3057\u305f\u307b\u3046\u304c\u65e9\u305d\u3046\u3067\u3059\u306d\uff5e",
+            "timestamp": "2011-07-01 03:23:31 +0000",
+            "tweet_id": "86636018673004545"
         },
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "86815798382956544",
-            "in_reply_to_user_id": "5373072",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "@nokuno \u8ad6\u6587\u3082\u3001\u4f55\u306b\u3064\u3044\u3066\u6271\u3063\u3066\u3044\u308b\u304b\u304c\u308f\u304b\u308b\u3068\u52a9\u304b\u308a\u307e\u3059\u306d\u3002\u305d\u3046\u8003\u3048\u308b\u3068\u3001\u79c1\u3082\u300cSF\u5c0f\u8aac\u300d\u304f\u3089\u3044\u306b\u7b54\u3048\u3066\u304a\u3044\u305f\u307b\u3046\u304c\u3088\u304b\u3063\u305f\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002",
-            "timestamp": "2011-07-01 15:22:41 +0000",
-            "tweet_id": "86817002383089664"
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "86723039814881280",
+            "retweeted_status_timestamp": "2011-07-01 09:09:18 +0000",
+            "retweeted_status_user_id": "5159931",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "RT @ssig33: \u305d\u3046\u3044\u3048\u3070\u305a\u3063\u3068\u671d\u304b\u3089\u66f8\u3053\u3046\u66f8\u3053\u3046\u3068\u601d\u3063\u3066\u305f\u3093\u3060\u3051\u3069\u3001\u4eca\u65e5\u75c5\u9662\u3067\u9806\u756a\u5f85\u3063\u3066\u305f\u3089\u300c\u30df\u30ad\u3055\u3093\u3001\u30df\u30ad\u30b5\u30e4\u30ab\u3055\u3093\u3001\u5185\u79d15\u756a\u8a3a\u7642\u5ba4\u307e\u3067\u304a\u3053\u3057\u304f\u3060\u3055\u3044\u300d\u3063\u3066\u3044\u3046\u30a2\u30ca\u30a6\u30f3\u30b9\u6d41\u308c\u3066\u4f55\u4e8b\u304b\u3068\u601d\u3063\u305f",
+            "timestamp": "2011-07-01 11:02:09 +0000",
+            "tweet_id": "86751439145279488"
         },
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "86815201810325504",
-            "in_reply_to_user_id": "5373072",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "@nokuno \u30cb\u30e5\u30fc\u30b9\u306f\u3044\u3044\u3068\u601d\u3044\u307e\u3059\u3088\u3002\u76ee\u7684\u304c\u60c5\u5831\u53ce\u96c6\u306a\u306e\u3067\u3002\u5c0f\u8aac\u306f\u81ea\u5206\u306b\u3068\u3063\u3066\u306f\u9451\u8cde\u5bfe\u8c61\u306a\u306e\u3067\u3001\u8981\u7d04\u3092\u3057\u3066\u3082\u3057\u304b\u305f\u304c\u306a\u3044\u3088\u3046\u306b\u601d\u3048\u307e\u3059\u3002",
-            "timestamp": "2011-07-01 15:20:30 +0000",
-            "tweet_id": "86816455085137921"
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "\u81ea\u5206\u306f\u4ed5\u4e8b\u306e\u30ad\u30ea\u306e\u826f\u3055\u3068\u304b\u304c\u3042\u307e\u308a\u6c17\u306b\u306a\u3089\u306a\u3044\u307b\u3046\u3067\u3001for \u6587\u306e\u30ab\u30c3\u30b3\u306e\u4e2d\u3092\u66f8\u3044\u3066\u308b\u9014\u4e2d\u3067\u5e30\u3063\u305f\u308a\u3082\u3067\u304d\u308b\u306e\u3060\u304c\u3001git \u306e\u64cd\u4f5c\u3092\u9593\u9055\u3048\u3066\u3072\u3069\u3044\u3053\u3068\u306b\u306a\u3063\u3066\u308b\u6700\u4e2d\u306b\u306f\u3055\u3059\u304c\u306b\u5e30\u308c\u306a\u3044",
+            "timestamp": "2011-07-01 11:07:03 +0000",
+            "tweet_id": "86752673759625217"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "86750305135505409",
+            "in_reply_to_user_id": "173468827",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+            "text": "@shitake96 \u304a\u3063\u3001\u90fd\u5185\u304b\u3002\u3088\u304b\u3063\u305f\u306a\u3041\u3002",
+            "timestamp": "2011-07-01 11:17:59 +0000",
+            "tweet_id": "86755422563872769"
         },
         {
             "expanded_urls": "",
@@ -105,9 +69,9 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "\u3069\u3046\u3082\u8981\u7d04\u3068\u3044\u3046\u3082\u306e\u304c\u82e6\u624b\u3060\u3002\u306a\u3093\u3067\u8981\u7d04\u306a\u3093\u3066\u6c42\u3081\u308b\u3093\u3060\u308d\u3046\u3002\u3069\u3046\u305b\u8aad\u3081\u3070\u308f\u304b\u308b\u3057\u8aad\u307e\u306a\u3044\u3068\u308f\u304b\u3089\u306a\u3044\u306e\u306b\u3002",
-            "timestamp": "2011-07-01 15:02:18 +0000",
-            "tweet_id": "86811875450421248"
+            "text": "GoogleIME \u306a\u3089\u3001\u300c\u3060\u307e\u308c\u300d\u3068\u5165\u529b\u3059\u308b\u3060\u3051\u3067\u300c\u9ed9\u308c\u5c0f\u50e7\u300d\u3092\u30b5\u30b8\u30a7\u30b9\u30c8\u3057\u3066\u304f\u308c\u307e\u3059",
+            "timestamp": "2011-07-01 14:43:54 +0000",
+            "tweet_id": "86807244838158337"
         },
         {
             "expanded_urls": "",
@@ -129,57 +93,57 @@
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
             "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
-            "text": "GoogleIME \u306a\u3089\u3001\u300c\u3060\u307e\u308c\u300d\u3068\u5165\u529b\u3059\u308b\u3060\u3051\u3067\u300c\u9ed9\u308c\u5c0f\u50e7\u300d\u3092\u30b5\u30b8\u30a7\u30b9\u30c8\u3057\u3066\u304f\u308c\u307e\u3059",
-            "timestamp": "2011-07-01 14:43:54 +0000",
-            "tweet_id": "86807244838158337"
+            "text": "\u3069\u3046\u3082\u8981\u7d04\u3068\u3044\u3046\u3082\u306e\u304c\u82e6\u624b\u3060\u3002\u306a\u3093\u3067\u8981\u7d04\u306a\u3093\u3066\u6c42\u3081\u308b\u3093\u3060\u308d\u3046\u3002\u3069\u3046\u305b\u8aad\u3081\u3070\u308f\u304b\u308b\u3057\u8aad\u307e\u306a\u3044\u3068\u308f\u304b\u3089\u306a\u3044\u306e\u306b\u3002",
+            "timestamp": "2011-07-01 15:02:18 +0000",
+            "tweet_id": "86811875450421248"
         },
         {
             "expanded_urls": "",
-            "in_reply_to_status_id": "86750305135505409",
-            "in_reply_to_user_id": "173468827",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@shitake96 \u304a\u3063\u3001\u90fd\u5185\u304b\u3002\u3088\u304b\u3063\u305f\u306a\u3041\u3002",
-            "timestamp": "2011-07-01 11:17:59 +0000",
-            "tweet_id": "86755422563872769"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "",
-            "retweeted_status_timestamp": "",
-            "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "\u81ea\u5206\u306f\u4ed5\u4e8b\u306e\u30ad\u30ea\u306e\u826f\u3055\u3068\u304b\u304c\u3042\u307e\u308a\u6c17\u306b\u306a\u3089\u306a\u3044\u307b\u3046\u3067\u3001for \u6587\u306e\u30ab\u30c3\u30b3\u306e\u4e2d\u3092\u66f8\u3044\u3066\u308b\u9014\u4e2d\u3067\u5e30\u3063\u305f\u308a\u3082\u3067\u304d\u308b\u306e\u3060\u304c\u3001git \u306e\u64cd\u4f5c\u3092\u9593\u9055\u3048\u3066\u3072\u3069\u3044\u3053\u3068\u306b\u306a\u3063\u3066\u308b\u6700\u4e2d\u306b\u306f\u3055\u3059\u304c\u306b\u5e30\u308c\u306a\u3044",
-            "timestamp": "2011-07-01 11:07:03 +0000",
-            "tweet_id": "86752673759625217"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "",
-            "in_reply_to_user_id": "",
-            "retweeted_status_id": "86723039814881280",
-            "retweeted_status_timestamp": "2011-07-01 09:09:18 +0000",
-            "retweeted_status_user_id": "5159931",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "RT @ssig33: \u305d\u3046\u3044\u3048\u3070\u305a\u3063\u3068\u671d\u304b\u3089\u66f8\u3053\u3046\u66f8\u3053\u3046\u3068\u601d\u3063\u3066\u305f\u3093\u3060\u3051\u3069\u3001\u4eca\u65e5\u75c5\u9662\u3067\u9806\u756a\u5f85\u3063\u3066\u305f\u3089\u300c\u30df\u30ad\u3055\u3093\u3001\u30df\u30ad\u30b5\u30e4\u30ab\u3055\u3093\u3001\u5185\u79d15\u756a\u8a3a\u7642\u5ba4\u307e\u3067\u304a\u3053\u3057\u304f\u3060\u3055\u3044\u300d\u3063\u3066\u3044\u3046\u30a2\u30ca\u30a6\u30f3\u30b9\u6d41\u308c\u3066\u4f55\u4e8b\u304b\u3068\u601d\u3063\u305f",
-            "timestamp": "2011-07-01 11:02:09 +0000",
-            "tweet_id": "86751439145279488"
-        },
-        {
-            "expanded_urls": "",
-            "in_reply_to_status_id": "86634445469261824",
+            "in_reply_to_status_id": "86815201810325504",
             "in_reply_to_user_id": "5373072",
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "@nokuno \u3061\u3087\u3063\u3068\u8003\u3048\u3066\u307f\u305f\u306e\u3067\u3059\u304c\u3001\u305d\u308c\u3092\u3084\u308d\u3046\u3068\u3059\u308b\u3068\u307e\u305a\u30d0\u30b0\u3063\u307d\u3044\u3068\u3053\u308d\u3092\u898b\u3064\u3051\u308b\u3053\u3068\u306b\u306a\u308b\u306e\u3067\u3001\u305d\u306e\u7b87\u6240\u3092\u76f4\u63a5\u4eba\u9593\u306b\u63d0\u793a\u3057\u305f\u307b\u3046\u304c\u65e9\u305d\u3046\u3067\u3059\u306d\uff5e",
-            "timestamp": "2011-07-01 03:23:31 +0000",
-            "tweet_id": "86636018673004545"
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "@nokuno \u30cb\u30e5\u30fc\u30b9\u306f\u3044\u3044\u3068\u601d\u3044\u307e\u3059\u3088\u3002\u76ee\u7684\u304c\u60c5\u5831\u53ce\u96c6\u306a\u306e\u3067\u3002\u5c0f\u8aac\u306f\u81ea\u5206\u306b\u3068\u3063\u3066\u306f\u9451\u8cde\u5bfe\u8c61\u306a\u306e\u3067\u3001\u8981\u7d04\u3092\u3057\u3066\u3082\u3057\u304b\u305f\u304c\u306a\u3044\u3088\u3046\u306b\u601d\u3048\u307e\u3059\u3002",
+            "timestamp": "2011-07-01 15:20:30 +0000",
+            "tweet_id": "86816455085137921"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "86815798382956544",
+            "in_reply_to_user_id": "5373072",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "@nokuno \u8ad6\u6587\u3082\u3001\u4f55\u306b\u3064\u3044\u3066\u6271\u3063\u3066\u3044\u308b\u304b\u304c\u308f\u304b\u308b\u3068\u52a9\u304b\u308a\u307e\u3059\u306d\u3002\u305d\u3046\u8003\u3048\u308b\u3068\u3001\u79c1\u3082\u300cSF\u5c0f\u8aac\u300d\u304f\u3089\u3044\u306b\u7b54\u3048\u3066\u304a\u3044\u305f\u307b\u3046\u304c\u3088\u304b\u3063\u305f\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002",
+            "timestamp": "2011-07-01 15:22:41 +0000",
+            "tweet_id": "86817002383089664"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "86817597403824129",
+            "in_reply_to_user_id": "5373072",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "@nokuno \u305d\u3046\u3044\u3048\u3070\u30e9\u30a4\u30c8\u30ce\u30d9\u30eb\u3067\u3057\u305f\u3002\u30cf\u30eb\u30d2\u306f\u7279\u306b\u96e3\u3057\u3044\u6c17\u304c\u3057\u307e\u3059\u306d\u3002\u3002",
+            "timestamp": "2011-07-01 15:28:33 +0000",
+            "tweet_id": "86818479973466113"
+        },
+        {
+            "expanded_urls": "https://developer.mozilla.org/ja/JavaScript/Reference/Global_Objects/Math/atan2",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "http://t.co/4vIsypM MDN \u306e Math.atan() \u306b\u3064\u3044\u3066\u306e\u8aac\u660e\u3067\u3001\u300c\u6b63\u306e X \u8ef8\u304b\u3089 (x,y) \u5ea7\u6a19\u307e\u3067\u3092\u30e9\u30b8\u30a2\u30f3\u5358\u4f4d\u3067\u8868\u3057\u305f\u300e\u9006\u6642\u8a08\u56de\u308a\u300f\u306e\u89d2\u5ea6\u300d\u3068\u3042\u308b\u304c\u3001\u30d6\u30e9\u30a6\u30b6\u3067\u306f y \u8ef8\u306e\u5897\u52a0\u65b9\u5411\u304c\u9006\u306a\u306e\u3067\u300c\u6642\u8a08\u56de\u308a\u300d\u306b\u306a\u308b\u3002",
+            "timestamp": "2011-07-01 15:38:15 +0000",
+            "tweet_id": "86820923298168832"
         },
         {
             "expanded_urls": "",
@@ -188,10 +152,46 @@
             "retweeted_status_id": "",
             "retweeted_status_timestamp": "",
             "retweeted_status_user_id": "",
-            "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
-            "text": "C++ \u306e\u30c7\u30d0\u30c3\u30ac\u306b\u306f\u300c\u30b9\u30c6\u30c3\u30d7\u30a4\u30f3\u300d\u300c\u30b9\u30c6\u30c3\u30d7\u30aa\u30fc\u30d0\u30fc\u300d\u306b\u52a0\u3048\u3066\u300c\u30b3\u30f3\u30b9\u30c8\u30e9\u30af\u30bf\u3068\u304b\u30aa\u30da\u30ec\u30fc\u30bf\u30fc\u3068\u304b\u3044\u3044\u304b\u3089\u305d\u3053\u3067\u95a2\u6570\u3063\u307d\u304f\u898b\u3048\u3066\u308b\u3084\u3064\u306b\u3068\u3063\u3068\u3068\u5165\u308a\u3084\u304c\u308c\u30b3\u30ce\u30e4\u30ed\u30a6\u300d\u6a5f\u80fd\u304c\u5fc5\u8981\u3060\u3068\u601d\u3046",
-            "timestamp": "2011-07-01 00:22:05 +0000",
-            "tweet_id": "86590359072808960"
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "\u305d\u3046\u3044\u3048\u3070\u3001atan() \u306e\u5f15\u6570\u304c (y, x) \u3068\u3044\u3046\u306e\u3082\u7f60\u3060\u306a\u3041",
+            "timestamp": "2011-07-01 16:24:34 +0000",
+            "tweet_id": "86832576710451201"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "",
+            "in_reply_to_user_id": "",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "\u300c\u6307\u8f2a\u4ea4\u63db\u3060\u3093\u3002\u8a93\u3044\u306e\u30ad\u30b9\u306a\u3046\u300d\u307f\u305f\u3044\u306a\u30c4\u30a4\u30fc\u30c8\u3001\u3042\u308a\u305d\u3046\u3067\u306a\u3044\u306a",
+            "timestamp": "2011-07-01 16:52:32 +0000",
+            "tweet_id": "86839614156967936"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "86838319832506368",
+            "in_reply_to_user_id": "15415471",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "@sumita12 \u5b89\u5b9a\u7248\uff1f\uff1c\u304d\u305e\u3093",
+            "timestamp": "2011-07-01 16:53:54 +0000",
+            "tweet_id": "86839961113997312"
+        },
+        {
+            "expanded_urls": "",
+            "in_reply_to_status_id": "86840217411133440",
+            "in_reply_to_user_id": "15415471",
+            "retweeted_status_id": "",
+            "retweeted_status_timestamp": "",
+            "retweeted_status_user_id": "",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "text": "@sumita12 \u958b\u767a\u7248\u3067\u306f\u76f4\u3063\u3066\u308b\u3002\u5b89\u5b9a\u7248\u306a\u304b\u306a\u304b\u51fa\u306a\u3044\u304b\u3089\u306d\u3047\u2026\u3002\u3061\u306a\u307f\u306b\u65e2\u5b58\u306f\u304d\u305e\u3093\u3067\u3082\u304d\u305d\u3093\u3067\u3082\u3044\u3044\u306f\u305a\u3002",
+            "timestamp": "2011-07-01 16:56:26 +0000",
+            "tweet_id": "86840595858984960"
         }
     ]
 }
