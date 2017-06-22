@@ -25,8 +25,7 @@ export class TweetService {
         json.items
 
         let tweets = Array.from(json.items)
-                .map(item => TweetService.fromJson(request.userName, item))
-                .reverse();
+                .map(item => TweetService.fromJson(request.userName, item));
         let result = new TweetResult(request, tweets);
         return Promise.resolve(result);
     }
