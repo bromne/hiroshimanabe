@@ -524,7 +524,7 @@ var TweetService = TweetService_1 = (function () {
         var year = request.date.year();
         var month = ("0" + request.date.monthValue()).slice(-2);
         var dayOfMonth = ("0" + request.date.dayOfMonth()).slice(-2);
-        return this.http.get("/data/tweets/" + year + "-" + month + "-" + dayOfMonth + ".json")
+        return this.http.get("data/tweets/" + year + "-" + month + "-" + dayOfMonth + ".json")
             .toPromise()
             .then(function (response) { return _this.handleData(request, response); })
             .catch(this.handleFailure);
