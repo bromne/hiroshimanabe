@@ -124,7 +124,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var appRoutes = [
     { path: "tweets/:date", component: __WEBPACK_IMPORTED_MODULE_8_app_main_component__["a" /* MainComponent */] },
     { path: "tweets", component: __WEBPACK_IMPORTED_MODULE_8_app_main_component__["a" /* MainComponent */] },
-    { path: "", redirectTo: "/tweets", pathMatch: 'full' },
+    { path: "", redirectTo: "tweets", pathMatch: 'full' },
 ];
 var AppModule = (function () {
     function AppModule() {
