@@ -712,7 +712,7 @@ var Dates = (function () {
 // The file contents for the current environment will overwrite these during build.
 var environment = {
     production: false,
-    baseHref: "/",
+    baseHref: "/hiroshimanabe/",
 };
 //# sourceMappingURL=environment.js.map
 
