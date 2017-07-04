@@ -19,6 +19,8 @@
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "graceful-fs": "^4.1.11",
     "html-webpack-plugin": "^2.29.0",
     "source-map-loader": "^0.2.1",
     "typescript": "^2.4.1",
@@ -28,7 +30,7 @@
   "scripts": {
     "production": "webpack -p",
     "develop": "webpack -d",
-    "watch": "webpack -d --watch",
+    "watch": "webpack -d --watch --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
