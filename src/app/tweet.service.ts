@@ -1,41 +1,32 @@
-import {Http, Response} from '@angular/http';
-import {Injectable} from '@angular/core';
-import 'rxjs/add/operator/toPromise';
 import { DateTime } from 'date-time-js';
-import { Tweet } from "app/tweet";
+import { Tweet } from "./tweet";
 import { LocalDate } from "js-joda/dist/js-joda";
 
-@Injectable()
 export class TweetService {
-    constructor(private http: Http){
+    constructor(){
     }
 
     findTweetsByDate(request: RequestProfile): Promise<TweetResult> {
         let year = request.date.year();
         let month = ("0" + request.date.monthValue()).slice(-2);
         let dayOfMonth = ("0" + request.date.dayOfMonth()).slice(-2);
-        return this.http.get("data/tweets/" + year + "-" + month + "-" + dayOfMonth + ".json")
-            .toPromise()
-            .then(response => this.handleData(request, response))
-            .catch(this.handleFailure);
+
+        let url = "data/tweets/" + year + "-" + month + "-" + dayOfMonth + ".json";
+        return fetch(url)
+            .then(response => response.json())
+            .then(data => this.handleData(request, data));
     }
 
-    handleData(request: RequestProfile, response: Response): Promise<TweetResult> {
-        let json = response.json();
-
-        let tweets = Array.from(json.items)
+    handleData(request: RequestProfile, data: any): Promise<TweetResult> {
+        let tweets = Array.from(data.items)
                 .map(item => TweetService.fromJson(request.userName, item));
         let result = new TweetResult(request, tweets);
         return Promise.resolve(result);
     }
 
-    handleFailure(error: any): Promise<string> {
-        return Promise.reject(error.toString());
-    }
-
     static fromJson(userName: string, node: any): Tweet {
         let identity = (x: string) => x;
-
+        
         let tweet_id = node.tweet_id;
         let timestamp = TweetService.parseDate(node.timestamp);
         let in_reply_to_status_id = TweetService.nullIfEmpty(node.in_reply_to_status_id, identity);
