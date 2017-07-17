@@ -1,22 +1,28 @@
-// import 'materialize-css/dist/js/materialize.min.js';
-// import 'materialize-css/dist/css/materialize.min.css';
-
-const path = require('path');
-
-// CopyWebpackPlugin のファイル数制限を回避します
-var fs = require('fs');
-var gracefulFs = require('graceful-fs');
-gracefulFs.gracefulify(fs);
+let webpack = require("webpack");
+let path = require('path');
 
 module.exports = {
-    context: path.resolve(__dirname, 'src'),
+    // context: path.resolve(__dirname, 'src'),
     entry: {
-        bundle: './app.tsx'
+        app: ["./src/app.tsx"],
+        vendor: [
+            "./node_modules/jquery/dist/jquery.min.js",
+            "materialize-css/dist/js/materialize.js",
+        ]
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
+        filename: '[name].bundle.js',
     },
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin({ name: "vendor", filename: "vendor.bundle.js" })
+    ],
+    externals: [
+        {
+            // "jquery": "jQuery",
+            // "materialize-css/dist/js/materialize.js": true
+        }
+    ],
     devtool: "source-map",
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".json"]
@@ -37,6 +43,11 @@ module.exports = {
                 enforce: "pre",
                 test: /\.js$/,
                 loader: "source-map-loader"
+            },
+
+            {
+                test: /\.scss$/,
+                loaders: ["style-loader", "css-loader", "sass-loader"]
             }
         ],
         loaders: [
@@ -44,3 +55,4 @@ module.exports = {
     },
     stats: { errorDetails: true }
 };
+

@@ -1,12 +1,13 @@
 import * as React from "react";
 
 import { TweetService, RequestProfile, TweetResult } from "../app/tweet.service";
-import { TweetComponent } from "../components/Tweet";
+import { TweetComponent } from "../components/TweetComponent";
 import { Dates } from "../app/util/data";
 import { LocalDate } from "js-joda/dist/js-joda";
 import { RouteProps } from "../app";
 import materialize from "materialize-css";
-// import CSSModules from "react-css-modules";
+
+import "./main.component.scss";
 
 export class MainComponent extends React.Component<MainProps, TweetResult> {
     static startDate: LocalDate = LocalDate.of(2009, 12, 2);
