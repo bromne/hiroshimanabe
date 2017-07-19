@@ -27,7 +27,7 @@ gulp.task("build", ["copy-assets", "bundle-css", "webpack"]);
 gulp.task("copy-assets", () => {
     return gulp.src(["src/assets/**/*", "src/data/**/*", "src/*.html", "src/*.ico"], { base: 'src' })
         .pipe(gulp.dest("dist"));
-})
+});
 
 gulp.task("webserver", () => {
     return gulp.src("dist")
