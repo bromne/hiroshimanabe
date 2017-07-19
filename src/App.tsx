@@ -6,10 +6,12 @@ import { MainComponent } from "./components/MainComponent";
 
 ReactDOM.render(
     <HashRouter>
-        <section>
-            <Route exact path="/" component={ MainComponent } />
-            <Route path="/:date" component={ MainComponent } />
-        </section>
+        <Route path="/hiroshimanabe">
+            <div>
+                <Route exact path="/" component={ MainComponent } />
+                <Route path="/:date" component={ MainComponent } />
+            </div>
+        </Route>
     </HashRouter>,
     document.getElementById("root")
 );

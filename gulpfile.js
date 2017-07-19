@@ -34,6 +34,7 @@ gulp.task("webserver", () => {
         .pipe(webserver({
             livereload: true,
             open: true,
+            path: "/hiroshimanabe/",
         }));
 });
 
