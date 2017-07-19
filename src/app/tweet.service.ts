@@ -13,7 +13,7 @@ export class TweetService {
 
         let url = "data/tweets/" + year + "-" + month + "-" + dayOfMonth + ".json";
         return fetch(url)
-            .then(response => response.json())
+            .then(response => response.status === 200 ? response.json() : Promise.reject(response.statusText))
             .then(data => this.handleData(request, data));
     }
 
@@ -56,7 +56,7 @@ export class TweetService {
         return date;
     }
 
-    static nullIfEmpty<T>(maybeEmpty: string, converter: (string) => T): T | null {
+    static nullIfEmpty<T>(maybeEmpty: string, converter: (value: string) => T): T | null {
         return maybeEmpty === "" ? null : converter(maybeEmpty);
     }
 }

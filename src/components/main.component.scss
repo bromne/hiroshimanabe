@@ -22,7 +22,7 @@ $column_unit: 20rem;
         }
     }
 
-    .calendar {
+    div.calendar {
         @include column();
         margin-left: $column_unit * 2;
         position: fixed;

@@ -6,6 +6,7 @@
     "sourceMap": true,
     "declaration": false,
     "module": "commonjs",
+    "noImplicitAny": true,
     "strictNullChecks": true,
     "experimentalDecorators": true,
     "target": "es5",
@@ -16,6 +17,9 @@
     "lib": [
       "es2016",
       "dom"
+    ],
+    "exclude": [
+      "node_modules"
     ]
   }
 }

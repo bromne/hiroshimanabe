@@ -2,12 +2,15 @@ let webpack = require("webpack");
 let path = require('path');
 
 module.exports = {
-    // context: path.resolve(__dirname, 'src'),
     entry: {
         app: ["./src/app.tsx"],
         vendor: [
             "./node_modules/jquery/dist/jquery.min.js",
             "materialize-css/dist/js/materialize.js",
+            "react",
+            "react-dom",
+            "react-router-dom",
+            "js-joda",
         ]
     },
     output: {

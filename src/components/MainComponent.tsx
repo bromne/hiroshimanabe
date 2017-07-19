@@ -1,22 +1,22 @@
 import * as React from "react";
+import { RouteComponentProps } from "react-router-dom";
 
 import { TweetService, RequestProfile, TweetResult } from "../app/tweet.service";
 import { TweetComponent } from "../components/TweetComponent";
+import { CalendarComponent } from "../components/CalendarComponent";
 import { Dates } from "../app/util/data";
-import { LocalDate } from "js-joda/dist/js-joda";
-import { RouteProps } from "../app";
-import materialize from "materialize-css";
+import { LocalDate } from "js-joda";
+import { AppComponent } from "../app/AppComponent";
 
 import "./main.component.scss";
 
-export class MainComponent extends React.Component<MainProps, TweetResult> {
+export class MainComponent extends AppComponent<Props, State> {
     static startDate: LocalDate = LocalDate.of(2009, 12, 2);
     static endDate: LocalDate = LocalDate.of(2017, 5, 24);
 
     tweetService: TweetService;
-    requestProfile: RequestProfile | null;
 
-    constructor(props: MainProps) {
+    constructor(props: Props) {
         super(props);
     }
     
@@ -29,11 +29,7 @@ export class MainComponent extends React.Component<MainProps, TweetResult> {
                 <div>
                     <div className="result">
                         {
-                            (this.state === null) ? (
-                                <div className="progress" style={ { marginTop: "12em", marginBottom: "12em" } }>
-                                    <div className="indeterminate"></div>
-                                </div>
-                            ) : (
+                            (this.state && this.state.tweets) ? (
                                 (this.state.tweets.length > 0) ? (
                                     <ul>
                                         {
@@ -52,28 +48,55 @@ export class MainComponent extends React.Component<MainProps, TweetResult> {
                                         <p>なにもありません</p>
                                     </section>
                                 )
+                            ) : (
+                                <div className="progress" style={ { marginTop: "12em", marginBottom: "12em" } }>
+                                    <div className="indeterminate"></div>
+                                </div>
                             )
                         }
                     </div>
-                    {/*<calendar-control (change)="onDateChange($event)"></calendar-control>*/}
+                    <div className="calendar">
+                        <CalendarComponent
+                            initialValue={ this.date }
+                            start={ MainComponent.startDate }
+                            end={ MainComponent.endDate }
+                            onChange={ e => this.onDateChange(e) } />
+                    </div>
                 </div>
             </section>
         );
     }
 
-    componentDidMount(): void {
+    componentWillMount(): void {
         this.tweetService = new TweetService();
-        console.log("this.requestProfile");
-        let date = this.props.match.params.date ? Dates.from(this.props.match.params.date) : MainComponent.startDate;
-        // this.props.history.push("/d");
-        this.requestProfile = new RequestProfile("takeda25", date);
+        this.componentDidReceiveProps();
+    }
+
+    componentDidReceiveProps(): void {
         this.tweetService.findTweetsByDate(this.requestProfile)
             .then(tweets => this.setState(() => tweets))
-            .catch(console.error);
-        this.requestProfile = new RequestProfile("takeda25", MainComponent.startDate);
+            .catch(error => {
+                console.error(error);
+                this.setState(new TweetResult(this.requestProfile, []));
+            });
+    }
+
+    onDateChange(date: LocalDate): void {
+        let path = "/" + Dates.format(date);
+        this.setState(() => null);
+        this.props.history.push(path);
+    }
+
+    get date(): LocalDate {
+        return this.props.match.params.date ? Dates.from(this.props.match.params.date) : MainComponent.startDate;
+    }
+
+    get requestProfile(): RequestProfile {
+         return new RequestProfile("takeda25", this.date);
     }
 }
 
-export interface MainProps extends RouteProps<{ date: string | null }> {
-}
+type Props = RouteComponentProps<{ date: string | null }>;
+
+type State = TweetResult;
 

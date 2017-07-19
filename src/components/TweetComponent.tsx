@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Tweet } from "app/tweet";
-// import styles from "./tweet.component.scss";
 import "./tweet.component.scss";
 
 export class TweetComponent extends React.Component<{ tweet: Tweet }, any> {
