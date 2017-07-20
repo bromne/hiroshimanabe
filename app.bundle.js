@@ -20,9 +20,10 @@ var ReactDOM = __webpack_require__(71);
 var react_router_dom_1 = __webpack_require__(97);
 var MainComponent_1 = __webpack_require__(230);
 ReactDOM.render(React.createElement(react_router_dom_1.HashRouter, null,
-    React.createElement(react_router_dom_1.Route, { path: "/hiroshimanabe/" },
-        React.createElement(react_router_dom_1.Route, { exact: true, component: MainComponent_1.MainComponent }),
-        React.createElement(react_router_dom_1.Route, { path: ":date", component: MainComponent_1.MainComponent }))), document.getElementById("root"));
+    React.createElement(react_router_dom_1.Route, { path: "/hiroshimanabe" },
+        React.createElement("div", null,
+            React.createElement(react_router_dom_1.Route, { exact: true, path: "/", component: MainComponent_1.MainComponent }),
+            React.createElement(react_router_dom_1.Route, { path: "/:date", component: MainComponent_1.MainComponent })))), document.getElementById("root"));
 
 
 /***/ }),
