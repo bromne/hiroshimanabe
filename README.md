@@ -1,4 +1,0 @@
-# Hiroshimanabe
-
-## TODO
-

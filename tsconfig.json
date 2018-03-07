@@ -1,25 +1,29 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist/",
-    "baseUrl": "src",
-    "sourceMap": true,
-    "declaration": false,
-    "module": "commonjs",
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "experimentalDecorators": true,
     "target": "es5",
-    "jsx": "react",
-    "typeRoots": [
-      "node_modules/@types"
+    "module": "es2015",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "node",
+      "jest"
     ],
-    "lib": [
-      "es2016",
-      "dom"
-    ],
-    "exclude": [
-      "node_modules"
-    ]
-  }
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "tests/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
