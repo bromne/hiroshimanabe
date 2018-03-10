@@ -1,4 +1,4 @@
-import {LocalDateTime } from 'js-joda';
+import { LocalDateTime } from 'js-joda';
 
 export default class Tweet {
     public static RETWEET: RegExp = /^RT @([a-zA-Z0-9_]+)\: /;
