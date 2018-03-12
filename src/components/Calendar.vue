@@ -68,12 +68,114 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-export default Vue.extend({
-  name: 'Calendar',
-  props: {},
-  computed: {},
-});
+import { Component, Vue, Prop, Inject } from 'vue-property-decorator';
+import { LocalDate } from 'js-joda';
+
+const DAYS: string[] = ['日', '月', '火', '水', '木', '金', '土'];
+
+function dateArrayOf(year: number, month: number): Array<Array<LocalDate | null>> {
+  const first = new Date(year, month - 1);
+  const endOfMonth = (() => {
+    const date = new Date(year, month);
+    date.setDate(0);
+    return date.getDate();
+  })();
+
+  const calendar: Array<Array<LocalDate | null>> = [];
+  const dayOffset = first.getDay();
+  for (let line = 0; line < 6; line++) {
+    const headDay = (line * 7) - dayOffset + 1;
+
+    const cells: Array<LocalDate | null> = [];
+    for (let dayOfWeek = 0; dayOfWeek < 7; dayOfWeek++) {
+      const day = headDay + dayOfWeek;
+      cells.push(day > 0 && day <= endOfMonth ? LocalDate.of(year, month, day) : null);
+    }
+    calendar.push(cells);
+  }
+  return calendar;
+}
+
+@Component
+export default class Calendar extends Vue {
+  @Prop()
+  public initialValue!: LocalDate;
+
+  @Prop()
+  public start!: LocalDate;
+
+  @Prop()
+  public end!: LocalDate;
+
+  @Inject()
+  public value!: LocalDate;
+
+  @Inject()
+  public year!: number;
+
+  @Inject()
+  public month!: number;
+
+  @Prop()
+  public datePredicate: (date: LocalDate) => boolean = (e) => true
+
+  get dateString(): string {
+    const year = this.value.year();
+    const month = ('0' + this.value.monthValue()).slice(-2);
+    const date = ('0' + this.value.dayOfMonth()).slice(-2);
+    return year + '/' + month + '/' + date;
+  }
+
+  get dayString(): string {
+    return DAYS[this.value.dayOfWeek().value() % 7] + '曜日';
+  }
+
+  get dateArray(): Array<Array<LocalDate | null>> {
+    return dateArrayOf(this.year, this.month);
+  }
+
+  public setYearMonth(year: number, month: number): void {
+    const changed = new Date(year, month - 1);
+
+    this.year = changed.getFullYear();
+    this.month = changed.getMonth() + 1;
+  }
+
+  public isSelected(dayOfMonth: LocalDate | null): boolean {
+    if (dayOfMonth === null) {
+      return false;
+    } else {
+      return this.value.equals(dayOfMonth);
+    }
+  }
+
+  public isAvailableDate(date: LocalDate | null): boolean {
+    if (date === null) {
+      return false;
+    } else {
+      return (this.start ? !this.start.isAfter(date) : true)
+        && (this.end ? !this.end.isBefore(date) : true)
+        && (this.datePredicate ? this.datePredicate(date) : true);
+    }
+  }
+
+  public onDateClick(date: LocalDate | null): void {
+    if (date !== null && this.isAvailableDate(date)) {
+      this.value = date;
+    }
+  }
+
+  public shiftDate(value: number): void {
+    const shifted = this.value.plusDays(value);
+    if (this.isAvailableDate(shifted)) {
+      this.value = shifted;
+    }
+  }
+
+  private computeDate(dayOfMonth: number): LocalDate {
+    return LocalDate.of(this.year, this.month, dayOfMonth);
+  }
+}
 </script>
 
 <style lang="scss" scoped>
