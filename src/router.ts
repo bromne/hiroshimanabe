@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Main from '@/views/Main.vue';
+import MainComponent from '@/views/MainComponent.vue';
 
 Vue.use(Router);
 
@@ -9,12 +9,12 @@ export default new Router({
     {
       path: '/',
       // name: 'main',
-      component: Main,
+      component: MainComponent,
     },
     {
       path: '/:date',
       // name: 'main',
-      component: Main,
+      component: MainComponent,
     },
   ],
 });

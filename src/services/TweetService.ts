@@ -1,4 +1,4 @@
-import { LocalDate, LocalDateTime } from 'js-joda';
+import { LocalDate, LocalDateTime, DateTimeFormatterBuilder, DateTimeFormatter, ResolverStyle } from 'js-joda';
 import Tweet from '@/models/Tweet';
 import RequestProfile from '@/services/RequestProfile';
 import TweetResult from '@/services/TweetResult';
@@ -8,13 +8,13 @@ export default class TweetService {
         const identity = (x: string) => x;
 
         const tweetId = node.tweet_id;
-        const timestamp = LocalDateTime.parse(node.timestamp);
+        const timestamp = TweetService.parseDate(node.timestamp);
         const inReplyToStatusId = TweetService.nullIfEmpty(node.in_reply_to_status_id, identity);
         const inReplyToUserId = TweetService.nullIfEmpty(node.in_reply_to_user_id, identity);
         const retweetedStatusId = TweetService.nullIfEmpty(node.retweeted_status_id, identity);
         const retweetedStatusUserId = TweetService.nullIfEmpty(node.retweeted_status_user_id, identity);
         const retweetedStatusTimestamp = TweetService.nullIfEmpty(node.retweeted_status_timestamp,
-            LocalDateTime.parse);
+            TweetService.parseDate);
         const expandedUrls = TweetService.nullIfEmpty(node.expanded_urls, identity);
 
         return new Tweet(userName, tweetId, timestamp, node.source, node.text,
@@ -26,12 +26,16 @@ export default class TweetService {
         return maybeEmpty === '' ? null : converter(maybeEmpty);
     }
 
+    private static parseDate(value: string): LocalDateTime {
+        return LocalDateTime.parse(value.substr(0, 10) + 'T' + value.substr(11, 8));
+    }
+
     public findTweetsByDate(request: RequestProfile ): Promise<TweetResult> {
         const year = request.date.year();
         const month = ('0' + request.date.monthValue()).slice(-2);
         const dayOfMonth = ('0' + request.date.dayOfMonth()).slice(-2);
 
-        const url = 'data/tweets/' + year + '-' + month + '-' + dayOfMonth + '.json';
+        const url = '/data/tweets/' + year + '-' + month + '-' + dayOfMonth + '.json';
         return fetch(url)
             .then((response) => response.status === 200 ? response.json() : Promise.reject(response.statusText))
             .then((data) => this.handleData(request, data));

@@ -5,12 +5,12 @@
     </div>
     <div>
       <div class="result">
-        <ul v-if="this.tweets && this.tweets.length > 0">
-          <li v-for="{tweet, i} in tweets" :key="i">
+        <ul v-if="result && result.tweets.length > 0">
+          <li v-for="{tweet, i} in result.tweets" :key="i">
             <TweetComponent subject={tweet} />
           </li>
         </ul>
-        <section v-else-if="this.tweets" class="no-items">
+        <section v-else-if="result" class="no-items">
           <p>なにもありません</p>
         </section>
         <div v-else class="progress" style="marginTop: 12em, marginBottom: 12em">
@@ -18,11 +18,11 @@
         </div>
       </div>
       <div class="calendar">
-        <CalendarComponent
+        <!-- <CalendarComponent
           :initialValue="this.date"
-          :start="MainComponent.startDate"
-          :end="MainComponent.endDate"
-          :onChange="e => this.onDateChange(e)" />
+          :start="startDate"
+          :end="endDate"
+          :onChange="e => this.onDateChange(e)" /> -->
       </div>
     </div>
   </section>
@@ -35,19 +35,20 @@ import TweetService from '@/services/TweetService';
 import RequestProfile from '@/services/RequestProfile';
 import TweetResult from '@/services/TweetResult';
 import { Dates } from '@/utils/Dates';
-import CalendarComponent from '@/components/Calendar.vue';
+import CalendarComponent from '@/components/CalendarComponent.vue';
+import TweetComponent from '@/components/TweetComponent.vue';
 
-const startDate: LocalDate = LocalDate.of(2009, 12, 2);
-const endDate: LocalDate = LocalDate.of(2017, 5, 24);
+@Component({ components: { CalendarComponent, TweetComponent } })
+export default class MainComponent extends Vue {
+  public static startDate: LocalDate = LocalDate.of(2009, 12, 2);
+  public static endDate: LocalDate = LocalDate.of(2017, 5, 24);
 
-export default class Main extends Vue {
   private tweetService!: TweetService;
 
-  @Inject()
-  private result!: TweetResult | null;
+  private result: TweetResult | null = null;
 
   get date(): LocalDate {
-    return this.$route.params.date ? Dates.from(this.$route.params.date) : startDate;
+    return this.$route.params.date ? Dates.from(this.$route.params.date) : MainComponent.startDate;
   }
 
   get requestProfile(): RequestProfile {
