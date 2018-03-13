@@ -1,69 +1,64 @@
 <template>
-    <div class="datepicker">
-      <section class="z-depth-2">
-          <div class="day teal darken-1 white-text">{{ dayString }}</div>
-          <div class="date teal lighten-1 white-text">{{ dateString }}</div>
-          <div class="year-and-month">
-              <div class="year middle">
-                  <!--  this.setYearMonth(this.state.year + 1, this.state.month) -->
-                  <div class="arrow" @click="setYearMonth(year + 1, month)">
-                      <div>▲</div>
-                  </div>
-                  <div>{{ state.year }}</div>
-                  <!--  this.setYearMonth(this.state.year - 1, this.state.month) -->
-                  <div class="arrow" @click="setYearMonth(year - 1, month)">
-                      <div>▼</div>
-                  </div>
-              </div>
-              <div class="middle" style="paddingRight: 0.5em">年</div>
-              <div class="month middle">
-                  <!-- this.setYearMonth(this.state.year, this.state.month + 1) -->
-                  <div class="arrow" @click="setYearMonth(year, month + 1)">
-                      <div>▲</div>
-                  </div>
-                  <div>{{ ("0" + (state.month)).slice(-2) }}</div>
-                  <!-- this.setYearMonth(this.state.year, this.state.month - 1) -->
-                  <div class="arrow" @click="setYearMonth(year, month - 1)" >
-                      <div>▼</div>
-                  </div>
-              </div>
-              <div class="middle">月</div>
+  <div class="datepicker">
+    <section class="z-depth-2">
+      <div class="day teal darken-1 white-text">{{ dayString }}</div>
+      <div class="date teal lighten-1 white-text">{{ dateString }}</div>
+      <div class="year-and-month">
+        <div class="year middle">
+          <div class="arrow" @click="setYearMonth(year + 1, month)">
+            <div>▲</div>
           </div>
-          <table class="calendar">
-              <thead>
-              <tr>
-                  <td class="sunday">日</td>
-                  <td>月</td>
-                  <td>火</td>
-                  <td>水</td>
-                  <td>木</td>
-                  <td>金</td>
-                  <td class="saturday">土</td>
-              </tr>
-              </thead>
-              <tbody>
-                <tr v-for="{week, i} in dateArray" :key="i">
-                  <td v-for="{date, j} in week" :key="j" @click="onDateClick"
-                      :class="{
-                        selectable: isAvailableDate(date),
-                        selected: isSelected(date)
-                       }">
-                    {{ date ? date.dayOfMonth() : <span>&nbsp;</span> }}
-                  </td>
-                </tr>
-              </tbody>
-          </table>
-      </section>
-      <div class="buttons">
-          <button class="waves-effect waves-light btn-large"
-              :class="{ disabled: isAvailableDate(value.plusDays(-1)) }"
-              style="float: left"
-              @click="shiftDate(-1)">前の日</button>
-          <button class="waves-effect waves-light btn-large"
-              :class="{ disabled: isAvailableDate(value.plusDays(1)) }"
-              style="float: right"
-              @click="shiftDate(1)">次の日</button>
+          <div>{{ state.year }}</div>
+          <div class="arrow" @click="setYearMonth(year - 1, month)">
+            <div>▼</div>
+          </div>
+        </div>
+        <div class="middle" style="paddingRight: 0.5em">年</div>
+        <div class="month middle">
+          <div class="arrow" @click="setYearMonth(year, month + 1)">
+            <div>▲</div>
+          </div>
+          <div>{{ ("0" + (state.month)).slice(-2) }}</div>
+          <div class="arrow" @click="setYearMonth(year, month - 1)" >
+            <div>▼</div>
+          </div>
+        </div>
+        <div class="middle">月</div>
       </div>
+      <table class="calendar">
+        <thead>
+          <tr>
+            <td class="sunday">日</td>
+            <td>月</td>
+            <td>火</td>
+            <td>水</td>
+            <td>木</td>
+            <td>金</td>
+            <td class="saturday">土</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="{week, i} in dateArray" :key="i">
+            <td v-for="{date, j} in week" :key="j" @click="onDateClick"
+              :class="{
+              selectable: isAvailableDate(date),
+              selected: isSelected(date)
+              }">{{ date ? date.dayOfMonth() : <span>&nbsp;</span> }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <div class="buttons">
+      <button class="waves-effect waves-light btn-large"
+        :class="{ disabled: isAvailableDate(value.plusDays(-1)) }"
+        style="float: left"
+        @click="shiftDate(-1)">前の日</button>
+      <button class="waves-effect waves-light btn-large"
+        :class="{ disabled: isAvailableDate(value.plusDays(1)) }"
+        style="float: right"
+        @click="shiftDate(1)">次の日</button>
+    </div>
   </div>
 </template>
 
@@ -97,7 +92,7 @@ function dateArrayOf(year: number, month: number): Array<Array<LocalDate | null>
 }
 
 @Component
-export default class Calendar extends Vue {
+export default class CalendarComponent extends Vue {
   @Prop()
   public initialValue!: LocalDate;
 

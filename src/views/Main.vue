@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div style="textAlign: center">
-        <h4>@{{ this.requestProfile && this.requestProfile.userName || null }} のツイート</h4>
+      <h4>@{{ this.requestProfile && this.requestProfile.userName || null }} のツイート</h4>
     </div>
     <div>
       <div class="result">
@@ -47,8 +47,7 @@ export default class Main extends Vue {
   private result!: TweetResult | null;
 
   get date(): LocalDate {
-    // TODO: return this.props.match.params.date ? Dates.from(this.props.match.params.date) : MainComponent.startDate;
-    return startDate;
+    return this.$route.params.date ? Dates.from(this.$route.params.date) : startDate;
   }
 
   get requestProfile(): RequestProfile {
@@ -58,7 +57,7 @@ export default class Main extends Vue {
   public onDateChange(date: LocalDate): void {
     const path = '/' + Dates.format(date);
     this.result = null;
-    // TODO: this.props.history.push(path);
+    this.$router.push(path);
   }
 
   public mounted() {
@@ -74,46 +73,46 @@ export default class Main extends Vue {
 $column_unit: 20rem;
 
 @mixin column() {
-    float: left;
-    box-sizing: border-box;
-    padding: 0 0.75rem;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
 }
 
 .container {
-    margin: 0 auto;
-    box-sizing: content-box;
-    padding: 0 1.50rem;
-    width: $column_unit * 3;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 0 1.50rem;
+  width: $column_unit * 3;
+  
+  .result {
+    @include column();
     
-    .result {
-        @include column();
-        
-        width: $column_unit * 2;
+    width: $column_unit * 2;
 
-        ul {
-            margin-top: 0;
-        }
+    ul {
+      margin-top: 0;
     }
+  }
 
-    div.calendar {
-        @include column();
-        margin-left: $column_unit * 2;
-        position: fixed;
-        width: $column_unit;
-    }   
+  div.calendar {
+    @include column();
+    margin-left: $column_unit * 2;
+    position: fixed;
+    width: $column_unit;
+  }   
 }
 
 .sentinel {
-    text-align: center;
-    margin: 2.5rem 0 3.5rem;
+  text-align: center;
+  margin: 2.5rem 0 3.5rem;
 }
 
 .no-items {
-    padding: 3.5rem 0;
+  padding: 3.5rem 0;
 
-    p {
-        text-align: center;
-        color: #9e9e9e;
-    }
+  p {
+    text-align: center;
+    color: #9e9e9e;
+  }
 }
 </style>
