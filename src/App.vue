@@ -12,6 +12,6 @@
 @import '../node_modules/materialize-css/dist/css/materialize.min.css';
 
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 </style>

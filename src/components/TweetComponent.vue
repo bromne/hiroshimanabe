@@ -21,7 +21,7 @@ import Tweet from '../models/Tweet';
 
 export default Vue.extend({
   name: 'Tweet',
-  props: { 
+  props: {
     subject: Tweet,
   },
   computed: {
