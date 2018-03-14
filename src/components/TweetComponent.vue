@@ -6,9 +6,9 @@
       </div>
       <div class="tweet-body">
         <small class="grey-text text-darken-2">{{ auther }}</small>
-        <p>{{ tweet.text }}</p>
+        <p>{{ subject.text }}</p>
         <small class="grey-text text-darken-2">
-          <time><a target="_blank" :href="statusUrl" >{{ tweet.timestamp.format("yyyy-MM-dd HH:mm:ss") }}</a></time>
+          <time><a target="_blank" :href="statusUrl" >{{ timestamp }}</a></time>
         </small>
       </div>
     </div>
@@ -16,28 +16,34 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import Tweet from '../models/Tweet';
+import { Component, Vue, Prop, Inject } from 'vue-property-decorator';
+import Tweet from '@/models/Tweet';
+import { DateTimeFormatter } from 'js-joda';
 
-export default Vue.extend({
-  name: 'Tweet',
-  props: {
-    subject: Tweet,
-  },
-  computed: {
-    image(): string {
-      const userName = this.subject.isRetweet ? this.subject.retweetedUserName : this.subject.userName;
-      return 'https://twitter.com/' + userName + '/profile_image?size=bigger';
-    },
-    auther(): string {
-      const userName = this.subject.isRetweet ? this.subject.retweetedUserName : this.subject.userName;
-      return '@' + userName;
-    },
-    statusUrl(): string {
-      return 'https://twitter.com/' + this.subject.userName + '/status/' + this.subject.tweetId;
-    },
-  },
-});
+@Component
+export default class TweetComponent extends Vue {
+  public static FORMATTER = DateTimeFormatter.ofPattern('yyyy-MM-dd HH:mm:ss');
+
+  @Prop()
+  public subject!: Tweet;
+
+  get image(): string {
+    const userName = this.subject.isRetweet ? this.subject.retweetedUserName : this.subject.userName;
+    return 'https://twitter.com/' + userName + '/profile_image?size=bigger';
+  }
+  get auther(): string {
+    const userName = this.subject.isRetweet ? this.subject.retweetedUserName : this.subject.userName;
+    return '@' + userName;
+  }
+
+  get statusUrl(): string {
+    return 'https://twitter.com/' + this.subject.userName + '/status/' + this.subject.tweetId;
+  }
+
+  get timestamp(): string {
+    return this.subject.timestamp.format(TweetComponent.FORMATTER);
+  }
+}
 </script>
 
 <style scoped lang="scss">

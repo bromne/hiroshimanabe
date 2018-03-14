@@ -6,8 +6,8 @@
     <div>
       <div class="result">
         <ul v-if="result && result.tweets.length > 0">
-          <li v-for="{tweet, i} in result.tweets" :key="i">
-            <TweetComponent subject={tweet} />
+          <li v-for="(tweet, i) in result.tweets" :key="i">
+            <TweetComponent :subject="tweet" />
           </li>
         </ul>
         <section v-else-if="result" class="no-items">
@@ -18,11 +18,11 @@
         </div>
       </div>
       <div class="calendar">
-        <!-- <CalendarComponent
-          :initialValue="this.date"
+        <CalendarComponent
+          :initialValue="date"
           :start="startDate"
           :end="endDate"
-          :onChange="e => this.onDateChange(e)" /> -->
+          :onChange="e => onDateChange(e)" />
       </div>
     </div>
   </section>
@@ -40,12 +40,15 @@ import TweetComponent from '@/components/TweetComponent.vue';
 
 @Component({ components: { CalendarComponent, TweetComponent } })
 export default class MainComponent extends Vue {
+  @Prop()
   public static startDate: LocalDate = LocalDate.of(2009, 12, 2);
+
+  @Prop()
   public static endDate: LocalDate = LocalDate.of(2017, 5, 24);
 
-  private tweetService!: TweetService;
+  public result: TweetResult | null = null;
 
-  private result: TweetResult | null = null;
+  private tweetService!: TweetService;
 
   get date(): LocalDate {
     return this.$route.params.date ? Dates.from(this.$route.params.date) : MainComponent.startDate;
@@ -55,17 +58,17 @@ export default class MainComponent extends Vue {
     return new RequestProfile('takeda25', this.date);
   }
 
-  public onDateChange(date: LocalDate): void {
-    const path = '/' + Dates.format(date);
-    this.result = null;
-    this.$router.push(path);
-  }
-
   public mounted() {
     this.tweetService = new TweetService();
     this.tweetService.findTweetsByDate(this.requestProfile)
       .then((tweets) => this.result = tweets)
       .catch((error) => this.result = new TweetResult(this.requestProfile, []));
+  }
+
+  public onDateChange(date: LocalDate): void {
+    const path = '/' + Dates.format(date);
+    this.result = null;
+    this.$router.push(path);
   }
 }
 </script>

@@ -8,7 +8,7 @@
           <div class="arrow" @click="setYearMonth(year + 1, month)">
             <div>▲</div>
           </div>
-          <div>{{ state.year }}</div>
+          <div>{{ year }}</div>
           <div class="arrow" @click="setYearMonth(year - 1, month)">
             <div>▼</div>
           </div>
@@ -18,7 +18,7 @@
           <div class="arrow" @click="setYearMonth(year, month + 1)">
             <div>▲</div>
           </div>
-          <div>{{ ("0" + (state.month)).slice(-2) }}</div>
+          <div>{{ ("0" + (month)).slice(-2) }}</div>
           <div class="arrow" @click="setYearMonth(year, month - 1)" >
             <div>▼</div>
           </div>
@@ -38,12 +38,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="{week, i} in dateArray" :key="i">
-            <td v-for="{date, j} in week" :key="j" @click="onDateClick"
-              :class="{
-              selectable: isAvailableDate(date),
-              selected: isSelected(date)
-              }">{{ date ? date.dayOfMonth() : <span>&nbsp;</span> }}
+          <tr v-for="(week, i) in dateArray" :key="i">
+            <td v-for="(date, j) in week" :key="j" @click="onDateClick"
+              :class="{ selectable: isAvailableDate(date), selected: isSelected(date) }">
+                <span v-if="date">{{ date.dayOfMonth() }}</span>
+                <span v-else>&nbsp;</span>
             </td>
           </tr>
         </tbody>
@@ -102,17 +101,14 @@ export default class CalendarComponent extends Vue {
   @Prop()
   public end!: LocalDate;
 
-  @Inject()
   public value!: LocalDate;
 
-  @Inject()
   public year!: number;
 
-  @Inject()
   public month!: number;
 
   @Prop()
-  public datePredicate: (date: LocalDate) => boolean = (e) => true
+  public datePredicate!: (date: LocalDate) => boolean; // = (e) => true
 
   get dateString(): string {
     const year = this.value.year();
@@ -127,6 +123,12 @@ export default class CalendarComponent extends Vue {
 
   get dateArray(): Array<Array<LocalDate | null>> {
     return dateArrayOf(this.year, this.month);
+  }
+
+  public beforeMount() {
+    this.value = this.initialValue;
+    this.year = this.value.year();
+    this.month = this.value.monthValue();
   }
 
   public setYearMonth(year: number, month: number): void {
