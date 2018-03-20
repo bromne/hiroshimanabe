@@ -22,7 +22,7 @@
           :initialValue="date"
           :start="startDate"
           :end="endDate"
-          v-on:change="onDateChange" />
+          @change="onDateChange" />
       </div>
     </div>
   </section>
@@ -47,24 +47,27 @@ export default class MainComponent extends Vue {
   public result: TweetResult | null = null;
 
   private tweetService!: TweetService;
-
-  get date(): LocalDate {
-    return this.$route.params.date ? Dates.from(this.$route.params.date) : this.startDate;
-  }
+  private date!: LocalDate;
 
   get requestProfile(): RequestProfile {
     return new RequestProfile('takeda25', this.date);
   }
 
-  public mounted() {
-    this.tweetService = new TweetService();
+  public data() {
+    return {
+      date: this.$route.params.date ? Dates.from(this.$route.params.date) : this.startDate,
+    };
   }
 
-  public beforeRouteUpdate() {
-    // console.log('a');
-    this.tweetService.findTweetsByDate(this.requestProfile)
-      .then((tweets) => this.result = tweets)
-      .catch((error) => this.result = new TweetResult(this.requestProfile, []));
+  public created(): void {
+    this.tweetService = new TweetService();
+    this.update(this.$route);
+  }
+
+  public beforeRouteUpdate(to: any, from: any, next: () => void): void {
+    this.date = to.params.date ? Dates.from(to.params.date) : this.startDate;
+    this.update(to);
+    next();
   }
 
   @Emit()
@@ -72,6 +75,12 @@ export default class MainComponent extends Vue {
     const path = '/' + Dates.format(date);
     this.result = null;
     this.$router.push(path);
+  }
+
+  private update(route: any) {
+    this.tweetService.findTweetsByDate(this.requestProfile)
+      .then((tweets) => this.result = tweets)
+      .catch((error) => this.result = new TweetResult(this.requestProfile, []));
   }
 }
 </script>
