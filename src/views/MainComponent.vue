@@ -22,14 +22,14 @@
           :initialValue="date"
           :start="startDate"
           :end="endDate"
-          :onChange="e => onDateChange(e)" />
+          v-on:change="onDateChange" />
       </div>
     </div>
   </section>
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop, Inject } from 'vue-property-decorator';
+import { Component, Vue, Prop, Inject, Emit } from 'vue-property-decorator';
 import { LocalDate } from 'js-joda';
 import TweetService from '@/services/TweetService';
 import RequestProfile from '@/services/RequestProfile';
@@ -40,18 +40,16 @@ import TweetComponent from '@/components/TweetComponent.vue';
 
 @Component({ components: { CalendarComponent, TweetComponent } })
 export default class MainComponent extends Vue {
-  @Prop()
-  public static startDate: LocalDate = LocalDate.of(2009, 12, 2);
+  public startDate: LocalDate = LocalDate.of(2009, 12, 2);
 
-  @Prop()
-  public static endDate: LocalDate = LocalDate.of(2017, 5, 24);
+  public endDate: LocalDate = LocalDate.of(2017, 5, 24);
 
   public result: TweetResult | null = null;
 
   private tweetService!: TweetService;
 
   get date(): LocalDate {
-    return this.$route.params.date ? Dates.from(this.$route.params.date) : MainComponent.startDate;
+    return this.$route.params.date ? Dates.from(this.$route.params.date) : this.startDate;
   }
 
   get requestProfile(): RequestProfile {
@@ -60,11 +58,16 @@ export default class MainComponent extends Vue {
 
   public mounted() {
     this.tweetService = new TweetService();
+  }
+
+  public beforeRouteUpdate() {
+    // console.log('a');
     this.tweetService.findTweetsByDate(this.requestProfile)
       .then((tweets) => this.result = tweets)
       .catch((error) => this.result = new TweetResult(this.requestProfile, []));
   }
 
+  @Emit()
   public onDateChange(date: LocalDate): void {
     const path = '/' + Dates.format(date);
     this.result = null;

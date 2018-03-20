@@ -39,7 +39,7 @@
         </thead>
         <tbody>
           <tr v-for="(week, i) in dateArray" :key="i">
-            <td v-for="(date, j) in week" :key="j" @click="onDateClick"
+            <td v-for="(date, j) in week" :key="j" @click="onDateClick(date)"
               :class="{ selectable: isAvailableDate(date), selected: isSelected(date) }">
                 <span v-if="date">{{ date.dayOfMonth() }}</span>
                 <span v-else>&nbsp;</span>
@@ -50,11 +50,11 @@
     </section>
     <div class="buttons">
       <button class="waves-effect waves-light btn-large"
-        :class="{ disabled: isAvailableDate(value.plusDays(-1)) }"
+        :class="{ disabled: !isAvailableDate(value.plusDays(-1)) }"
         style="float: left"
         @click="shiftDate(-1)">前の日</button>
       <button class="waves-effect waves-light btn-large"
-        :class="{ disabled: isAvailableDate(value.plusDays(1)) }"
+        :class="{ disabled: !isAvailableDate(value.plusDays(1)) }"
         style="float: right"
         @click="shiftDate(1)">次の日</button>
     </div>
@@ -62,7 +62,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop, Inject } from 'vue-property-decorator';
+import { Component, Vue, Prop, Inject, Emit, Model, Watch } from 'vue-property-decorator';
 import { LocalDate } from 'js-joda';
 
 const DAYS: string[] = ['日', '月', '火', '水', '木', '金', '土'];
@@ -107,9 +107,6 @@ export default class CalendarComponent extends Vue {
 
   public month!: number;
 
-  @Prop()
-  public datePredicate!: (date: LocalDate) => boolean; // = (e) => true
-
   get dateString(): string {
     const year = this.value.year();
     const month = ('0' + this.value.monthValue()).slice(-2);
@@ -125,12 +122,15 @@ export default class CalendarComponent extends Vue {
     return dateArrayOf(this.year, this.month);
   }
 
-  public beforeMount() {
-    this.value = this.initialValue;
-    this.year = this.value.year();
-    this.month = this.value.monthValue();
+  public data() {
+    return {
+      value: this.initialValue,
+      year: this.initialValue.year(),
+      month: this.initialValue.monthValue(),
+    };
   }
 
+  @Emit()
   public setYearMonth(year: number, month: number): void {
     const changed = new Date(year, month - 1);
 
@@ -151,24 +151,28 @@ export default class CalendarComponent extends Vue {
       return false;
     } else {
       return (this.start ? !this.start.isAfter(date) : true)
-        && (this.end ? !this.end.isBefore(date) : true)
-        && (this.datePredicate ? this.datePredicate(date) : true);
+        && (this.end ? !this.end.isBefore(date) : true);
     }
   }
 
+  @Emit()
   public onDateClick(date: LocalDate | null): void {
     if (date !== null && this.isAvailableDate(date)) {
       this.value = date;
+      this.$emit('change', this.value);
     }
   }
 
+  @Emit()
   public shiftDate(value: number): void {
     const shifted = this.value.plusDays(value);
     if (this.isAvailableDate(shifted)) {
       this.value = shifted;
+      this.$emit('change', this.value);
     }
   }
 
+  @Emit()
   private computeDate(dayOfMonth: number): LocalDate {
     return LocalDate.of(this.year, this.month, dayOfMonth);
   }
