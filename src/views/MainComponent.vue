@@ -9,6 +9,9 @@
           <li v-for="(tweet, i) in result.tweets" :key="i">
             <TweetComponent :subject="tweet" />
           </li>
+          <div class="sentinel">
+            <img src="../assets/twitter.png" width="48" height="48" style="filter: grayscale(100%)" />
+          </div>
         </ul>
         <section v-else-if="result" class="no-items">
           <p>なにもありません</p>
