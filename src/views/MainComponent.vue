@@ -40,9 +40,8 @@ import TweetComponent from '@/components/TweetComponent.vue';
 
 @Component({ components: { CalendarComponent, TweetComponent } })
 export default class MainComponent extends Vue {
-  public startDate: LocalDate = LocalDate.of(2009, 12, 2);
-
-  public endDate: LocalDate = LocalDate.of(2017, 5, 24);
+  public startDate!: LocalDate;
+  public endDate!: LocalDate;
 
   public result: TweetResult | null = null;
 
@@ -59,14 +58,19 @@ export default class MainComponent extends Vue {
     };
   }
 
-  public created(): void {
+  public beforeCreate(): void {
+    this.startDate = LocalDate.of(2009, 12, 2);
+    this.endDate = LocalDate.of(2017, 5, 24);
+  }
+
+  public beforeMount(): void {
     this.tweetService = new TweetService();
-    this.update(this.$route);
+    this.update();
   }
 
   public beforeRouteUpdate(to: any, from: any, next: () => void): void {
     this.date = to.params.date ? Dates.from(to.params.date) : this.startDate;
-    this.update(to);
+    this.update();
     next();
   }
 
@@ -77,7 +81,7 @@ export default class MainComponent extends Vue {
     this.$router.push(path);
   }
 
-  private update(route: any) {
+  private update() {
     this.tweetService.findTweetsByDate(this.requestProfile)
       .then((tweets) => this.result = tweets)
       .catch((error) => this.result = new TweetResult(this.requestProfile, []));
