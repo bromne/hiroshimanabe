@@ -25,6 +25,7 @@
     "@vue/cli-plugin-unit-jest": "^3.0.0-beta.6",
     "@vue/cli-service": "latest",
     "@vue/test-utils": "^1.0.0-beta.10",
+    "copy-webpack-plugin": "^4.5.1",
     "lint-staged": "^6.0.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
